@@ -1,4 +1,5 @@
 name: Clash SpeedTest
+
 on:
   schedule:
     - cron: '0 */6 * * *'
@@ -19,7 +20,24 @@ jobs:
         with:
           go-version: '1.23'
 
+      - name: Go Cache Modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Cache clash-speedtest binary
+        uses: actions/cache@v3
+        with:
+          path: ~/go/bin/clash-speedtest
+          key: ${{ runner.os }}-clash-speedtest-${{ hashFiles('~/go/bin/clash-speedtest') }}
+
       - name: Install clash-speedtest
+        if: steps.cache-speedtest.outputs.cache-hit != 'true'
         run: go install github.com/faceair/clash-speedtest@latest
 
       - name: Run clash-speedtest
