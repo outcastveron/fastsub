@@ -49,11 +49,12 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
 
-          if [ -f freesub.yaml ] && git diff --quiet freesub.yaml; then
+          git add freesub.yaml
+
+          if git diff --cached --quiet; then
             echo "没有检测到变更，跳过提交"
             exit 0
           fi
 
-          git add freesub.yaml
           git commit -m "update speedtest results"
           git push https://${{ secrets.GH_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
