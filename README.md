@@ -9,11 +9,12 @@ proxy-providers:
   freesub:
     type: http
     url: https://raw.githubusercontent.com/faceair/freesub/main/freesub.yaml
+    interval: 3600
     path: ./freesub.yaml
     health-check:
       enable: true
       interval: 300
-      url: http://www.gstatic.com/generate_204
+      url: https://www.google.com/generate_204
 ```
 
 ## LICENSE
