@@ -1,6 +1,13 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-128-gcm
+      delay: 2230
+      name: 美国 - 達拉斯 - Datacamp Limited - 12
+      password: shadowsocks
+      port: 443
+      server: 156.146.38.168
+      type: ss
+    - cipher: aes-128-gcm
       delay: 1407
       name: 加拿大 - 溫哥華 - Datacamp Limited - 1
       password: shadowsocks
@@ -28,25 +35,11 @@ proxies:
       tls: true
       type: vless
       uuid: 89b90001-4206-4871-a99d-1744d48f215b
-    - cipher: aes-128-gcm
-      delay: 2230
-      name: 美国 - 達拉斯 - Datacamp Limited - 12
-      password: shadowsocks
-      port: 443
-      server: 156.146.38.168
-      type: ss
-    - cipher: aes-128-gcm
-      delay: 777
-      name: 英国 - Stretford - M247 Europe SRL - 2
-      password: shadowsocks
-      port: 443
-      server: 141.98.101.182
-      type: ss
-    - delay: 2065
-      name: 美国 - 惠顿 - Cloudflare, Inc. - 19
+    - delay: 1575
+      name: 英国 - 塞爾 - Cloudflare, Inc. - 3
       network: ws
-      port: 587
-      server: 172.232.23.86
+      port: 443
+      server: okgg.top
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -61,6 +54,27 @@ proxies:
       network: ws
       port: 587
       server: 38.22.237.3
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - cipher: aes-128-gcm
+      delay: 777
+      name: 英国 - Stretford - M247 Europe SRL - 2
+      password: shadowsocks
+      port: 443
+      server: 141.98.101.182
+      type: ss
+    - delay: 441
+      name: 日本 - Ōkubo-naka - Cloudflare, Inc. - 2
+      network: ws
+      port: 28006
+      server: 14.36.97.87
       servername: vless.ifx.us.kg
       tls: true
       type: vless
