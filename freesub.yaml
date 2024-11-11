@@ -35,18 +35,11 @@ proxies:
       tls: true
       type: vless
       uuid: 89b90001-4206-4871-a99d-1744d48f215b
-    - cipher: aes-128-gcm
-      delay: 777
-      name: 英国 - Stretford - M247 Europe SRL - 2
-      password: shadowsocks
-      port: 443
-      server: 141.98.101.182
-      type: ss
-    - delay: 2556
-      name: 美国 - 紐約 - Cloudflare, Inc. - 1
+    - delay: 2065
+      name: 美国 - 惠顿 - Cloudflare, Inc. - 19
       network: ws
       port: 587
-      server: 157.254.227.37
+      server: 172.232.23.86
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -56,51 +49,11 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - delay: 1183
-      name: 法国 - 奧奈叢林 - Cloudflare, Inc. - 2
+    - delay: 2107
+      name: 美国 - Reston - Cloudflare, Inc. - 20
       network: ws
       port: 8080
-      server: 91.107.149.67
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1473
-      grpc-opts:
-        grpc-service-name: vsAzoREN3Iyuo2VCA3xzaKR
-      name: 德国 - 法兰克福 - firstcolo GmbH - 2
-      network: grpc
-      password: 8bcd0f06-c7f4-4548-b059-5410926ffac7
-      port: 443
-      server: 31.172.87.116
-      skip-cert-verify: true
-      sni: uni.fi
-      type: trojan
-      udp: true
-    - delay: 980
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 17
-      network: ws
-      port: 587
-      server: 38.22.237.3
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1575
-      name: 英国 - 塞爾 - Cloudflare, Inc. - 3
-      network: ws
-      port: 443
-      server: okgg.top
+      server: 5.161.222.137
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -115,6 +68,34 @@ proxies:
       network: ws
       port: 587
       server: 150.136.230.175
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 980
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 17
+      network: ws
+      port: 587
+      server: 38.22.237.3
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 1061
+      name: 美国 - 惠顿 - Cloudflare, Inc. - 23
+      network: ws
+      port: 54321
+      server: 172.245.34.242
       servername: vless.ifx.us.kg
       tls: true
       type: vless
