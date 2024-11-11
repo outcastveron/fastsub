@@ -1,33 +1,11 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-128-gcm
-      delay: 2230
-      name: 美国 - 達拉斯 - Datacamp Limited - 12
-      password: shadowsocks
-      port: 443
-      server: 156.146.38.168
-      type: ss
-    - cipher: aes-128-gcm
       delay: 1407
       name: 加拿大 - 溫哥華 - Datacamp Limited - 1
       password: shadowsocks
       port: 443
       server: 149.22.95.183
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 773
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
-      password: amazonskr05
-      port: 443
-      server: 54.191.9.106
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 775
-      name: 爱尔兰 - 都柏林 - Microsoft Corporation - 1
-      password: SaKH2gJcsbr6UzHEzPBz41
-      port: 13832
-      server: 52.169.217.145
       type: ss
     - cipher: aes-128-cfb
       delay: 1090
@@ -36,13 +14,12 @@ proxies:
       port: 443
       server: 109.201.152.181
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1337
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
-      password: amazonskr05
+    - cipher: aes-128-gcm
+      delay: 2230
+      name: 美国 - 達拉斯 - Datacamp Limited - 12
+      password: shadowsocks
       port: 443
-      server: 44.243.115.246
+      server: 156.146.38.168
       type: ss
     - client-fingerprint: firefox
       delay: 2836
@@ -65,11 +42,25 @@ proxies:
       port: 443
       server: 141.98.101.182
       type: ss
-    - delay: 1575
-      name: 英国 - 塞爾 - Cloudflare, Inc. - 3
+    - delay: 2556
+      name: 美国 - 紐約 - Cloudflare, Inc. - 1
       network: ws
-      port: 443
-      server: okgg.top
+      port: 587
+      server: 157.254.227.37
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 1183
+      name: 法国 - 奧奈叢林 - Cloudflare, Inc. - 2
+      network: ws
+      port: 8080
+      server: 91.107.149.67
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -91,11 +82,11 @@ proxies:
       sni: uni.fi
       type: trojan
       udp: true
-    - delay: 2065
-      name: 美国 - 惠顿 - Cloudflare, Inc. - 19
+    - delay: 980
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 17
       network: ws
       port: 587
-      server: 172.232.23.86
+      server: 38.22.237.3
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -105,11 +96,11 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - delay: 1061
-      name: 美国 - 惠顿 - Cloudflare, Inc. - 23
+    - delay: 1575
+      name: 英国 - 塞爾 - Cloudflare, Inc. - 3
       network: ws
-      port: 54321
-      server: 172.245.34.242
+      port: 443
+      server: okgg.top
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -119,25 +110,11 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - delay: 441
-      name: 日本 - Ōkubo-naka - Cloudflare, Inc. - 2
+    - delay: 1323
+      name: 美国 - Reston - Cloudflare, Inc. - 21
       network: ws
-      port: 28006
-      server: 14.36.97.87
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1082
-      name: 瑞典 - Steninge - Cloudflare, Inc. - 1
-      network: ws
-      port: 2501
-      server: 95.164.51.24
+      port: 587
+      server: 150.136.230.175
       servername: vless.ifx.us.kg
       tls: true
       type: vless
