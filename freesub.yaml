@@ -8,13 +8,6 @@ proxies:
       server: 37.19.198.160
       type: ss
     - cipher: aes-128-gcm
-      delay: 1661
-      name: 美国 - 達拉斯 - Datacamp Limited - 3
-      password: shadowsocks
-      port: 443
-      server: 156.146.38.168
-      type: ss
-    - cipher: aes-128-gcm
       delay: 687
       name: 加拿大 - 溫哥華 - Datacamp Limited - 1
       password: shadowsocks
@@ -30,21 +23,14 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 1658
-      name: 美国 - San Jose - Oracle Corporation - 40
-      network: ws
-      port: 2086
-      server: shs.xiaoqi666.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-      ws-opts:
-        headers:
-            Host: shs.xiaoqi666.xyz
-        path: /
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1821
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 46
+      password: amazonskr05
+      port: 443
+      server: 54.149.182.67
+      type: ss
     - cipher: chacha20-ietf-poly1305
       delay: 835
       name: 美国 - Riverdale Park - American Information Network - 15
@@ -65,14 +51,6 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 2909
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
-      password: 4a2rfixophdjffa8KVA4Aa
-      port: 8080
-      server: 45.87.175.192
-      type: ss
     - alterId: 0
       cipher: auto
       delay: 1640
@@ -96,6 +74,15 @@ proxies:
       port: 443
       server: 149.22.87.240
       type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2971
+      name: 美国 - San Jose - Oracle Corporation - 54
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - client-fingerprint: firefox
       delay: 1073
       flow: xtls-rprx-vision
@@ -110,21 +97,35 @@ proxies:
       tls: true
       type: vless
       uuid: 89b90001-4206-4871-a99d-1744d48f215b
-    - cipher: aes-128-gcm
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 975
-      name: 英国 - Stretford - M247 Europe SRL - 1
-      password: shadowsocks
-      port: 443
-      server: 141.98.101.179
-      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1658
+      name: 美国 - San Jose - Oracle Corporation - 40
+      network: ws
+      port: 2086
+      server: shs.xiaoqi666.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+      ws-opts:
+        headers:
+            Host: shs.xiaoqi666.xyz
+        path: /
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 422
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 1
+      delay: 1811
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
       password: amazonskr05
       port: 443
-      server: 47.130.3.54
+      server: 3.38.209.2
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      delay: 2909
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 45.87.175.192
       type: ss
     - alterId: 0
       cipher: auto
@@ -141,31 +142,16 @@ proxies:
         headers:
             Host: ip3.6929198.xyz
         path: github.com/Alvin9999
-    - client-fingerprint: chrome
-      delay: 1534
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
+    - delay: 2722
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 61
       network: ws
-      port: 2501
-      server: 89.110.102.115
-      servername: vless.ifx.us.kg
+      port: 55684
+      server: 107.175.224.66
+      servername: co.ylks.xyz
       tls: true
       type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
       ws-opts:
         headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560fp=chrome
-    - delay: 1914
-      name: 美国 - 惠顿 - Cloudflare, Inc. - 57
-      network: ws
-      port: 54321
-      server: 172.245.34.242
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
+            Host: co.ylks.xyz
+        path: /blue
