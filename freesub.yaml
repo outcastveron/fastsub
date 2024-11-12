@@ -8,6 +8,13 @@ proxies:
       server: 37.19.198.160
       type: ss
     - cipher: aes-128-gcm
+      delay: 1661
+      name: 美国 - 達拉斯 - Datacamp Limited - 3
+      password: shadowsocks
+      port: 443
+      server: 156.146.38.168
+      type: ss
+    - cipher: aes-128-gcm
       delay: 687
       name: 加拿大 - 溫哥華 - Datacamp Limited - 1
       password: shadowsocks
@@ -23,6 +30,14 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      delay: 2909
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 45.87.175.192
+      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1821
@@ -30,13 +45,6 @@ proxies:
       password: amazonskr05
       port: 443
       server: 54.149.182.67
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 835
-      name: 美国 - Riverdale Park - American Information Network - 15
-      password: 5cp9Z3iWnJZ2
-      port: 443
-      server: 205.134.180.150
       type: ss
     - alterId: 64
       cipher: auto
@@ -53,6 +61,21 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - alterId: 0
       cipher: auto
+      delay: 1452
+      name: 美国 - 洛杉矶 - Psychz Networks - 55
+      network: ws
+      port: 2082
+      server: japan.com
+      servername: ip3.6929198.xyz
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip3.6929198.xyz
+        path: github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
       delay: 1640
       name: 德国 - 法兰克福 - Stark Industries Solutions LTD - 6
       network: ws
@@ -66,37 +89,6 @@ proxies:
         headers:
             Host: discord.vpnsell.beauty
         path: /29516/iliya
-    - cipher: aes-128-gcm
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 914
-      name: 日本 - 东京 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.240
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 2971
-      name: 美国 - San Jose - Oracle Corporation - 54
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: firefox
-      delay: 1073
-      flow: xtls-rprx-vision
-      name: 中国 - 香港 - Apple Network, LLC - 2
-      network: tcp
-      port: 19280
-      reality-opts:
-        public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
-        short-id: a8bd783f
-      server: 103.17.99.54
-      servername: cdn-dynmedia-1.microsoft.com
-      tls: true
-      type: vless
-      uuid: 89b90001-4206-4871-a99d-1744d48f215b
     - alterId: 0
       cipher: auto
       delay: 1658
@@ -112,6 +104,51 @@ proxies:
         headers:
             Host: shs.xiaoqi666.xyz
         path: /
+    - cipher: aes-128-gcm
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 914
+      name: 日本 - 东京 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.240
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 835
+      name: 美国 - Riverdale Park - American Information Network - 15
+      password: 5cp9Z3iWnJZ2
+      port: 443
+      server: 205.134.180.150
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E7\U0001F1EABE"
+      delay: 580
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 57.180.49.182
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2566
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 3.35.54.153
+      type: ss
+    - client-fingerprint: firefox
+      delay: 1073
+      flow: xtls-rprx-vision
+      name: 中国 - 香港 - Apple Network, LLC - 2
+      network: tcp
+      port: 19280
+      reality-opts:
+        public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
+        short-id: a8bd783f
+      server: 103.17.99.54
+      servername: cdn-dynmedia-1.microsoft.com
+      tls: true
+      type: vless
+      uuid: 89b90001-4206-4871-a99d-1744d48f215b
     - cipher: aes-256-cfb
       delay: 1811
       name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
@@ -119,39 +156,25 @@ proxies:
       port: 443
       server: 3.38.209.2
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 2909
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
-      password: 4a2rfixophdjffa8KVA4Aa
-      port: 8080
-      server: 45.87.175.192
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 1452
-      name: 美国 - 洛杉矶 - Psychz Networks - 55
+    - delay: 940
+      name: 美国 - 肯特 - Cloudflare, Inc. - 58
       network: ws
-      port: 2082
-      server: japan.com
-      servername: ip3.6929198.xyz
-      tls: false
-      type: vmess
-      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-      ws-opts:
-        headers:
-            Host: ip3.6929198.xyz
-        path: github.com/Alvin9999
-    - delay: 2722
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 61
-      network: ws
-      port: 55684
-      server: 107.175.224.66
-      servername: co.ylks.xyz
+      port: 6666
+      server: 5.78.125.159
+      servername: vless.ifx.us.kg
       tls: true
       type: vless
-      uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
       ws-opts:
         headers:
-            Host: co.ylks.xyz
-        path: /blue
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - cipher: aes-128-gcm
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 975
+      name: 英国 - Stretford - M247 Europe SRL - 1
+      password: shadowsocks
+      port: 443
+      server: 141.98.101.179
+      type: ss
