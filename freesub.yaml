@@ -15,6 +15,34 @@ proxies:
         headers:
             Host: obdii.cfd
         path: /linkws
+    - client-fingerprint: chrome
+      delay: 2743
+      name: 美国 - Reston - Cloudflare, Inc. - 14
+      network: ws
+      port: 1001
+      server: 5.161.56.156
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560fp=chrome
+    - delay: 2001
+      name: 英国 - 塞爾 - Cloudflare, Inc. - 2
+      network: ws
+      port: 443
+      server: okgg.top
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
       delay: 1385
@@ -44,11 +72,11 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - delay: 1326
-      name: 加拿大 - 密西沙加 - Cloudflare, Inc. - 1
+    - delay: 1082
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 15
       network: ws
-      port: 2003
-      server: 81.19.140.78
+      port: 587
+      server: 154.64.239.219
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -58,124 +86,11 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - delay: 2113
-      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 10
-      network: ws
-      port: 2003
-      server: 45.94.31.109
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1250
-      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 4
-      network: ws
-      port: 8000
-      server: 194.87.11.56
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1591
-      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 5
-      network: ws
-      port: 854
-      server: 91.107.128.26
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 2001
-      name: 英国 - 塞爾 - Cloudflare, Inc. - 2
-      network: ws
-      port: 443
-      server: okgg.top
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      delay: 1372
-      name: 芬兰 - 万塔 - Cloudflare, Inc. - 1
-      network: ws
-      port: 8080
-      server: 13.53.51.77
-      servername: vless.ifx.us.kg
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560fp=chrome
-    - delay: 1227
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
-      network: ws
-      port: 2501
-      server: 77.221.152.41
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      delay: 2743
-      name: 美国 - Reston - Cloudflare, Inc. - 14
+    - delay: 1567
+      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 8
       network: ws
       port: 1001
-      server: 5.161.56.156
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560fp=chrome
-    - delay: 2902
-      name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 6
-      network: ws
-      port: 11211
-      server: 211.107.83.151
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 2012
-      name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 2
-      network: ws
-      port: 27018
-      server: 125.128.118.250
+      server: 37.120.184.206
       servername: vless.ifx.us.kg
       tls: true
       type: vless
