@@ -30,17 +30,9 @@ jobs:
             ~/.cache/go-build
             ~/go/pkg/mod
           key: ${{ runner.os }}-go
-          restore-keys: |
-            ${{ runner.os }}-go-
-
-      - name: Cache clash-speedtest binary
-        uses: actions/cache@v3
-        with:
-          path: ~/go/bin/clash-speedtest
-          key: ${{ runner.os }}-clash-speedtest
+          restore-keys: ${{ runner.os }}-go
 
       - name: Install clash-speedtest
-        if: steps.cache-speedtest.outputs.cache-hit != 'true'
         run: go install github.com/faceair/clash-speedtest@latest
 
       - name: Run clash-speedtest
