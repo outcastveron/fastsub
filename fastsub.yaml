@@ -1,28 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 253
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 1
-      password: amazonskr05
-      port: 443
-      server: 47.130.3.54
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 2392
-      name: 美国 - 洛杉矶 - Psychz Networks - 9
-      network: ws
-      port: 2082
-      server: japan.com
-      servername: ip3.6929198.xyz
-      tls: false
-      type: vmess
-      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-      ws-opts:
-        headers:
-            Host: ip3.6929198.xyz
-        path: github.com/Alvin9999
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -41,53 +18,22 @@ proxies:
         headers:
             HOST: ip3.6929198.xyz
         path: github.com/Alvin9999
-    - country: "\U0001F1F8\U0001F1EASE"
-      delay: 972
-      name: 瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 2
-      password: telegram-id-directvpn
-      port: 22222
-      server: 13.50.23.131
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      delay: 1653
-      name: 美国 - 紐約 - Cloudflare, Inc. - 4
-      network: ws
-      port: 80
-      server: 199.232.37.15
-      servername: sara193.ir
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: sara193.ir
-        path: /BCXzvAcvSB7JzMWj?ed=2560fp=chromefp=chromefp=chromefp=chrome
     - alterId: 0
       cipher: auto
-      delay: 1465
-      name: 巴西 - São Paulo - Oracle Corporation - 1
+      delay: 2614
+      name: 美国 - 洛杉矶 - Psychz Networks - 7
       network: ws
-      port: 8880
-      server: us-new03.daluquan.top
+      port: 2095
+      server: malaysia.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 0614a202-deb0-406a-be12-ed386e41dd3b
+      udp: true
+      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
       ws-opts:
         headers:
-            Host: us-new03.daluquan.top
-        path: /itdog?ed=2560
-    - country: "\U0001F1FA\U0001F1F8 US"
-      delay: 785
-      name: 日本 - 東京都 - Cogent Communications - 1
-      password: 74400921-f59f-4009-b52a-c2789b49fab6
-      port: 443
-      server: 48.210.29.175
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+            Host: ip2.6016725.xyz
+        path: github.com/Alvin9999
     - alterId: 0
       cipher: auto
       delay: 1443
@@ -103,6 +49,63 @@ proxies:
         headers:
             Host: ip26.6929198.xyz
         path: github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 1346
+      name: 美国 - 洛杉矶 - Psychz Networks - 8
+      network: ws
+      port: 2095
+      server: singapore.com
+      tls: false
+      type: vmess
+      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+      ws-opts:
+        headers:
+            Host: ip11.6016725.xyz
+        path: /github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 2392
+      name: 美国 - 洛杉矶 - Psychz Networks - 9
+      network: ws
+      port: 2082
+      server: japan.com
+      servername: ip3.6929198.xyz
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip3.6929198.xyz
+        path: github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 2366
+      name: 美国 - 洛杉矶 - Psychz Networks - 12
+      network: ws
+      port: 2082
+      server: 172.64.198.249
+      servername: ip26.6929198.xyz
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip26.6929198.xyz
+        path: github.com/Alvin9999
+    - client-fingerprint: chrome
+      delay: 1653
+      name: 美国 - 紐約 - Cloudflare, Inc. - 4
+      network: ws
+      port: 80
+      server: 199.232.37.15
+      servername: sara193.ir
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: sara193.ir
+        path: /BCXzvAcvSB7JzMWj?ed=2560fp=chromefp=chromefp=chromefp=chrome
     - client-fingerprint: chrome
       delay: 1740
       name: 美国 - 迈阿密 - Cloudflare, Inc. - 2
@@ -119,47 +122,96 @@ proxies:
         headers:
             Host: samane.ir
         path: /4u7lAS4nPLtz0xPz?ed=2560fp=iosfp=chrome
-    - client-fingerprint: chrome
-      delay: 1633
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 4
-      network: ws
-      port: 8443
-      server: 104.21.69.44
-      servername: ggho.pages.dev.
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 17fafaf9-7402-40eb-87ae-a75944c84c52
-      ws-opts:
-        headers:
-            Host: ggho.pages.dev.
-        path: /Telegram-@V2ray_Alpha/?ed=2048fp=randomized
+    - country: "\U0001F1FA\U0001F1F8 US"
+      delay: 785
+      name: 日本 - 東京都 - Cogent Communications - 1
+      password: 74400921-f59f-4009-b52a-c2789b49fab6
+      port: 443
+      server: 48.210.29.175
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
-      delay: 2366
-      name: 美国 - 洛杉矶 - Psychz Networks - 12
+      delay: 1465
+      name: 巴西 - São Paulo - Oracle Corporation - 1
       network: ws
-      port: 2082
-      server: 172.64.198.249
-      servername: ip26.6929198.xyz
+      port: 8880
+      server: us-new03.daluquan.top
+      skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      uuid: 0614a202-deb0-406a-be12-ed386e41dd3b
       ws-opts:
         headers:
-            Host: ip26.6929198.xyz
-        path: github.com/Alvin9999
-    - delay: 1429
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 18
+            Host: us-new03.daluquan.top
+        path: /itdog?ed=2560
+    - delay: 1524
+      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
       network: ws
-      port: 443
-      server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-      servername: lr.ylka.us.kg
+      port: 2501
+      server: 89.110.102.115
+      servername: vless.ifx.us.kg
       tls: true
       type: vless
-      uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
       ws-opts:
         headers:
-            Host: lr.ylka.us.kg
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 1304
+      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 2
+      network: ws
+      port: 2003
+      server: 2.59.134.248
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 1203
+      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 1
+      network: ws
+      port: 8080
+      server: 37.230.62.172
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 1305
+      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 3
+      network: ws
+      port: 2501
+      server: 77.221.152.41
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
+    - delay: 1908
+      name: 芬兰 - 万塔 - Cloudflare, Inc. - 1
+      network: ws
+      port: 2222
+      server: 65.21.158.255
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
         path: /?ed=2560
