@@ -1,32 +1,19 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1653
-      name: 美国 - 紐約 - Cloudflare, Inc. - 4
-      network: ws
-      port: 80
-      server: 199.232.37.15
-      servername: sara193.ir
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: sara193.ir
-        path: /BCXzvAcvSB7JzMWj?ed=2560fp=chromefp=chromefp=chromefp=chrome
     - alterId: 0
       cipher: auto
-      delay: 1443
-      name: 美国 - 洛杉矶 - Psychz Networks - 13
+      delay: 2392
+      name: 美国 - 洛杉矶 - Psychz Networks - 9
       network: ws
       port: 2082
-      server: singapore.com
-      servername: ip26.6929198.xyz
+      server: japan.com
+      servername: ip3.6929198.xyz
       tls: false
       type: vmess
       uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
       ws-opts:
         headers:
-            Host: ip26.6929198.xyz
+            Host: ip3.6929198.xyz
         path: github.com/Alvin9999
     - alterId: 0
       cipher: auto
@@ -48,20 +35,6 @@ proxies:
         path: github.com/Alvin9999
     - alterId: 0
       cipher: auto
-      delay: 1346
-      name: 美国 - 洛杉矶 - Psychz Networks - 8
-      network: ws
-      port: 2095
-      server: singapore.com
-      tls: false
-      type: vmess
-      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-      ws-opts:
-        headers:
-            Host: ip11.6016725.xyz
-        path: /github.com/Alvin9999
-    - alterId: 0
-      cipher: auto
       delay: 2614
       name: 美国 - 洛杉矶 - Psychz Networks - 7
       network: ws
@@ -78,35 +51,62 @@ proxies:
         path: github.com/Alvin9999
     - alterId: 0
       cipher: auto
-      delay: 2392
-      name: 美国 - 洛杉矶 - Psychz Networks - 9
+      delay: 1443
+      name: 美国 - 洛杉矶 - Psychz Networks - 13
       network: ws
       port: 2082
-      server: japan.com
-      servername: ip3.6929198.xyz
+      server: singapore.com
+      servername: ip26.6929198.xyz
       tls: false
       type: vmess
       uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
       ws-opts:
         headers:
-            Host: ip3.6929198.xyz
+            Host: ip26.6929198.xyz
         path: github.com/Alvin9999
-    - client-fingerprint: chrome
-      delay: 1633
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 4
+    - alterId: 0
+      cipher: auto
+      delay: 1346
+      name: 美国 - 洛杉矶 - Psychz Networks - 8
       network: ws
-      port: 8443
-      server: 104.21.69.44
-      servername: ggho.pages.dev.
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 17fafaf9-7402-40eb-87ae-a75944c84c52
+      port: 2095
+      server: singapore.com
+      tls: false
+      type: vmess
+      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
       ws-opts:
         headers:
-            Host: ggho.pages.dev.
-        path: /Telegram-@V2ray_Alpha/?ed=2048fp=randomized
+            Host: ip11.6016725.xyz
+        path: /github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 2366
+      name: 美国 - 洛杉矶 - Psychz Networks - 12
+      network: ws
+      port: 2082
+      server: 172.64.198.249
+      servername: ip26.6929198.xyz
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip26.6929198.xyz
+        path: github.com/Alvin9999
+    - delay: 1188
+      name: 美国 - Reston - Cloudflare, Inc. - 16
+      network: ws
+      port: 587
+      server: 150.136.11.113
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
     - client-fingerprint: chrome
       delay: 1740
       name: 美国 - 迈阿密 - Cloudflare, Inc. - 2
@@ -123,25 +123,24 @@ proxies:
         headers:
             Host: samane.ir
         path: /4u7lAS4nPLtz0xPz?ed=2560fp=iosfp=chrome
-    - delay: 1188
-      name: 美国 - Reston - Cloudflare, Inc. - 16
+    - client-fingerprint: chrome
+      delay: 1653
+      name: 美国 - 紐約 - Cloudflare, Inc. - 4
       network: ws
-      port: 587
-      server: 150.136.11.113
-      servername: vless.ifx.us.kg
-      tls: true
+      port: 80
+      server: 199.232.37.15
+      servername: sara193.ir
       type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
       ws-opts:
         headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 2131
-      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 3
+            Host: sara193.ir
+        path: /BCXzvAcvSB7JzMWj?ed=2560fp=chromefp=chromefp=chromefp=chrome
+    - delay: 1000
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 5
       network: ws
-      port: 1194
-      server: 178.62.11.4
+      port: 587
+      server: 154.64.239.219
       servername: vless.ifx.us.kg
       tls: true
       type: vless
@@ -165,18 +164,17 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      delay: 2366
-      name: 美国 - 洛杉矶 - Psychz Networks - 12
+    - delay: 1604
+      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 3
       network: ws
-      port: 2082
-      server: 172.64.198.249
-      servername: ip26.6929198.xyz
-      tls: false
-      type: vmess
-      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      port: 2501
+      server: 45.82.254.35
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
       ws-opts:
         headers:
-            Host: ip26.6929198.xyz
-        path: github.com/Alvin9999
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
