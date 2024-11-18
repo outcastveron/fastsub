@@ -1,5 +1,34 @@
 proxy-providers: {}
 proxies:
+    - client-fingerprint: chrome
+      delay: 2340
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 1
+      network: ws
+      port: 80
+      server: 104.19.48.236
+      servername: v2ra1.ecrgpk.workers.dev
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 5df7962e-f9fe-41e6-ab49-ed96ccb856a7
+      ws-opts:
+        headers:
+            Host: v2ra1.ecrgpk.workers.dev
+        path: /@VPNHTTPInjectorfreefp=chrome
+    - client-fingerprint: chrome
+      delay: 1653
+      name: 美国 - 紐約 - Cloudflare, Inc. - 4
+      network: ws
+      port: 80
+      server: 199.232.37.15
+      servername: sara193.ir
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: sara193.ir
+        path: /BCXzvAcvSB7JzMWj?ed=2560fp=chromefp=chromefp=chromefp=chrome
     - alterId: 0
       cipher: auto
       delay: 1346
@@ -14,6 +43,20 @@ proxies:
         headers:
             Host: ip11.6016725.xyz
         path: /github.com/Alvin9999
+    - delay: 1000
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 5
+      network: ws
+      port: 587
+      server: 154.64.239.219
+      servername: vless.ifx.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
       delay: 2614
@@ -30,19 +73,20 @@ proxies:
         headers:
             Host: ip2.6016725.xyz
         path: github.com/Alvin9999
-    - client-fingerprint: chrome
-      delay: 1653
-      name: 美国 - 紐約 - Cloudflare, Inc. - 4
+    - delay: 1807
+      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 2
       network: ws
-      port: 80
-      server: 199.232.37.15
-      servername: sara193.ir
+      port: 443
+      server: okgg.top
+      servername: vless.ifx.us.kg
+      tls: true
       type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
       ws-opts:
         headers:
-            Host: sara193.ir
-        path: /BCXzvAcvSB7JzMWj?ed=2560fp=chromefp=chromefp=chromefp=chrome
+            Host: vless.ifx.us.kg
+        path: /?ed=2560
     - client-fingerprint: chrome
       delay: 1740
       name: 美国 - 迈阿密 - Cloudflare, Inc. - 2
@@ -59,20 +103,6 @@ proxies:
         headers:
             Host: samane.ir
         path: /4u7lAS4nPLtz0xPz?ed=2560fp=iosfp=chrome
-    - delay: 1604
-      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 3
-      network: ws
-      port: 2501
-      server: 45.82.254.35
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
     - delay: 1188
       name: 美国 - Reston - Cloudflare, Inc. - 16
       network: ws
@@ -87,69 +117,11 @@ proxies:
         headers:
             Host: vless.ifx.us.kg
         path: /?ed=2560
-    - client-fingerprint: chrome
-      delay: 1633
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 4
-      network: ws
-      port: 8443
-      server: 104.21.69.44
-      servername: ggho.pages.dev.
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 17fafaf9-7402-40eb-87ae-a75944c84c52
-      ws-opts:
-        headers:
-            Host: ggho.pages.dev.
-        path: /Telegram-@V2ray_Alpha/?ed=2048fp=randomized
-    - delay: 1807
-      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 2
-      network: ws
-      port: 443
-      server: okgg.top
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1203
-      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 1
-      network: ws
-      port: 8080
-      server: 37.230.62.172
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1891
-      name: 摩尔多瓦 - Sîngera - Cloudflare, Inc. - 1
+    - delay: 1304
+      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 2
       network: ws
       port: 2003
-      server: 95.164.22.239
-      servername: vless.ifx.us.kg
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: vless.ifx.us.kg
-        path: /?ed=2560
-    - delay: 1000
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 5
-      network: ws
-      port: 587
-      server: 154.64.239.219
+      server: 2.59.134.248
       servername: vless.ifx.us.kg
       tls: true
       type: vless
