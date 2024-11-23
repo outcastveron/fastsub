@@ -1,229 +1,233 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1457
-      h2-opts: {}
-      http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 3
-      network: ws
-      port: 443
-      server: b.jishuzhai.cloudns.biz
-      servername: jiedian.jishuge.eu.org
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1519
+      name: 美国 - San Jose - Oracle Corporation - 2
+      password: xjN4xcuPGg55
+      port: 45800
+      server: h.522226.xyz
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-      ws-opts:
-        headers:
-            HOST: jiedian.jishuge.eu.org
-        path: /glweidf.sbs:443/linkws
-    - client-fingerprint: randomized
-      delay: 1575
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 4
-      network: ws
-      port: 443
-      server: 199.232.6.53
-      servername: Sanjeshp.Ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: Sanjeshp.Ir
-        path: /H?ed=2560
-    - client-fingerprint: chrome
-      delay: 2011
-      name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      network: ws
-      port: 2087
-      server: 104.20.195.223
-      servername: mn.aftabe12.ir
-      tls: true
-      type: vless
-      uuid: 0399af93-ed7e-4717-ba12-aa1f4e45a5c6
-      ws-opts:
-        headers:
-            Host: mn.aftabe12.ir
-        path: /Tel:@BLACK_VPN1
-    - client-fingerprint: randomized
-      delay: 2138
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 7
-      network: ws
-      port: 443
-      server: 199.232.8.31
-      servername: Sanjeshp.Ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: Sanjeshp.Ir
-        path: /H?ed=2560
-    - client-fingerprint: randomized
-      delay: 1643
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 3
-      network: ws
-      port: 443
-      server: 140.248.152.40
-      servername: Sanjeshp.Ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: Sanjeshp.Ir
-        path: /H?ed=2560
-    - client-fingerprint: randomized
-      delay: 1055
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 24
-      network: ws
-      port: 443
-      server: 199.232.33.127
-      servername: mefa.ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: mefa.ir
-        path: /H?ed=2560
-    - client-fingerprint: chrome
-      delay: 1022
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 5
-      network: ws
-      port: 443
-      server: 199.232.5.101
-      servername: mefa.ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
+      type: trojan
       udp: true
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: mefa.ir
-        path: /H?ed=2560
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 692
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 22
+      password: amazonskr05
+      port: 443
+      server: 35.91.205.11
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2037
+      name: 美国 - San Jose - Oracle Corporation - 3
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
+      skip-cert-verify: true
+      sni: f.522226.xyz
+      type: trojan
+      udp: true
+    - delay: 1700
+      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 52.209.131.178
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2511
+      name: 日本 - 东京 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 43.206.238.246
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1036
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 43.203.173.72
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1026
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 43.203.249.198
+      type: ss
+    - delay: 2086
+      name: 瑞典 - Spånga - The Constant Company - 1
+      password: wkmY1R4EcP
+      port: 443
+      server: 65.20.115.19
+      skip-cert-verify: true
+      sni: myket.io
+      type: trojan
+    - alpn:
+        - http/1.1
+      delay: 1440
+      name: 英国 - 伦敦 - Amazon.com, Inc. - 3
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 51.24.3.210
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
     - client-fingerprint: randomized
-      delay: 1930
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 9
+      delay: 2273
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 17
       network: ws
       port: 443
-      server: 199.232.0.21
-      servername: Sanjeshp.Ir
+      server: 151.101.65.122
+      servername: metrix.ir
       skip-cert-verify: true
       tls: true
       type: vless
       uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
       ws-opts:
         headers:
-            Host: Sanjeshp.Ir
-        path: /H?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1180
-      h2-opts: {}
-      http-opts: {}
-      name: 新加坡 - 新加坡 - Oracle Corporation - 3
-      network: ws
-      port: 2052
-      server: hk.wish.ml
-      servername: sg5.wish.ml
-      skip-cert-verify: true
-      type: vmess
-      uuid: 7d417084-d308-4b35-96c8-99dfb2547ec2
-      ws-opts:
-        headers:
-            HOST: sg5.wish.ml
-        path: /
-    - client-fingerprint: randomized
-      delay: 1604
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 2
-      network: ws
-      port: 443
-      server: 199.232.32.247
-      servername: Sanjeshp.Ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: Sanjeshp.Ir
-        path: /H?ed=2560
-    - client-fingerprint: randomized
-      delay: 1159
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 8
-      network: ws
-      port: 443
-      server: 199.232.7.154
-      servername: Sanjeshp.Ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: Sanjeshp.Ir
-        path: /H?ed=2560
-    - client-fingerprint: firefox
-      delay: 1015
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 10
-      network: ws
-      port: 443
-      server: 151.101.65.210
-      servername: pooleno.ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: pooleno.ir
+            Host: metrix.ir
         path: /GGPPfZ3NKyOoKNiK?ed=2560
-    - client-fingerprint: randomized
-      delay: 1309
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 6
+    - delay: 2236
+      name: 立陶宛 - 倫特瓦里斯 - Cloudflare, Inc. - 1
       network: ws
       port: 443
-      server: 199.232.32.234
-      servername: behdasht.hrtc.ir
-      skip-cert-verify: true
+      server: 46.32.184.187
+      servername: happy.mianfeicf.lol
       tls: true
       type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      uuid: 20fda433-1864-433b-b3dd-8f119fe4cafd
       ws-opts:
         headers:
-            Host: behdasht.hrtc.ir
-        path: /H?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      delay: 1150
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 1
-      password: W74XFALLLuw6m5IA
+            Host: happy.mianfeicf.lol
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1733
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
+      password: amazonskr05
       port: 443
-      server: series-a1.samanehha.co
+      server: 43.202.57.197
       type: ss
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2841
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - Psychz Networks - 16
+      delay: 2518
+      name: 美国 - 洛杉矶 - Psychz Networks - 8
+      network: ws
+      port: 2082
+      server: 104.19.45.35
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip3.6929198.xyz
+        path: github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 1749
+      name: 美国 - 洛杉矶 - Psychz Networks - 25
       network: ws
       port: 2095
-      server: 104.19.58.175
-      servername: ip14.6016725.xyz
+      server: 104.19.47.65
       skip-cert-verify: true
+      tls: false
       type: vmess
       uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
       ws-opts:
         headers:
-            HOST: ip14.6016725.xyz
+            Host: ip15.6016725.xyz
         path: /github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 1882
+      name: 美国 - 洛杉矶 - Psychz Networks - 6
+      network: ws
+      port: 2082
+      server: 162.159.140.56
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip3.6929198.xyz
+        path: github.com/Alvin9999
+    - client-fingerprint: randomized
+      delay: 2276
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 18
+      network: ws
+      port: 443
+      server: 167.82.97.49
+      servername: cosmocare.ir
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: cosmocare.ir
+        path: /GGPPfZ3NKyOoKNiK?ed=2560
+    - delay: 2274
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 19
+      network: ws
+      port: 443
+      server: 199.232.1.255
+      servername: Sanjeshp.Ir
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: Sanjeshp.Ir
+        path: /security=tls
+    - alterId: 0
+      cipher: auto
+      delay: 1916
+      name: 美国 - 洛杉矶 - Psychz Networks - 5
+      network: ws
+      port: 2095
+      server: 162.159.140.33
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+      ws-opts:
+        headers:
+            Host: ip2.6016725.xyz
+        path: github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 1953
+      name: 美国 - 洛杉矶 - Psychz Networks - 7
+      network: ws
+      port: 2082
+      server: 104.26.5.145
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+      ws-opts:
+        headers:
+            Host: ip3.6929198.xyz
+        path: github.com/Alvin9999
+    - delay: 2613
+      name: 美国 - Chantilly - Cloudflare, Inc. - 21
+      network: ws
+      port: 8443
+      server: 146.70.254.235
+      servername: happy.mianfeicf.lol
+      tls: true
+      type: vless
+      udp: true
+      uuid: 20fda433-1864-433b-b3dd-8f119fe4cafd
+      ws-opts:
+        headers:
+            Host: happy.mianfeicf.lol
+        path: /?ed=2560
