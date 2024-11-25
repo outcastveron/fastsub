@@ -3,46 +3,6 @@ proxies:
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1067
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 22
-      password: amazonskr05
-      port: 443
-      server: 34.215.160.52
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1426
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
-      password: amazonskr05
-      port: 443
-      server: 18.236.180.126
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1078
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 15
-      password: amazonskr05
-      port: 443
-      server: 50.112.199.89
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1787
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 18
-      password: amazonskr05
-      port: 443
-      server: 35.94.117.219
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1065
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
-      password: amazonskr05
-      port: 443
-      server: 35.91.205.11
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1067
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 19
       password: amazonskr05
       port: 443
@@ -58,6 +18,14 @@ proxies:
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
+      delay: 1067
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 22
+      password: amazonskr05
+      port: 443
+      server: 34.215.160.52
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
       delay: 1070
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
       password: amazonskr05
@@ -66,19 +34,19 @@ proxies:
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1888
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 12
+      delay: 1065
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
       password: amazonskr05
       port: 443
-      server: 34.210.25.46
+      server: 35.91.205.11
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 936
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 42
+      delay: 1067
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 16
       password: amazonskr05
       port: 443
-      server: 34.220.113.138
+      server: 54.200.220.184
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
@@ -90,19 +58,35 @@ proxies:
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1069
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 20
+      delay: 1787
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 18
       password: amazonskr05
       port: 443
-      server: 54.245.4.48
+      server: 35.94.117.219
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1067
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 16
+      delay: 1426
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
       password: amazonskr05
       port: 443
-      server: 54.200.220.184
+      server: 18.236.180.126
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1888
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 12
+      password: amazonskr05
+      port: 443
+      server: 34.210.25.46
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1078
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 15
+      password: amazonskr05
+      port: 443
+      server: 50.112.199.89
       type: ss
     - alterId: 64
       cipher: auto
@@ -117,6 +101,30 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/340434130032
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1651
+      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 18.177.142.239
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1997
+      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 54.250.148.116
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1646
+      name: 日本 - 东京 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 43.206.238.246
+      type: ss
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -133,6 +141,14 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/120304201707
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2683
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 52.79.188.238
+      type: ss
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1EB\U0001F1F7FR"
       delay: 1498
@@ -141,6 +157,19 @@ proxies:
       port: 443
       server: 51.158.252.130
       type: ss
+    - delay: 1208
+      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 4
+      network: ws
+      port: 443
+      server: 188.114.96.105
+      servername: lv.ylks01.eu.org
+      tls: true
+      type: vless
+      uuid: 8041c6d9-8359-4e57-a55d-8f14e99bb9bc
+      ws-opts:
+        headers:
+            Host: lv.ylks01.eu.org
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
       delay: 1930
@@ -148,74 +177,6 @@ proxies:
       network: ws
       port: 2095
       server: singapore.com
-      servername: c2.6016725.xyz
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-      ws-opts:
-        headers:
-            Host: c2.6016725.xyz
-        path: /github.com/Alvin9999
-    - alterId: 0
-      cipher: auto
-      delay: 2758
-      name: 美国 - 洛杉矶 - Psychz Networks - 27
-      network: ws
-      port: 2095
-      server: 104.19.45.50
-      servername: c2.6016725.xyz
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-      ws-opts:
-        headers:
-            Host: c2.6016725.xyz
-        path: /github.com/Alvin9999
-    - alterId: 0
-      cipher: auto
-      delay: 2324
-      name: 美国 - 洛杉矶 - Psychz Networks - 36
-      network: ws
-      port: 2095
-      server: 104.18.57.111
-      servername: c2.6016725.xyz
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-      ws-opts:
-        headers:
-            Host: c2.6016725.xyz
-        path: /github.com/Alvin9999
-    - alterId: 0
-      cipher: auto
-      delay: 1865
-      name: 美国 - 洛杉矶 - Psychz Networks - 40
-      network: ws
-      port: 2095
-      server: 104.19.45.15
-      servername: c2.6016725.xyz
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-      ws-opts:
-        headers:
-            Host: c2.6016725.xyz
-        path: /github.com/Alvin9999
-    - alterId: 0
-      cipher: auto
-      delay: 2057
-      name: 美国 - 洛杉矶 - Psychz Networks - 24
-      network: ws
-      port: 2095
-      server: 104.26.5.66
       servername: c2.6016725.xyz
       skip-cert-verify: false
       tls: false
@@ -245,11 +206,52 @@ proxies:
         path: /github.com/Alvin9999
     - alterId: 0
       cipher: auto
-      delay: 1774
-      name: 美国 - 洛杉矶 - Psychz Networks - 39
+      delay: 2278
+      name: 美国 - 洛杉矶 - Psychz Networks - 37
       network: ws
       port: 2095
-      server: fbi.gov
+      server: 104.26.0.56
+      servername: c2.6016725.xyz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+      ws-opts:
+        headers:
+            Host: c2.6016725.xyz
+        path: /github.com/Alvin9999
+    - cipher: chacha20-ietf-poly1305
+      delay: 1133
+      name: 美国 - Purcellville - American Information Network - 31
+      password: 5cp9Z3iWnJZ2
+      port: 443
+      server: 205.134.180.150
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 2644
+      name: 美国 - 洛杉矶 - Psychz Networks - 26
+      network: ws
+      port: 2095
+      server: 104.26.5.67
+      servername: c2.6016725.xyz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+      ws-opts:
+        headers:
+            Host: c2.6016725.xyz
+        path: /github.com/Alvin9999
+    - alterId: 0
+      cipher: auto
+      delay: 2057
+      name: 美国 - 洛杉矶 - Psychz Networks - 24
+      network: ws
+      port: 2095
+      server: 104.26.5.66
       servername: c2.6016725.xyz
       skip-cert-verify: false
       tls: false
@@ -279,11 +281,11 @@ proxies:
         path: /github.com/Alvin9999
     - alterId: 0
       cipher: auto
-      delay: 2278
-      name: 美国 - 洛杉矶 - Psychz Networks - 37
+      delay: 1774
+      name: 美国 - 洛杉矶 - Psychz Networks - 39
       network: ws
       port: 2095
-      server: 104.26.0.56
+      server: fbi.gov
       servername: c2.6016725.xyz
       skip-cert-verify: false
       tls: false
@@ -296,11 +298,11 @@ proxies:
         path: /github.com/Alvin9999
     - alterId: 0
       cipher: auto
-      delay: 1218
-      name: 美国 - 洛杉矶 - Psychz Networks - 41
+      delay: 2324
+      name: 美国 - 洛杉矶 - Psychz Networks - 36
       network: ws
       port: 2095
-      server: www.visa.com
+      server: 104.18.57.111
       servername: c2.6016725.xyz
       skip-cert-verify: false
       tls: false
@@ -313,11 +315,11 @@ proxies:
         path: /github.com/Alvin9999
     - alterId: 0
       cipher: auto
-      delay: 2644
-      name: 美国 - 洛杉矶 - Psychz Networks - 26
+      delay: 2758
+      name: 美国 - 洛杉矶 - Psychz Networks - 27
       network: ws
       port: 2095
-      server: 104.26.5.67
+      server: 104.19.45.50
       servername: c2.6016725.xyz
       skip-cert-verify: false
       tls: false
