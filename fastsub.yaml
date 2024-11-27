@@ -1,17 +1,5 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1382
-      name: 美国 - Ashburn - Amazon Technologies Inc. - 19
-      network: ws
-      port: 22222
-      server: 3.93.159.185
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 906
       name: 美国 - San Jose - Oracle Corporation - 10
@@ -21,6 +9,13 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
+    - cipher: chacha20-ietf
+      delay: 1434
+      name: 美国 - 聖荷西 - PEG TECH INC - 6
+      password: asd123456
+      port: 8388
+      server: 137.175.113.192
+      type: ss
     - alterId: 64
       cipher: auto
       delay: 1148
@@ -37,6 +32,28 @@ proxies:
         headers:
             Host: www.23179753.xyz
         path: /path/181721272114
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 888
+      name: 美国 - San Jose - Oracle Corporation - 11
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
+      skip-cert-verify: true
+      sni: f.522226.xyz
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1382
+      name: 美国 - Ashburn - Amazon Technologies Inc. - 19
+      network: ws
+      port: 22222
+      server: 3.93.159.185
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
     - cipher: rc4-md5
       country: "\U0001F1E9\U0001F1EADE"
       delay: 1136
@@ -53,27 +70,19 @@ proxies:
       port: 8080
       server: 68.183.227.45
       type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 888
-      name: 美国 - San Jose - Oracle Corporation - 11
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
+    - country: "\U0001F3C1 ZZ"
+      delay: 2237
+      name: 越南 - 芽莊市 - DEVTTT - 1
+      password: 94d219c9-1afc-4d42-b090-8b3794764380
+      port: 443
+      server: 160.30.21.105
       skip-cert-verify: true
-      sni: f.522226.xyz
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 1359
-      name: 美国 - 洛杉矶 - Psychz Networks - 7
-      network: ws
-      port: 2095
-      server: singapore.com
-      tls: false
-      type: vmess
-      uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-      ws-opts:
-        headers:
-            Host: ip11.6016725.xyz
-        path: /github.com/Alvin9999
+    - cipher: aes-256-cfb
+      delay: 789
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 44.244.24.140
+      type: ss
