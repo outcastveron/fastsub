@@ -1,107 +1,234 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1653
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 3
-      network: ws
-      port: 8443
-      server: 217.163.76.107
-      servername: edgood.889876.xyz
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: edgood.889876.xyz
-        path: /?ed=2048fp=chrome
-    - client-fingerprint: randomized
-      delay: 1778
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 4
-      network: ws
-      port: 443
-      server: 151.101.65.122
-      servername: metrix.ir
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1203
+      name: 美国 - San Jose - Oracle Corporation - 3
+      password: xjN4xcuPGg55
+      port: 45800
+      server: h.522226.xyz
       skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: metrix.ir
-        path: /GGPPfZ3NKyOoKNiK?ed=2560
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 725
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 54.191.9.106
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 749
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 44.243.115.246
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 940
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 280
+      password: amazonskr05
+      port: 443
+      server: 35.88.126.102
+      type: ss
     - alterId: 0
       cipher: auto
-      delay: 2802
-      name: 法国 - 巴黎 - DataCamp Limited - 4
+      country: "\U0001F3C1ZZ"
+      delay: 1363
+      h2-opts: {}
+      http-opts: {}
+      name: 葡萄牙 - 里斯本 - Stark Industries Solutions LTD - 2
       network: ws
       port: 443
-      server: root.mid.al
+      server: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
       skip-cert-verify: true
       tls: true
       type: vmess
-      udp: true
-      uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+      uuid: 54cc249b-134a-4696-8bc6-ce6ebdba06e9
+      ws-opts:
+        path: '@RaFaV2Bot'
+    - cipher: rc4-md5
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1274
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
+      type: ss
+    - client-fingerprint: chrome
+      delay: 888
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 424
+      network: ws
+      port: 80
+      server: 140.248.129.207
+      servername: amir55.ir
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            Host: kim.gov.kp
-        path: /aries?ed=2048
+            Host: amir55.ir
+        path: /
+    - alterId: 0
+      cipher: auto
+      delay: 1358
+      name: 巴西 - São Paulo - Oracle Corporation - 1
+      network: ws
+      port: 8880
+      server: us-new03.daluquan.top
+      tls: false
+      type: vmess
+      udp: true
+      uuid: af34f93b-1846-4ddc-bdb8-b37819cd1b0e
+      ws-opts:
+        headers:
+            Host: us-new03.daluquan.top
+        path: /itdog?ed=2560
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2074
+      name: 美国 - 希尔斯伯勒 - OVH SAS - 371
+      network: ws
+      password: WOeXShhJpL
+      port: 443
+      server: 172.67.232.40
+      sni: 10jzus.zdzdzd.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: 10jzus.zdzdzd.xyz
+        path: /juzigongyi
+    - client-fingerprint: safari
+      delay: 2309
+      name: 德国 - 法兰克福 - Oracle Corporation - 8
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: af027267-9324-4765-ba00-23f45f60ccf0
+    - client-fingerprint: safari
+      delay: 2403
+      name: 德国 - 法兰克福 - Oracle Corporation - 9
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: f9d2b3ea-cb00-42ff-8cd4-3a228f060672
     - client-fingerprint: firefox
-      delay: 1426
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 5
-      network: ws
-      port: 443
-      server: 151.101.65.210
-      servername: pooleno.ir
-      skip-cert-verify: true
+      delay: 1930
+      name: 德国 - 法兰克福 - Oracle Corporation - 6
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
       tls: true
       type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: pooleno.ir
-        path: /GGPPfZ3NKyOoKNiK?ed=2560
-    - client-fingerprint: randomized
-      delay: 1488
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 6
-      network: ws
-      port: 443
-      server: 167.82.97.49
-      servername: cosmocare.ir
-      skip-cert-verify: true
+      uuid: 55c19651-6c59-43c2-a224-e2c5ff9f767d
+    - client-fingerprint: edge
+      delay: 2276
+      name: 德国 - 法兰克福 - Oracle Corporation - 1
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
       tls: true
       type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: cosmocare.ir
-        path: /GGPPfZ3NKyOoKNiK?ed=2560
-    - delay: 1938
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
-      network: ws
-      port: 6060
-      server: 195.200.19.139
-      servername: a.mifeng.us.kg
+      uuid: 5d5a26f5-fb1e-4165-b7b5-659b279f37b3
+    - client-fingerprint: edge
+      delay: 1298
+      name: 德国 - 法兰克福 - Oracle Corporation - 2
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
       tls: true
       type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: a.mifeng.us.kg
-        path: /?ed=2560
-    - delay: 630
-      name: 日本 - 成田市 - Cloudflare, Inc. - 1
-      network: ws
-      port: 8889
-      server: 160.16.242.208
-      servername: a.mifeng.us.kg
+      uuid: 3607a21d-b6ea-4762-8526-7093e2119c2b
+    - client-fingerprint: ios
+      delay: 1254
+      name: 德国 - 法兰克福 - Oracle Corporation - 11
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
       tls: true
       type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: a.mifeng.us.kg
-        path: /?ed=2560
+      uuid: 1d6027c9-1a75-43f1-8999-31bfbc32a723
+    - client-fingerprint: firefox
+      delay: 2294
+      name: 德国 - 法兰克福 - Oracle Corporation - 4
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 92a70433-5a60-4724-9172-cbde71879ca3
+    - client-fingerprint: ios
+      delay: 2259
+      name: 德国 - 法兰克福 - Oracle Corporation - 3
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 44498c73-d3b0-4f1d-95f7-f224155b518c
+    - client-fingerprint: ios
+      delay: 1377
+      name: 德国 - 法兰克福 - Oracle Corporation - 7
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 4018a780-0ef9-45ce-9a1e-1057dc3cd1af
+    - client-fingerprint: chrome
+      delay: 1761
+      name: 德国 - 法兰克福 - Oracle Corporation - 5
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+        short-id: e6658462
+      server: frankfurt.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 469e824f-b5d1-4533-a3f3-f418b51cf17e
