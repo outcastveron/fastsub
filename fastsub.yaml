@@ -16,6 +16,21 @@ proxies:
         headers:
             Host: edgood.889876.xyz
         path: /?ed=2048fp=chrome
+    - client-fingerprint: randomized
+      delay: 1778
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 4
+      network: ws
+      port: 443
+      server: 151.101.65.122
+      servername: metrix.ir
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: metrix.ir
+        path: /GGPPfZ3NKyOoKNiK?ed=2560
     - alterId: 0
       cipher: auto
       delay: 2802
@@ -32,45 +47,6 @@ proxies:
         headers:
             Host: kim.gov.kp
         path: /aries?ed=2048
-    - client-fingerprint: randomized
-      delay: 1778
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 4
-      network: ws
-      port: 443
-      server: 151.101.65.122
-      servername: metrix.ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: metrix.ir
-        path: /GGPPfZ3NKyOoKNiK?ed=2560
-    - delay: 1302
-      name: 瑞典 - 斯德哥尔摩 - Amazon.com - 1
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 16.16.73.187
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - client-fingerprint: randomized
-      delay: 1488
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 6
-      network: ws
-      port: 443
-      server: 167.82.97.49
-      servername: cosmocare.ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: cosmocare.ir
-        path: /GGPPfZ3NKyOoKNiK?ed=2560
     - client-fingerprint: firefox
       delay: 1426
       name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 5
@@ -86,6 +62,35 @@ proxies:
         headers:
             Host: pooleno.ir
         path: /GGPPfZ3NKyOoKNiK?ed=2560
+    - client-fingerprint: randomized
+      delay: 1488
+      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 6
+      network: ws
+      port: 443
+      server: 167.82.97.49
+      servername: cosmocare.ir
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: cosmocare.ir
+        path: /GGPPfZ3NKyOoKNiK?ed=2560
+    - delay: 1938
+      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
+      network: ws
+      port: 6060
+      server: 195.200.19.139
+      servername: a.mifeng.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.mifeng.us.kg
+        path: /?ed=2560
     - delay: 630
       name: 日本 - 成田市 - Cloudflare, Inc. - 1
       network: ws
