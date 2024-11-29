@@ -2,7 +2,7 @@ name: Clash SpeedTest
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -27,15 +27,15 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/go/pkg/mod
-          key: ${{ runner.os }}-go
-          restore-keys: ${{ runner.os }}-go
+          key: go-mods
+          restore-keys: go-mods
 
       - name: Install clash-speedtest
         run: go install github.com/faceair/clash-speedtest@latest
 
       - name: Run clash-speedtest
         run: |
-          ~/go/bin/clash-speedtest -c 'https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml' -output fastsub.yaml -max-latency 2s -min-speed 5
+          ~/go/bin/clash-speedtest -c 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml' -output fastsub.yaml -max-latency 2s -min-speed 5
 
       - name: Commit and push changes
         run: |
