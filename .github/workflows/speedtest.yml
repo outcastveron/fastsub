@@ -2,7 +2,7 @@ name: Clash SpeedTest
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Run clash-speedtest
         run: |
-          ~/go/bin/clash-speedtest -c 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml' -output fastsub.yaml -max-latency 2s -min-speed 5
+          ~/go/bin/clash-speedtest -c 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml' -output fastsub.yaml
 
       - name: Commit and push changes
         run: |
