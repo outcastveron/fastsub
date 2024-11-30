@@ -27,8 +27,8 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/go/pkg/mod
-          key: go-mods
-          restore-keys: go-mods
+          key: go-mod-${{ hashFiles('**/go.sum') }}
+          restore-keys: go-mod-${{ hashFiles('**/go.sum') }}
 
       - name: Install clash-speedtest
         run: go install github.com/faceair/clash-speedtest@latest
