@@ -1,37 +1,72 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
+    - country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1078
+      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
+      password: telegram-id-directvpn
+      port: 22222
+      server: 52.60.190.229
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1822
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 2
+      network: ws
+      port: 2087
+      server: www.parsvds.com
+      servername: OfFeR.MirAclestORy.tOP.
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: d00b1cb0-d184-4581-a4c1-349bac358562
+      ws-opts:
+        headers:
+            HOST: OfFeR.MirAclestORy.tOP.
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1755
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 3
+      network: ws
+      port: 2087
+      server: www.parsvds.com
+      servername: OfFeR.MirAclestORy.tOP.
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: ad0a8c49-0785-46d9-bb14-2c3ab03a5dbb
+      ws-opts:
+        headers:
+            HOST: OfFeR.MirAclestORy.tOP.
+        path: /
+    - alterId: 0
+      cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1274
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 70
-      password: amazonskr05
+      delay: 1592
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 1
+      network: ws
       port: 443
-      server: 34.219.52.114
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1018
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 100
-      password: amazonskr05
-      port: 443
-      server: 50.112.199.89
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 838
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 103
-      password: amazonskr05
-      port: 443
-      server: 52.88.193.52
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1106
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 54
-      password: amazonskr05
-      port: 443
-      server: 35.94.117.219
-      type: ss
+      server: hms07.xfixedfloat.cfd
+      servername: afrhms07.xfixedfloat.cfd
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+      ws-opts:
+        headers:
+            HOST: afrhms07.xfixedfloat.cfd
+        path: /linkws
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -48,63 +83,6 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/081412110418
-    - cipher: chacha20-ietf
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 797
-      name: 美国 - 聖荷西 - PEG TECH INC - 102
-      password: asd123456
-      port: 8388
-      server: 137.175.113.192
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1494
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 18.177.142.239
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 798
-      name: 日本 - 东京 - Amazon Technologies Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 3.112.215.69
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2349
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 43.203.249.198
-      type: ss
-    - cipher: rc4-md5
-      delay: 1834
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1E6CA"
-      delay: 1262
-      name: 加拿大 - 多伦多 - Tangram Canada Inc. - 2
-      password: MTYzMzJl
-      port: 1443
-      server: ca1.ssproxy.xyz
-      type: ss
-    - country: "\U0001F1EE\U0001F1EAIE"
-      delay: 1279
-      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 54.229.97.252
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - country: "\U0001F1EC\U0001F1E7GB"
       delay: 2602
       name: 英国 - 伦敦 - Amazon Technologies Inc. - 1
@@ -115,6 +93,24 @@ proxies:
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 888
+      name: 法国 - 巴黎 - Amazon Technologies Inc. - 3
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 15.236.73.124
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1262
+      name: 加拿大 - 多伦多 - Tangram Canada Inc. - 2
+      password: MTYzMzJl
+      port: 1443
+      server: ca1.ssproxy.xyz
+      type: ss
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 1460
       name: 法国 - 巴黎 - Amazon.com, Inc. - 2
@@ -125,16 +121,20 @@ proxies:
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - country: "\U0001F1E8\U0001F1E6CA"
-      delay: 1078
-      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
-      password: telegram-id-directvpn
-      port: 22222
-      server: 52.60.190.229
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
+    - client-fingerprint: chrome
+      delay: 1881
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 113
+      network: ws
+      password: blue2024
+      port: 443
+      server: 162.159.22.138
+      skip-cert-verify: false
+      sni: hb.lii2010.us.kg
       type: trojan
-      udp: true
+      ws-opts:
+        headers:
+            Host: hb.lii2010.us.kg
+        path: /?ed=2560
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 1145
       name: 瑞典 - 斯德哥尔摩 - Amazon.com, Inc. - 2
@@ -145,27 +145,13 @@ proxies:
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      delay: 1740
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 118
-      network: ws
-      password: blue2024
-      port: 443
-      server: 190.93.246.228
-      skip-cert-verify: false
-      sni: hb.lii2010.us.kg
-      type: trojan
-      ws-opts:
-        headers:
-            Host: hb.lii2010.us.kg
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 888
-      name: 法国 - 巴黎 - Amazon Technologies Inc. - 3
-      network: tcp
+    - country: "\U0001F1F8\U0001F1EASE"
+      delay: 1001
+      name: 瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 3
       password: telegram-id-privatevpns
       port: 22222
-      server: 15.236.73.124
+      server: 13.51.212.218
+      skip-cert-verify: true
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
