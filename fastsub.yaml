@@ -1,81 +1,277 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1897
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 圣克拉拉 - DigitalOcean, LLC - 27
-      network: tcp
-      port: 10086
-      server: 68.183.250.29
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1018
+      name: 美国 - 洛杉矶 - Melbikomas UAB - 7
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.dc.gladns.com
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 981
+      name: 美国 - San Jose - Oracle Corporation - 45
+      password: xjN4xcuPGg55
+      port: 45800
+      server: h.522226.xyz
       skip-cert-verify: true
-      type: vmess
-      uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-    - alterId: 64
-      cipher: auto
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 936
+      name: 美国 - 聖荷西 - Black Mesa Corporation - 15
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.u4.gladns.com
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 2168
+      name: 美国 - 聖荷西 - Black Mesa Corporation - 8
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.u5.gladns.com
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 931
+      name: 美国 - 聖荷西 - Black Mesa Corporation - 13
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.u2.gladns.com
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 2268
+      name: 美国 - 聖荷西 - Black Mesa Corporation - 4
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.f1.gladns.com
+      type: ss
+    - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1696
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 22
-      network: ws
-      port: 38007
-      server: 38.174.190.88
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/023114310920
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1459
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 179
-      network: ws
-      port: 37002
-      server: 38.33.55.68
-      servername: www.68584158.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
+      delay: 2246
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 133
+      password: amazonskr05
+      port: 443
+      server: 54.186.178.129
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 928
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 137
+      password: amazonskr05
+      port: 443
+      server: 34.219.52.114
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1358
+      name: 美国 - 聖荷西 - Black Mesa Corporation - 11
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: v2ray-plugin
+      plugin-opts:
         headers:
-            HOST: www.68584158.xyz
-        path: /path/191019072927
+            edge: 84858fa.vpnhat.t.me:73643
+        host: uk.moss.network
+        mode: websocket
+        path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+        tls: false
+      port: 8880
+      server: 84858fa.qe.glados-config.com
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 939
+      name: 美国 - 聖荷西 - Black Mesa Corporation - 14
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.u1.gladns.com
+      type: ss
     - alterId: 0
       cipher: auto
-      delay: 1694
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2636
       h2-opts: {}
       http-opts: {}
-      name: 法国 - 巴黎 - DataCamp Limited - 1
+      name: 美国 - 圣克拉拉 - HostPapa - 26
       network: ws
       port: 80
-      server: root.mid.al
+      server: 172.64.229.209
+      servername: rn2.hostmjj.com
       skip-cert-verify: true
       type: vmess
-      uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+      uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
       ws-opts:
         headers:
-            Host: kim.gov.kp
-        path: /aries?ed=2048
+            HOST: rn2.hostmjj.com
+        path: /
     - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 734
-      name: 法国 - 巴黎 - Online S.A.S. - 2
-      password: 8vFQIjLl0PMh3qc3cJVuma
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 813
+      name: 美国 - 洛杉矶 - Melbikomas UAB - 6
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.u6.gladns.com
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 689
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 149
+      password: amazonskr05
       port: 443
-      server: 62.210.88.22
+      server: 50.112.199.89
       type: ss
-    - cipher: chacha20-ietf
-      delay: 749
-      name: 美国 - 聖荷西 - PEG TECH INC - 115
-      password: asd123456
-      port: 8388
-      server: 137.175.113.215
+    - client-fingerprint: chrome
+      delay: 2074
+      name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
+      network: ws
+      port: 2087
+      server: 104.20.195.223
+      servername: mn.aftabe12.ir
+      tls: true
+      type: vless
+      uuid: 0399af93-ed7e-4717-ba12-aa1f4e45a5c6
+      ws-opts:
+        headers:
+            Host: mn.aftabe12.ir
+        path: /Tel:@BLACK_VPN1
+    - client-fingerprint: chrome
+      delay: 1800
+      name: 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 2
+      network: ws
+      port: 22222
+      server: 34.248.161.148
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1437
+      name: 美国 - San Jose - Oracle Corporation - 139
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 2790
+      name: 美国 - 洛杉矶 - Melbikomas UAB - 5
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.j2.gladns.com
       type: ss
+    - cipher: aes-256-cfb
+      delay: 425
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 3.112.124.200
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2828
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.124.203.141
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1016
+      name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 4
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.t1.gladns.com
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 470
+      name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 3
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.t3.gladns.com
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2324
+      h2-opts: {}
+      http-opts: {}
+      name: 英国 - 伦敦 - Baxet Group Inc. - 7
+      network: ws
+      port: 443
+      server: 104.20.111.73
+      servername: f.ylks.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8
+      ws-opts:
+        headers:
+            HOST: f.ylks.xyz
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1211
+      name: 美国 - 洛杉矶 - Melbikomas UAB - 10
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 84858fa.vpnhat.t.me:73643
+        mode: tls
+      port: 2377
+      server: 84858fa.s3.gladns.com
+      type: ss
+    - country: "\U0001F1EE\U0001F1EA IE"
+      delay: 1113
+      name: 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 52.31.202.208
+      skip-cert-verify: true
+      type: trojan
+      udp: true
