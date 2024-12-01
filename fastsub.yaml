@@ -1,39 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      delay: 773
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 118
-      password: amazonskr05
-      port: 443
-      server: 34.219.52.114
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 743
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 23
-      password: amazonskr05
-      port: 443
-      server: 18.236.180.126
-      type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1459
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 179
-      network: ws
-      port: 37002
-      server: 38.33.55.68
-      servername: www.68584158.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.68584158.xyz
-        path: /path/191019072927
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -63,14 +29,41 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/023114310920
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1976
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
-      password: W74XFALLLuw6m5IA
-      port: 443
-      server: series-a2.samanehha.co
-      type: ss
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1459
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 179
+      network: ws
+      port: 37002
+      server: 38.33.55.68
+      servername: www.68584158.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.68584158.xyz
+        path: /path/191019072927
+    - alterId: 0
+      cipher: auto
+      delay: 1694
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 巴黎 - DataCamp Limited - 1
+      network: ws
+      port: 80
+      server: root.mid.al
+      skip-cert-verify: true
+      type: vmess
+      uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+      ws-opts:
+        headers:
+            Host: kim.gov.kp
+        path: /aries?ed=2048
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1EB\U0001F1F7FR"
       delay: 734
@@ -79,21 +72,6 @@ proxies:
       port: 443
       server: 62.210.88.22
       type: ss
-    - cipher: rc4-md5
-      delay: 1007
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1E6UA"
-      delay: 951
-      name: 美国 - 华盛顿特区 - ws-telecom - 21
-      password: hC4OGXBemd+DWhe7O5krd3GGtcQ3yoPGF+fjcg+ob3c=
-      port: 45721
-      server: 45.150.32.39
-      type: ss
     - cipher: chacha20-ietf
       delay: 749
       name: 美国 - 聖荷西 - PEG TECH INC - 115
@@ -101,28 +79,3 @@ proxies:
       port: 8388
       server: 137.175.113.215
       type: ss
-    - cipher: aes-256-cfb
-      delay: 2258
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 43.203.249.198
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1725
-      h2-opts: {}
-      http-opts: {}
-      name: 巴西 - São Paulo - Oracle Corporation - 1
-      network: ws
-      port: 8880
-      server: us-new03.daluquan.top
-      servername: us-new03.daluquan.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: 04e7eb85-f14e-4d9f-87c1-6f77d3479dc3
-      ws-opts:
-        headers:
-            HOST: us-new03.daluquan.top
-        path: /itdog?ed=2560
