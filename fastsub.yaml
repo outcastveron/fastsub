@@ -1,45 +1,132 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 981
-      name: 美国 - San Jose - Oracle Corporation - 45
-      password: xjN4xcuPGg55
-      port: 45800
-      server: h.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1664
+      name: 加拿大 - Pointe-Claire - Dedicated.com - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 64.74.163.130
+      type: ss
+    - cipher: aes-128-gcm
+      country: "\U0001F1F3\U0001F1F1NL"
+      delay: 2375
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 149.34.244.82
+      type: ss
     - cipher: aes-256-cfb
-      delay: 689
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 149
+      delay: 1887
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
       password: amazonskr05
       port: 443
-      server: 50.112.199.89
+      server: 34.216.7.165
       type: ss
+    - alpn:
+        - h2
+        - http/1.1
+      delay: 1104
+      name: 美国 - Reston - OVH US LLC - 185
+      network: tcp
+      port: 443
+      server: 147135011033.sec21org.com
+      tls: true
+      type: vless
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F3\U0001F1F4NO"
+      delay: 1626
+      name: 挪威 - Lorenskog - Microsoft Corporation - 1
+      password: Yduk2ad0ZOoHXCYBDfSCnw
+      port: 14939
+      server: 51.13.165.185
+      type: ss
+    - delay: 907
+      http-opts:
+        headers:
+            Host:
+                - www.bmw.com
+        method: GET
+        path:
+            - /
+      name: 意大利 - Pomezia - Cinzia Tocci trading as C1V - 1
+      network: http
+      port: 2052
+      server: 5.59.249.86
+      servername: www.bmw.com
+      tls: false
+      type: vless
+      uuid: d244009a-9ceb-4f76-b52c-4da3e416ebe2
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 623
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 18.136.210.98
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1090
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 13.250.43.190
+      type: ss
+    - delay: 2350
+      name: 美国 - 阿瓦達 - OVH US LLC - 187
+      network: tcp
+      port: 443
+      server: 147135004002.sec20org.com
+      tls: true
+      type: vless
+      uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1058
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 3.1.195.116
+      type: ss
+    - alpn:
+        - h2
+        - http/1.1
+      delay: 1099
+      name: 美国 - Reston - OVH US LLC - 188
+      network: tcp
+      port: 443
+      server: 147135001178.sec22org.com
+      tls: true
+      type: vless
+      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
     - alterId: 0
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2636
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 圣克拉拉 - HostPapa - 26
+      delay: 1553
+      name: 英国 - 伦敦 - Baxet Group Inc. - 2
       network: ws
-      port: 80
-      server: 172.64.229.209
-      servername: rn2.hostmjj.com
-      skip-cert-verify: true
+      port: 15112
+      server: 5.39.254.196
+      skip-cert-verify: false
+      tls: false
       type: vmess
-      uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
       ws-opts:
-        headers:
-            HOST: rn2.hostmjj.com
         path: /
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1437
-      name: 美国 - San Jose - Oracle Corporation - 139
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+    - cipher: aes-128-gcm
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1276
+      name: 德国 - 法兰克福 - Aeza International LTD - 1
+      password: 5hUUaB6YaI0rzcrx6lwtEjp5vC1RVe8leUjaD2+Bgmo=
+      port: 2096
+      server: 109.120.176.218
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1027
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 152
+      password: amazonskr05
+      port: 443
+      server: 35.88.126.102
+      type: ss
