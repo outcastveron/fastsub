@@ -1,16 +1,21 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - h2
-        - http/1.1
-      delay: 1099
-      name: 美国 - Reston - OVH US LLC - 188
-      network: tcp
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1027
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 152
+      password: amazonskr05
       port: 443
-      server: 147135001178.sec22org.com
-      tls: true
-      type: vless
-      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+      server: 35.88.126.102
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 867
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 151
+      password: amazonskr05
+      port: 443
+      server: 52.33.189.33
+      type: ss
     - alpn:
         - h2
         - http/1.1
@@ -22,14 +27,6 @@ proxies:
       tls: true
       type: vless
       uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - delay: 2350
-      name: 美国 - 阿瓦達 - OVH US LLC - 187
-      network: tcp
-      port: 443
-      server: 147135004002.sec20org.com
-      tls: true
-      type: vless
-      uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
     - cipher: aes-128-gcm
       country: "\U0001F1F3\U0001F1F1NL"
       delay: 2375
@@ -38,13 +35,13 @@ proxies:
       port: 443
       server: 149.34.244.82
       type: ss
-    - cipher: aes-128-gcm
+    - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
-      delay: 1276
-      name: 德国 - 法兰克福 - Aeza International LTD - 1
-      password: 5hUUaB6YaI0rzcrx6lwtEjp5vC1RVe8leUjaD2+Bgmo=
-      port: 2096
-      server: 109.120.176.218
+      delay: 620
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 13.250.110.56
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
@@ -54,27 +51,46 @@ proxies:
       port: 443
       server: 13.250.43.190
       type: ss
+    - delay: 2350
+      name: 美国 - 阿瓦達 - OVH US LLC - 187
+      network: tcp
+      port: 443
+      server: 147135004002.sec20org.com
+      tls: true
+      type: vless
+      uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 507
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 3
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1321
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 9
       password: amazonskr05
       port: 443
-      server: 47.129.219.11
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1027
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 152
-      password: amazonskr05
-      port: 443
-      server: 35.88.126.102
+      server: 3.1.203.16
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
-      delay: 620
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
+      delay: 623
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 7
       password: amazonskr05
       port: 443
-      server: 13.250.110.56
+      server: 18.136.210.98
+      type: ss
+    - alpn:
+        - h2
+        - http/1.1
+      delay: 1099
+      name: 美国 - Reston - OVH US LLC - 188
+      network: tcp
+      port: 443
+      server: 147135001178.sec22org.com
+      tls: true
+      type: vless
+      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1353
+      name: 中国 - 香港 - Stark Industries Solutions LTD - 3
+      password: FU9HUAR4ZPMXV9Wh815b3FGPi2EOfqHTdv5aDV0ZVJN25OWzcLUTHmFlw28xLE9n
+      port: 42658
+      server: 74.119.193.103
       type: ss
