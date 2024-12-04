@@ -1,83 +1,151 @@
 proxy-providers: {}
 proxies:
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1956
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 圣克拉拉 - DigitalOcean, LLC - 21
+      network: ws
+      port: 8880
+      server: follow.ikuai66.xyz
+      servername: dousla.pmcloud.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 47ca88f4-7dc9-401c-aef2-a7cc6d020c58
+      ws-opts:
+        headers:
+            HOST: dousla.pmcloud.top
+        path: /
     - cipher: aes-256-cfb
-      delay: 1605
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1221
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 261
       password: amazonskr05
       port: 443
-      server: 35.88.126.102
+      server: 54.185.18.43
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 685
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 137
+      delay: 1480
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 260
       password: amazonskr05
       port: 443
-      server: 54.184.77.199
+      server: 34.220.195.209
       type: ss
+    - country: "\U0001F3C1 ZZ"
+      delay: 1645
+      name: 美国 - San Jose - Oracle Corporation - 85
+      password: xjN4xcuPGg55
+      port: 45800
+      server: h.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 706
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 148
+      delay: 2880
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 13
       password: amazonskr05
       port: 443
-      server: 54.200.220.184
+      server: 52.11.76.208
       type: ss
-    - delay: 1468
-      name: 美国 - San Jose - Oracle Corporation - 4
+    - delay: 1490
+      name: 美国 - San Jose - Oracle Corporation - 267
       password: xjN4xcuPGg
       port: 45601
       server: f.522226.xyz
       skip-cert-verify: true
       type: trojan
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F3\U0001F1F4NO"
+      delay: 1496
+      name: 挪威 - Lorenskog - Microsoft Corporation - 1
+      password: Bk6CwTEYasiCd9iqVOvOpZ
+      port: 19940
+      server: 51.13.114.206
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1084
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Akile LTD - 1
+      network: ws
+      port: 55347
+      server: 34.96.138.169
+      skip-cert-verify: true
+      type: vmess
+      uuid: fc7eb111-1292-4706-f4fb-afba1958924c
+      ws-opts:
+        path: /
     - cipher: aes-256-cfb
-      country: "\U0001F1E6\U0001F1FA AU"
-      delay: 1154
-      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 467
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
       password: amazonskr05
       port: 443
-      server: 43.206.238.246
+      server: 54.254.79.231
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
-      delay: 380
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
+      delay: 516
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 11
+      password: amazonskr05
+      port: 443
+      server: 54.251.68.99
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 461
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 13.212.234.131
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 658
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 10
       password: amazonskr05
       port: 443
       server: 13.212.36.13
       type: ss
     - cipher: aes-256-cfb
-      delay: 271
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 18.136.210.98
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 297
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 7
+      delay: 417
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 8
       password: amazonskr05
       port: 443
       server: 47.128.225.94
       type: ss
-    - client-fingerprint: chrome
-      delay: 1381
-      name: 美国 - Ashburn - Amazon.com, Inc. - 152
-      network: ws
-      port: 22222
-      server: 54.209.143.97
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 665
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 420
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
       password: amazonskr05
       port: 443
-      server: 34.222.145.191
+      server: 3.1.203.16
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 413
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 52.221.248.211
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1492
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 54.169.221.192
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 894
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 13.250.110.56
       type: ss
