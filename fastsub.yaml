@@ -10,21 +10,6 @@ proxies:
       type: trojan
       udp: true
     - cipher: aes-256-cfb
-      delay: 2880
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 13
-      password: amazonskr05
-      port: 443
-      server: 52.11.76.208
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F3\U0001F1F4NO"
-      delay: 1496
-      name: 挪威 - Lorenskog - Microsoft Corporation - 1
-      password: Bk6CwTEYasiCd9iqVOvOpZ
-      port: 19940
-      server: 51.13.114.206
-      type: ss
-    - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1480
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 260
@@ -32,13 +17,50 @@ proxies:
       port: 443
       server: 34.220.195.209
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 2021
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 1
-      password: g7CjtJIx-tLChd3t6WSLzg
-      port: 1722
-      server: 78.47.115.151
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1221
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 261
+      password: amazonskr05
+      port: 443
+      server: 54.185.18.43
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2880
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 13
+      password: amazonskr05
+      port: 443
+      server: 52.11.76.208
+      type: ss
+    - delay: 1490
+      name: 美国 - San Jose - Oracle Corporation - 267
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 1224
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.124.203.141
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 894
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 13.250.110.56
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 467
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 54.254.79.231
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
@@ -50,11 +72,19 @@ proxies:
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
-      delay: 420
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
+      delay: 1492
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 2
       password: amazonskr05
       port: 443
-      server: 3.1.203.16
+      server: 54.169.221.192
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 413
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 52.221.248.211
       type: ss
     - alterId: 0
       cipher: auto
@@ -71,17 +101,3 @@ proxies:
       uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
       ws-opts:
         path: /
-    - delay: 1490
-      name: 美国 - San Jose - Oracle Corporation - 267
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      delay: 658
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 10
-      password: amazonskr05
-      port: 443
-      server: 13.212.36.13
-      type: ss
