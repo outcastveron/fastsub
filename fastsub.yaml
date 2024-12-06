@@ -1,103 +1,340 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F3C1 ZZ"
-      delay: 1645
-      name: 美国 - San Jose - Oracle Corporation - 85
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1122
+      name: 美国 - 達拉斯 - GTHost - 362
+      password: 4aec4e7f8cf8454ea4613659822e1a61
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1123
+      name: 美国 - 達拉斯 - GTHost - 364
+      password: b0b861c2c85346a389b9e95769c3cba4
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1591
+      name: 美国 - 達拉斯 - GTHost - 365
+      password: 242a3d8eee5e4ed1a6bfa4141d549a25
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1343
+      name: 美国 - 達拉斯 - GTHost - 359
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1208
+      name: 美国 - 達拉斯 - GTHost - 358
+      password: 2e3562a819634de686ade78e434c0963
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1120
+      name: 美国 - 達拉斯 - GTHost - 363
+      password: 2cba4104747d49d18319e5ade1b93ab5
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1251
+      name: 美国 - 達拉斯 - GTHost - 366
+      password: 669d0ac7b5b64ebbb1abb75d5d540a5c
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1944
+      name: 美国 - 達拉斯 - GTHost - 357
+      password: 4732adfa16c6450bbef87264e41332db
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1123
+      name: 美国 - 達拉斯 - GTHost - 370
+      password: ce8b8b30ebba45f2a38dd608b85e8628
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1106
+      name: 美国 - 達拉斯 - GTHost - 367
+      password: b4e8771997c94732acbc9ec4d19c2589
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1131
+      name: 美国 - 達拉斯 - GTHost - 361
+      password: cb1f26aa437d4bfa9b841d28503ce8cc
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 999
+      name: 美国 - 達拉斯 - GTHost - 369
+      password: dba20dcb635e430fa4d3bfc303a149d2
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1124
+      name: 美国 - 達拉斯 - GTHost - 368
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      delay: 1207
+      name: 美国 - 達拉斯 - GTHost - 360
+      password: 984e400bf5d541b7b0815913fe0c432a
+      port: 443
+      server: jobscareertoday.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: aes-128-cfb
+      delay: 659
+      name: 美国 - 凤凰城 - Performive LLC - 234
+      password: shadowsocks
+      port: 443
+      server: 184.170.241.194
+      type: ss
+    - cipher: aes-128-gcm
+      delay: 982
+      name: 英国 - 伦敦 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.193
+      type: ss
+    - delay: 1399
+      name: 美国 - San Jose - Oracle Corporation - 424
       password: xjN4xcuPGg55
       port: 45800
       server: h.522226.xyz
       skip-cert-verify: true
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1480
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 260
-      password: amazonskr05
+    - cipher: aes-128-gcm
+      country: "\U0001F1F3\U0001F1F1NL"
+      delay: 938
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
       port: 443
-      server: 34.220.195.209
+      server: 149.34.244.77
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1221
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 261
+      country: "\U0001F3C1 ZZ"
+      delay: 685
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 267
+      password: amazonskr05
+      port: 443
+      server: 35.88.126.102
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2138
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 372
       password: amazonskr05
       port: 443
       server: 54.185.18.43
       type: ss
     - cipher: aes-256-cfb
-      delay: 2880
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 13
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 939
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 373
       password: amazonskr05
       port: 443
-      server: 52.11.76.208
+      server: 54.200.220.184
       type: ss
-    - delay: 1490
-      name: 美国 - San Jose - Oracle Corporation - 267
+    - cipher: aes-256-cfb
+      delay: 959
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 52.12.67.119
+      type: ss
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1406
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 383
+      network: ws
+      port: 37002
+      server: 38.33.55.72
+      servername: www.68584158.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.68584158.xyz
+        path: /path/191019072927
+    - delay: 1904
+      name: 英国 - 考文垂 - Stark Industries Solutions LTD - 2
+      network: ws
+      password: b697183d-288b-40ab-98ae-8e3eb85f371c
+      port: 443
+      server: 185.146.173.69
+      skip-cert-verify: true
+      sni: uk1.trojanvpn.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: uk1.trojanvpn.xyz
+        path: ""
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2536
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 2
+      network: ws
+      port: 2087
+      server: 172.67.69.236
+      servername: OfFeR.MirAclestORy.tOP.
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: fe520518-c7d6-47f3-9ccb-9fa2a6df882f
+      ws-opts:
+        headers:
+            HOST: OfFeR.MirAclestORy.tOP.
+        path: /
+    - country: "\U0001F1F8\U0001F1EASE"
+      delay: 1683
+      name: 荷兰 - Meppel - Stark Industries Solutions LTD - 2
+      network: ws
+      password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
+      port: 443
+      server: 185.146.173.34
+      sni: nl1.trojanvpn.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: nl1.trojanvpn.xyz
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2134
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 1
+      network: ws
+      port: 2087
+      server: tools.parspack.com
+      servername: OfFeR.MirAclestORy.tOP.
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 84f65491-26d8-4e61-ab61-a0546c629593
+      ws-opts:
+        headers:
+            HOST: OfFeR.MirAclestORy.tOP.
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F3\U0001F1F4 NO"
+      delay: 971
+      name: 挪威 - Lorenskog - Microsoft Corporation - 1
+      password: A8WnUKGDfhssvapELnQRSn
+      port: 62004
+      server: 51.13.114.93
+      type: ss
+    - delay: 1056
+      name: 美国 - San Jose - Oracle Corporation - 377
       password: xjN4xcuPGg
       port: 45601
       server: f.522226.xyz
       skip-cert-verify: true
       type: trojan
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 1224
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 786
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 268
+      password: amazonskr05
+      port: 443
+      server: 34.216.7.165
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1707
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 371
+      password: amazonskr05
+      port: 443
+      server: 34.215.84.62
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 354
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 1
+      password: amazonskr05
+      port: 443
+      server: 47.128.215.67
+      type: ss
+    - country: "\U0001F1E8\U0001F1F7CR"
+      delay: 1883
+      name: 冰岛 - 凯夫拉维克国际机场 - STARK INDUSTRIES SOLUTIONS LTD - 1
+      network: ws
+      password: 45d5c2fa-58f7-4f2a-811b-c44cc51e8668
+      port: 443
+      server: 190.93.247.155
+      sni: is2.trojanvpn.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: is2.trojanvpn.xyz
+        path: /
+    - cipher: aes-256-cfb
+      delay: 1250
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 4
       password: amazonskr05
       port: 443
       server: 13.124.203.141
       type: ss
     - cipher: aes-256-cfb
-      delay: 894
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
+      delay: 346
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 7
       password: amazonskr05
       port: 443
       server: 13.250.110.56
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 467
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 54.254.79.231
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 461
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 13.212.234.131
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 1492
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 54.169.221.192
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 413
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 52.221.248.211
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 2068
-      h2-opts: {}
-      http-opts: {}
-      name: 英国 - 伦敦 - Baxet Group Inc. - 4
-      network: ws
-      port: 22112
-      server: 5.39.254.196
-      skip-cert-verify: true
-      type: vmess
-      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-      ws-opts:
-        path: /
