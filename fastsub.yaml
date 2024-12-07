@@ -1,19 +1,11 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 2610
-      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      delay: 2969
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 112
       password: amazonskr05
       port: 443
-      server: 54.199.12.31
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1506
-      name: 日本 - 东京 - Amazon.com, Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 43.207.112.115
+      server: 54.185.18.43
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
@@ -23,16 +15,14 @@ proxies:
       port: 443
       server: 18.183.227.204
       type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1028
-      name: 美国 - Dublin - Amazon.com, Inc. - 5
-      password: telegram-id-directvpn
-      port: 22222
-      server: 3.132.185.61
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1506
+      name: 日本 - 东京 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 43.207.112.115
+      type: ss
     - client-fingerprint: chrome
       delay: 664
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 113
@@ -49,23 +39,10 @@ proxies:
         headers:
             Host: IRANINGOAT2.IR
         path: /RsAMasAPMX5yb1YZ?ed=2560
-    - country: "\U0001F1E8\U0001F1E6CA"
-      delay: 1782
-      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
-      network: tcp
-      password: telegram-id-directvpn
-      port: 22222
-      server: 3.96.13.141
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - country: "\U0001F1F8\U0001F1EASE"
-      delay: 1039
-      name: 瑞典 - 斯德哥尔摩 - Amazon.com - 1
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 16.16.125.75
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
+    - cipher: aes-256-cfb
+      delay: 1261
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 13.212.36.13
+      type: ss
