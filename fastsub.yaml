@@ -16,6 +16,14 @@ proxies:
       port: 443
       server: 54.184.77.199
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 692
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
+      password: amazonskr05
+      port: 443
+      server: 35.88.126.102
+      type: ss
     - alterId: 64
       cipher: auto
       delay: 1553
@@ -42,6 +50,15 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/100318230503
+    - cipher: aes-128-cfb
+      delay: 1065
+      name: 美国 - 阿什本 - Hetzner Online GmbH - 155
+      obfs: http_post
+      password: +asd6a5s5df+
+      port: 443
+      protocol: auth_aes128_md5
+      server: nsus3.irundns.net
+      type: ssr
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 703
@@ -60,29 +77,13 @@ proxies:
       tls: false
       type: vmess
       uuid: fa1897db-1925-4c86-a495-939a959af900
-    - cipher: aes-128-cfb
-      delay: 1065
-      name: 美国 - 阿什本 - Hetzner Online GmbH - 155
-      obfs: http_post
-      password: +asd6a5s5df+
-      port: 443
-      protocol: auth_aes128_md5
-      server: nsus3.irundns.net
-      type: ssr
-    - delay: 879
-      name: 美国 - San Jose - Oracle Corporation - 20
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1867
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 52.196.152.62
+    - cipher: chacha20-ietf
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 625
+      name: 美国 - 洛杉矶 - PEG TECH INC - 10
+      password: asd123456
+      port: 8388
+      server: 137.175.113.192
       type: ss
     - alterId: 0
       cipher: auto
@@ -99,6 +100,21 @@ proxies:
       uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
       ws-opts:
         path: /frfrfffv888888mn01N
+    - delay: 879
+      name: 美国 - San Jose - Oracle Corporation - 20
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1867
+      name: 日本 - 东京 - Amazon Technologies Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 52.196.152.62
+      type: ss
     - cipher: rc4-md5
       delay: 1019
       name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
@@ -106,25 +122,11 @@ proxies:
       port: 8080
       server: 68.183.227.45
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 727
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 52.193.184.18
+    - cipher: chacha20-ietf
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 610
+      name: 美国 - 聖荷西 - PEG TECH INC - 19
+      password: asd123456
+      port: 8388
+      server: 137.175.113.215
       type: ss
-    - client-fingerprint: random
-      delay: 879
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 277
-      network: ws
-      port: 2053
-      server: 205.233.181.36
-      servername: rix.tgzdyz2.top
-      tls: true
-      type: vless
-      uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
-      ws-opts:
-        headers:
-            Host: rix.tgzdyz2.top
-        path: /?ed=2560
