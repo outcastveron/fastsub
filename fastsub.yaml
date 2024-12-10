@@ -17,44 +17,6 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 703
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 153
-      password: amazonskr05
-      port: 443
-      server: 34.216.74.178
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 1531
-      name: 英国 - 加的夫 - Oracle Corporation - 1
-      network: ws
-      port: 443
-      server: 16.724064.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
-      ws-opts:
-        headers:
-            Host: 16.724064.xyz
-        path: /zlppvws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1212
-      h2-opts: {}
-      http-opts: {}
-      name: 法国 - 新城勒鲁瓦 - Online S.A.S. - 2
-      network: ws
-      port: 80
-      server: fr2e-tl7wr888kG8882h3.v2freevpn.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-      ws-opts:
-        path: /frfrfffv888888mn01N
     - alterId: 64
       cipher: auto
       delay: 1553
@@ -81,14 +43,36 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/283126261303
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 772
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 272
-      password: amazonskr05
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1212
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 新城勒鲁瓦 - Online S.A.S. - 2
+      network: ws
+      port: 80
+      server: fr2e-tl7wr888kG8882h3.v2freevpn.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+      ws-opts:
+        path: /frfrfffv888888mn01N
+    - alterId: 0
+      cipher: auto
+      delay: 1610
+      name: 法国 - 巴黎 - Feelb Sarl - 1
+      network: ws
       port: 443
-      server: 54.184.77.199
-      type: ss
+      server: hms19.best-tizi.top
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+      ws-opts:
+        headers:
+            Host: hms19.best-tizi.top
+        path: /linkws
     - delay: 879
       name: 美国 - San Jose - Oracle Corporation - 20
       password: xjN4xcuPGg
@@ -97,28 +81,17 @@ proxies:
       skip-cert-verify: true
       type: trojan
     - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 727
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 52.193.184.18
+      type: ss
+    - cipher: aes-256-cfb
       delay: 915
       name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 4
       password: amazonskr05
       port: 443
       server: 13.124.203.141
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E7\U0001F1EABE"
-      delay: 2511
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - OVH SAS - 1
-      network: ws
-      port: 443
-      server: 57.129.25.25
-      servername: f.khilei.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            HOST: f.khilei.com
-        path: /linkvws
