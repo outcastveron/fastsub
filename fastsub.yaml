@@ -1,312 +1,278 @@
 proxy-providers: {}
 proxies:
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2849
+      name: 美国 - 紐華克 - GTHost - 55
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      port: 443
+      server: sherasheba.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1992
+      name: 美国 - 紐華克 - GTHost - 56
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      port: 443
+      server: 142.202.48.220
+      skip-cert-verify: true
+      sni: sherasheba.com
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2841
+      name: 美国 - 紐華克 - GTHost - 54
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: sherasheba.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: rc4-md5
-      delay: 904
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 724
+      delay: 953
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 243
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 194.5.215.59
       type: ss
       udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 824
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 拉斯维加斯 - FranTech Solutions - 782
-      port: 8080
-      server: 205.185.116.20
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: ff130210-4636-5caf-8259-09058c55bae8
+    - cipher: aes-128-gcm
+      client-fingerprint: chrome
+      delay: 2137
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 149.34.244.82
+      tfo: false
+      type: ss
     - cipher: rc4-md5
-      delay: 1183
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 723
+      delay: 895
+      name: 美国 - 聖荷西 - Zenlayer Inc - 245
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 23.251.121.242
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      delay: 980
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 244
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 79.110.53.169
       type: ss
       udp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1F3\U0001F1F1NL"
-      delay: 626
-      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 2
-      password: shadowsocks
-      port: 443
-      server: 149.34.244.82
+    - cipher: rc4-md5
+      client-fingerprint: chrome
+      delay: 808
+      name: 美国 - 聖荷西 - Zenlayer Inc - 229
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 107.155.57.11
+      tfo: false
       type: ss
     - cipher: rc4-md5
-      delay: 979
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 5
+      delay: 950
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 8
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 146.70.61.51
       type: ss
       udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2638
+      name: 英国 - 伦敦 - OVH SAS - 5
+      password: f142bc50-b755-11ef-ad1a-1239d0255272
+      port: 443
+      server: 51.38.65.155
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: rc4-md5
-      delay: 1064
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 6
+      delay: 734
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 7
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 146.70.61.18
       type: ss
       udp: true
     - cipher: rc4-md5
-      delay: 1137
+      delay: 1881
       name: 德国 - 法兰克福 - Datacamp Limited - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 169.150.210.233
       type: ss
       udp: true
-    - cipher: rc4-md5
-      delay: 832
-      name: 美国 - 聖荷西 - Zenlayer Inc - 722
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 107.155.57.11
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1383
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 188
-      password: amazonskr05
-      port: 443
-      server: 54.203.0.206
-      type: ss
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2170
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 1
+      delay: 1642
+      name: 英国 - 倫敦金融城 - GTHost - 2
       network: ws
-      port: 8080
-      server: www.speedtest.net
-      servername: kqy2ckti028f.dopraxrocks.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: fd246702-77fe-4869-decc-e2f2336d50ce
-      ws-opts:
-        headers:
-            HOST: kqy2ckti028f.dopraxrocks.com
-        path: /
-    - alterId: 64
-      cipher: auto
-      delay: 1166
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 鞍山市 - PEG TECH INC - 4
-      network: ws
-      port: 38003
-      server: 38.11.49.45
+      port: 443
+      server: 149.7.16.174
       skip-cert-verify: true
       tls: true
       type: vmess
-      udp: true
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
       ws-opts:
-        headers:
-            Host: www.55153203.xyz
-        path: /path/1731663763983
+        path: /linkvws
+    - cipher: aes-256-cfb
+      delay: 1211
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 49
+      password: amazonskr05
+      port: 443
+      server: 18.237.72.225
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 763
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 225
+      password: amazonskr05
+      port: 443
+      server: 35.91.173.159
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 764
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 226
+      password: amazonskr05
+      port: 443
+      server: 52.89.164.115
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 755
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 228
+      password: amazonskr05
+      port: 443
+      server: 34.219.16.55
+      type: ss
     - cipher: chacha20-ietf-poly1305
-      delay: 1028
-      name: 波兰 - 华沙 - BrainStorm Network, Inc - 26
+      delay: 940
+      name: 波兰 - 华沙 - BrainStorm Network, Inc - 11
       password: f8f7aCzcPKbsF8p3
       port: 990
       server: 92.118.205.228
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 1288
-      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 46.183.217.232
-      type: ss
+    - country: "\U0001F1EE\U0001F1EAIE"
+      delay: 1067
+      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 54.216.150.204
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
       udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 947
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 3
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 730
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 48
       password: amazonskr05
       port: 443
-      server: 54.180.151.198
+      server: 35.93.30.193
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2715
+      name: 日本 - 东京 - Amazon Technologies Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 52.196.152.62
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1497
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Aeza International LTD - 4
+      network: ws
+      port: 443
+      server: 104.21.69.44
+      servername: download.game-one.ir
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: ba8e61f0-095b-4361-9dc2-b5e5390a71c4
+      ws-opts:
+        headers:
+            HOST: download.game-one.ir
+        path: /6mHwqI1HSSV5FOZeOUV1BYvuQ
+    - cipher: aes-256-cfb
+      delay: 2018
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 43.202.55.184
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2913
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Aeza International LTD - 3
+      network: ws
+      port: 443
+      server: 172.67.204.84
+      servername: download.game-one.ir
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: ba8e61f0-095b-4361-9dc2-b5e5390a71c4
+      ws-opts:
+        headers:
+            HOST: download.game-one.ir
+        path: /6mHwqI1HSSV5FOZeOUV1BYvuQ
+    - alterId: 0
+      cipher: auto
+      delay: 2945
+      name: 德国 - 法兰克福 - OVH SAS - 1
+      network: ws
+      port: 443
+      server: 57.129.25.22
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        path: /linkvws
     - cipher: rc4-md5
-      delay: 1130
+      delay: 1173
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.236
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1555
+      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 2
+      network: ws
+      port: 22222
+      server: 54.170.25.39
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
+    - cipher: rc4-md5
+      delay: 1763
       name: 法国 - 巴黎 - Online S.A.S. - 1
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 51.158.244.38
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 849
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 43.201.29.224
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1938
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 43.202.55.184
-      type: ss
-    - cipher: rc4-md5
-      delay: 906
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 4
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.235.122
-      type: ss
-      udp: true
-    - cipher: rc4-md5
-      delay: 872
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 128.199.172.224
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1101
-      h2-opts: {}
-      http-opts: {}
-      name: 英国 - 伦敦 - Baxet Group Inc. - 4
-      network: ws
-      port: 23120
-      server: 5.39.254.196
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1632
+      name: 美国 - San Jose - Oracle Corporation - 231
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
       skip-cert-verify: true
-      type: vmess
-      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      delay: 1970
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 776
-      network: ws
-      port: 2052
-      server: s4.db-link01.top
-      skip-cert-verify: true
-      type: vmess
+      type: trojan
       udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-98-170-177.s4.db-link01.top
-        path: /dabai.in104.24.255.81
-    - alterId: 0
-      cipher: auto
-      delay: 2017
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 774
-      network: ws
-      port: 2095
-      server: s4.db-link01.top
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-151-161-86.s4.db-link01.top
-        path: /dabai.in104.24.129.58
-    - alterId: 0
-      cipher: auto
-      delay: 2079
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 775
-      network: ws
-      port: 80
-      server: s4.db-link01.top
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-144-83-11.s4.db-link01.top
-        path: /dabai.in104.18.207.157
-    - alterId: 0
-      cipher: auto
-      delay: 1366
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 777
-      network: ws
-      port: 80
-      server: s2.db-link01.top
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-33-201-132.s2.db-link01.top
-        path: /dabai.in172.64.32.23
-    - alterId: 0
-      cipher: auto
-      delay: 2494
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 773
-      network: ws
-      port: 8880
-      server: s2.db-link01.top
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-158-223-187.s2.db-link01.top
-        path: /dabai.in172.64.49.93
-    - alterId: 0
-      cipher: auto
-      delay: 1582
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 778
-      network: ws
-      port: 80
-      server: s1.db-link01.top
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-35-119-20.s1.db-link01.top
-        path: /dabai.in172.67.120.181
-    - alterId: 0
-      cipher: auto
-      delay: 2083
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 779
-      network: ws
-      port: 2086
-      server: s2.cn-db.top
-      skip-cert-verify: true
-      type: vmess
-      udp: true
-      uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d
-      ws-opts:
-        headers:
-            Host: 100-143-228-93.s2.cn-db.top
-        path: /dabai.in104.24.235.29
