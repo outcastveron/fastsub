@@ -1,34 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: rc4-md5
-      delay: 783
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 10
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
-    - cipher: aes-128-cfb
-      delay: 643
-      name: 美国 - 凤凰城 - Performive LLC - 7
-      password: shadowsocks
-      port: 443
-      server: 184.170.241.194
-      type: ss
-    - cipher: rc4-md5
-      delay: 832
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 14
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 79.110.53.169
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      delay: 766
-      name: 英国 - 伦敦 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 212.102.53.193
-      type: ss
     - delay: 1779
       name: 美国 - 圣克拉拉 - Choopa - 1
       password: wkmY1R4EcP
@@ -37,19 +8,19 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - delay: 793
-      name: 美国 - San Jose - Oracle Corporation - 3
-      password: xjN4xcuPGg55
-      port: 45800
-      server: h.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      delay: 675
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
-      password: amazonskr05
+    - cipher: aes-128-cfb
+      delay: 643
+      name: 美国 - 凤凰城 - Performive LLC - 7
+      password: shadowsocks
       port: 443
-      server: 18.236.148.85
+      server: 184.170.241.194
+      type: ss
+    - cipher: rc4-md5
+      delay: 635
+      name: 美国 - 聖荷西 - Zenlayer Inc - 9
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 23.251.121.242
       type: ss
     - cipher: aes-256-cfb
       delay: 1869
@@ -62,12 +33,83 @@ proxies:
       protocol-param: ""
       server: 52.38.9.34
       type: ssr
+    - cipher: aes-256-cfb
+      delay: 898
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 54.203.0.206
+      type: ss
     - cipher: rc4-md5
-      delay: 635
-      name: 美国 - 聖荷西 - Zenlayer Inc - 9
+      delay: 832
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 14
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 23.251.121.242
+      server: 79.110.53.169
+      type: ss
+      udp: true
+    - delay: 793
+      name: 美国 - San Jose - Oracle Corporation - 3
+      password: xjN4xcuPGg55
+      port: 45800
+      server: h.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+    - cipher: rc4-md5
+      delay: 783
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 10
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 675
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
+      password: amazonskr05
+      port: 443
+      server: 18.236.148.85
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 561
+      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 54.248.142.136
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 447
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 43.207.81.209
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 522
+      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 52.196.152.62
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1094
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 43.201.29.224
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1311
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 54.180.151.198
+      type: ss
+    - cipher: aes-128-gcm
+      delay: 766
+      name: 英国 - 伦敦 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.193
       type: ss
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1EB\U0001F1F7FR"
@@ -77,6 +119,14 @@ proxies:
       port: 443
       server: 51.158.252.130
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 1282
+      name: 挪威 - Lorenskog - Microsoft - 2
+      password: KrIV7QIoQmMps6L21IrbLv
+      port: 34137
+      server: 51.120.12.78
+      type: ss
+      udp: true
     - cipher: rc4-md5
       delay: 1012
       name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
@@ -86,19 +136,11 @@ proxies:
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      delay: 1282
-      name: 挪威 - Lorenskog - Microsoft - 2
-      password: KrIV7QIoQmMps6L21IrbLv
-      port: 34137
-      server: 51.120.12.78
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 898
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 54.203.0.206
+      delay: 1294
+      name: 挪威 - Lorenskog - Microsoft - 1
+      password: TdjTu9dRAjFH3hd8WuJLaf
+      port: 49023
+      server: 51.120.12.152
       type: ss
     - cipher: rc4-md5
       delay: 964
@@ -108,19 +150,13 @@ proxies:
       server: 169.150.210.233
       type: ss
     - cipher: rc4-md5
-      delay: 1142
-      name: 德国 - Frankfurt - GTHost - 1
+      delay: 1126
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 4
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 193.108.119.230
+      server: 68.183.227.236
       type: ss
-    - cipher: aes-256-cfb
-      delay: 1311
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 54.180.151.198
-      type: ss
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
       delay: 284
@@ -129,14 +165,13 @@ proxies:
       port: 443
       server: 54.151.196.32
       type: ss
-    - delay: 835
-      name: 韩国 - 春川市 - Oracle Corporation - 2
-      password: xjN4xcuPGg
-      port: 45101
-      server: a.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+    - cipher: rc4-md5
+      delay: 1142
+      name: 德国 - Frankfurt - GTHost - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 193.108.119.230
+      type: ss
     - alterId: 0
       cipher: auto
       delay: 1833
@@ -154,3 +189,18 @@ proxies:
         headers:
             Host: 100-158-80-199.s2.cn-db.top
         path: /dabai.in104.25.31.219
+    - delay: 835
+      name: 韩国 - 春川市 - Oracle Corporation - 2
+      password: xjN4xcuPGg
+      port: 45101
+      server: a.522226.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf
+      delay: 547
+      name: 美国 - 洛杉矶 - PEG TECH INC - 11
+      password: asd123456
+      port: 8388
+      server: 137.175.97.159
+      type: ss
