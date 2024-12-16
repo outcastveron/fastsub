@@ -1,12 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: rc4-md5
-      delay: 783
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 10
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
     - cipher: aes-128-cfb
       delay: 643
       name: 美国 - 凤凰城 - Performive LLC - 7
@@ -14,12 +7,19 @@ proxies:
       port: 443
       server: 184.170.241.194
       type: ss
-    - cipher: aes-128-gcm
-      delay: 766
-      name: 英国 - 伦敦 - Datacamp Limited - 1
-      password: shadowsocks
+    - cipher: rc4-md5
+      delay: 635
+      name: 美国 - 聖荷西 - Zenlayer Inc - 9
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 23.251.121.242
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 839
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 12
+      password: amazonskr05
       port: 443
-      server: 212.102.53.193
+      server: 35.88.126.102
       type: ss
     - delay: 793
       name: 美国 - San Jose - Oracle Corporation - 3
@@ -29,50 +29,13 @@ proxies:
       skip-cert-verify: true
       type: trojan
     - cipher: rc4-md5
-      delay: 635
-      name: 美国 - 聖荷西 - Zenlayer Inc - 9
+      delay: 832
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 14
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 23.251.121.242
-      type: ss
-    - delay: 1779
-      name: 美国 - 圣克拉拉 - Choopa - 1
-      password: wkmY1R4EcP
-      port: 443
-      server: 45.32.137.6
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: rc4-md5
-      delay: 1012
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 146.70.61.51
+      server: 79.110.53.169
       type: ss
       udp: true
-    - cipher: rc4-md5
-      delay: 964
-      name: 德国 - 法兰克福 - Datacamp Limited - 4
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 169.150.210.233
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 1282
-      name: 挪威 - Lorenskog - Microsoft - 2
-      password: KrIV7QIoQmMps6L21IrbLv
-      port: 34137
-      server: 51.120.12.78
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 1294
-      name: 挪威 - Lorenskog - Microsoft - 1
-      password: TdjTu9dRAjFH3hd8WuJLaf
-      port: 49023
-      server: 51.120.12.152
-      type: ss
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 861
       name: 美国 - San Jose - Oracle Corporation - 13
@@ -83,33 +46,82 @@ proxies:
       type: trojan
       udp: true
     - cipher: rc4-md5
+      delay: 783
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 10
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - cipher: aes-128-gcm
+      delay: 766
+      name: 英国 - 伦敦 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.193
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1456
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hytron Network Services Limited - 1
+      network: ws
+      port: 80
+      server: gost.cloudflare.182682.xyz
+      servername: gost.naiunclient.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+      ws-opts:
+        headers:
+            HOST: gost.naiunclient.top
+        path: /
+    - cipher: rc4-md5
+      delay: 1012
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.51
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1282
+      name: 挪威 - Lorenskog - Microsoft - 2
+      password: KrIV7QIoQmMps6L21IrbLv
+      port: 34137
+      server: 51.120.12.78
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      delay: 964
+      name: 德国 - 法兰克福 - Datacamp Limited - 4
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 169.150.210.233
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 715
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 18.141.184.102
+      type: ss
+    - cipher: rc4-md5
+      delay: 1126
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 4
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.236
+      type: ss
+      udp: true
+    - cipher: rc4-md5
       delay: 1142
       name: 德国 - Frankfurt - GTHost - 1
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 193.108.119.230
-      type: ss
-    - cipher: rc4-md5
-      delay: 832
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 14
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 79.110.53.169
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 675
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 16
-      password: amazonskr05
-      port: 443
-      server: 54.184.77.199
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1094
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 43.201.29.224
       type: ss
     - alterId: 0
       cipher: auto
