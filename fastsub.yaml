@@ -59,32 +59,6 @@ proxies:
       port: 443
       server: 212.102.53.193
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1456
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 香港 - Hytron Network Services Limited - 1
-      network: ws
-      port: 80
-      server: gost.cloudflare.182682.xyz
-      servername: gost.naiunclient.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-      ws-opts:
-        headers:
-            HOST: gost.naiunclient.top
-        path: /
-    - cipher: rc4-md5
-      delay: 1012
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 146.70.61.51
-      type: ss
-      udp: true
     - cipher: chacha20-ietf-poly1305
       delay: 1282
       name: 挪威 - Lorenskog - Microsoft - 2
@@ -94,12 +68,13 @@ proxies:
       type: ss
       udp: true
     - cipher: rc4-md5
-      delay: 964
-      name: 德国 - 法兰克福 - Datacamp Limited - 4
+      delay: 1012
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 169.150.210.233
+      server: 146.70.61.51
       type: ss
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
       delay: 715
@@ -107,6 +82,13 @@ proxies:
       password: amazonskr05
       port: 443
       server: 18.141.184.102
+      type: ss
+    - cipher: rc4-md5
+      delay: 964
+      name: 德国 - 法兰克福 - Datacamp Limited - 4
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 169.150.210.233
       type: ss
     - cipher: rc4-md5
       delay: 1126
