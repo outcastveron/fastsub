@@ -1,54 +1,107 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-cfb
-      delay: 987
-      name: 美国 - 阿什本 - Hetzner Online GmbH - 2
-      obfs: http_post
-      obfs-param: ""
-      password: +asd6a5s5df+
+    - cipher: aes-256-cfb
+      delay: 698
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      password: amazonskr05
       port: 443
-      protocol: auth_aes128_md5
-      protocol-param: ""
-      server: nsus3.irundns.net
-      type: ssr
+      server: 35.94.51.2
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 924
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 44.243.243.198
+      type: ss
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1840
+      delay: 1237
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 4
+      name: 美国 - 圣克拉拉 - PEG TECH INC - 11
       network: ws
-      port: 31005
-      server: 142.0.136.1
-      servername: www.99222591.xyz
+      port: 30004
+      server: 192.74.236.148
+      servername: www.91334565.xyz
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         headers:
-            HOST: www.99222591.xyz
-        path: /path/1733477783705
+            HOST: www.91334565.xyz
+        path: /path/1733651459092
+    - alterId: 64
+      cipher: auto
+      delay: 2837
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 圣克拉拉 - PEG TECH INC - 13
+      network: ws
+      port: 37000
+      server: 38.33.56.39
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.24006857.xyz
+        path: /path/1731231349070
     - cipher: aes-256-cfb
-      delay: 1805
+      delay: 537
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 57.181.42.233
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 2758
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 43.200.1.13
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 824
       name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
       password: amazonskr05
       port: 443
-      server: 54.180.232.93
+      server: 52.79.248.193
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 595
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 2
+      delay: 794
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
       password: amazonskr05
       port: 443
-      server: 13.250.110.56
+      server: 3.36.65.244
       type: ss
-    - cipher: aes-256-cfb
-      delay: 1801
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 43.203.122.162
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 801
+      name: 美国 - 洛杉矶 - Bage Cloud LLC - 14
+      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
+      port: 40001
+      server: soonusjp.soon.guru
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 1203
+      name: 俄罗斯 - 圣彼得堡 - Global Internet Solutions LLC - 2
+      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
+      port: 40031
+      server: soonru.soon.guru
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 806
+      name: 法国 - Tassin-la-Demi-Lune - Feelb Sarl - 2
+      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
+      port: 40034
+      server: soonfr.soon.guru
       type: ss
