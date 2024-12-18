@@ -1,51 +1,11 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 1385
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 54.201.174.149
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 924
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 44.243.243.198
-      type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1237
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 圣克拉拉 - PEG TECH INC - 11
-      network: ws
-      port: 30004
-      server: 192.74.236.148
-      servername: www.91334565.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.91334565.xyz
-        path: /path/1733651459092
-    - cipher: aes-256-cfb
       delay: 698
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
       password: amazonskr05
       port: 443
       server: 35.94.51.2
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 2758
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 43.200.1.13
       type: ss
     - cipher: aes-256-cfb
       delay: 794
@@ -55,75 +15,10 @@ proxies:
       server: 3.36.65.244
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 1005
-      name: 挪威 - Lorenskog - Microsoft Corporation - 1
-      password: 6AFDnuijeJGXfceTOQuK05
-      port: 51162
-      server: 51.13.113.38
-      type: ss
     - cipher: aes-256-cfb
-      delay: 540
-      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      delay: 1811
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
       password: amazonskr05
       port: 443
-      server: 3.113.31.223
+      server: 3.38.212.48
       type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 443
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 52.77.239.64
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 824
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 52.79.248.193
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FARU"
-      delay: 1203
-      name: 俄罗斯 - 圣彼得堡 - Global Internet Solutions LLC - 2
-      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
-      port: 40031
-      server: soonru.soon.guru
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 826
-      name: 中国 - 香港 - Akile LTD - 16
-      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
-      port: 40000
-      server: soonhk.soon.guru
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 1755
-      name: 韩国 - 首尔特别市 - MOACK.Co.LTD - 5
-      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
-      port: 40032
-      server: soonkr.soon.guru
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 918
-      name: 波兰 - 华沙 - Ace Data Centers II - 11
-      password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
-      port: 40030
-      server: soonpr.soon.guru
-      type: ss
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1096
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 1
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.133.107.134
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
