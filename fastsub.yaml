@@ -1,9 +1,9 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 1385
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      delay: 924
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
       password: amazonskr05
       port: 443
-      server: 54.201.174.149
+      server: 44.243.243.198
       type: ss
