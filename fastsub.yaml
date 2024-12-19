@@ -1,38 +1,19 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 1385
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      delay: 2197
+      name: 日本 - 东京 - Amazon Technologies Inc - 1
       password: amazonskr05
       port: 443
-      server: 54.201.174.149
+      server: 13.114.67.166
       type: ss
-    - cipher: aes-256-cfb
-      delay: 924
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 44.243.243.198
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 794
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 3.36.65.244
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 2758
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 43.200.1.13
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 1438
-      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 46.183.217.232
-      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1816
+      name: 美国 - 洛杉矶 - Zhejiang Aiyun Network Technology Co Ltd - 10
+      port: 46628
+      server: 2.58.87.221
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8
