@@ -1,19 +1,2 @@
 proxy-providers: {}
-proxies:
-    - cipher: aes-256-cfb
-      delay: 2197
-      name: 日本 - 东京 - Amazon Technologies Inc - 1
-      password: amazonskr05
-      port: 443
-      server: 13.114.67.166
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 1816
-      name: 美国 - 洛杉矶 - Zhejiang Aiyun Network Technology Co Ltd - 10
-      port: 46628
-      server: 2.58.87.221
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8
+proxies: []
