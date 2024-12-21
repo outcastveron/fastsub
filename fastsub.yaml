@@ -11,55 +11,12 @@ proxies:
       protocol-param: ""
       server: nsus3.irundns.net
       type: ssr
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1295
-      h2-opts: {}
-      http-opts: {}
-      name: 加拿大 - Beauharnois - OVH SAS - 3
-      network: ws
-      port: 443
-      server: cdncdncdn.aikunapp.com
-      servername: cdn-ca.sm-node.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e
-      ws-opts:
-        headers:
-            HOST: cdn-ca.sm-node.com
-        path: /vmess_ws/smjc/index?ed=8192
-    - delay: 2495
-      name: 美国 - San Jose - Oracle Corporation - 2
-      password: xjN4xcuPGg55
-      port: 45800
-      server: h.522226.xyz
-      type: trojan
     - cipher: aes-128-gcm
       delay: 792
       name: 英国 - 伦敦 - Datacamp Limited - 1
       password: shadowsocks
       port: 443
       server: 212.102.53.194
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1086
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
-      obfs: plain
-      obfs-param: ""
-      password: amazonskr05
-      port: 443
-      protocol: origin
-      protocol-param: ""
-      server: 54.200.220.184
-      type: ssr
-    - cipher: aes-128-gcm
-      delay: 754
-      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.34.244.82
       type: ss
     - country: "\U0001F1EF\U0001F1F5JP"
       delay: 2215
@@ -77,13 +34,6 @@ proxies:
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 194.71.126.31
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 2600
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 13.125.90.251
       type: ss
     - cipher: aes-128-cfb
       delay: 1328
