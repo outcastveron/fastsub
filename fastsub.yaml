@@ -1,8 +1,8 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-128-cfb
-      delay: 2276
-      name: 美国 - 阿什本 - Hetzner Online GmbH - 5
+      delay: 1989
+      name: 美国 - 阿什本 - Hetzner Online GmbH - 8
       obfs: http_post
       obfs-param: ""
       password: +asd6a5s5df+
@@ -11,10 +11,106 @@ proxies:
       protocol-param: ""
       server: nsus3.irundns.net
       type: ssr
-    - cipher: aes-128-gcm
-      delay: 792
-      name: 英国 - 伦敦 - Datacamp Limited - 1
+    - cipher: aes-128-cfb
+      delay: 2402
+      name: 美国 - 凤凰城 - Performive LLC - 5
       password: shadowsocks
       port: 443
-      server: 212.102.53.194
+      server: 184.170.241.194
       type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 774
+      name: 美国 - 聖荷西 - Kirino LLC - 9
+      password: UO2beikcWh
+      port: 33261
+      server: 38.59.245.38
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: aes-128-gcm
+      delay: 775
+      name: 英国 - 伦敦 - Datacamp Limited - 3
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.193
+      type: ss
+    - alterId: 64
+      cipher: auto
+      delay: 1555
+      name: 美国 - 西雅圖 - PEG TECH INC - 7
+      network: ws
+      port: 38007
+      server: 142.4.108.140
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/081412110418
+    - cipher: aes-128-gcm
+      delay: 735
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 149.34.244.68
+      type: ss
+    - client-fingerprint: chrome
+      delay: 1013
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 14
+      network: ws
+      port: 443
+      server: 104.16.250.188
+      servername: lhxt.xiaomi.win
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+      ws-opts:
+        headers:
+            Host: lhxt.xiaomi.win
+        path: /?ed=2560fp=random
+    - alterId: 0
+      cipher: auto
+      delay: 2337
+      name: 波兰 - 华沙 - ECO-ATMAN - 1
+      network: ws
+      port: 80
+      server: upos-sz-mirrorcf1ov.bilivideo.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 74133cf5-3e95-4f79-8379-7977f94c493a
+      ws-opts:
+        headers:
+            Host: argo9.zjccc.nyc.mn
+        path: /74133cf5-3e95-4f79-8379-7977f94c493a-vm?ed=2048
+    - cipher: rc4-md5
+      delay: 765
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
+      type: ss
+    - cipher: rc4-md5
+      delay: 1058
+      name: 法国 - 巴黎 - Online S.A.S. - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 51.158.244.38
+      type: ss
+    - delay: 805
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 23
+      network: ws
+      port: 443
+      server: 108.162.195.161
+      servername: freedom-1rj.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+      ws-opts:
+        headers:
+            Host: freedom-1rj.pages.dev
+        path: /freedom-1rj.pages.dev/?ed=2560
