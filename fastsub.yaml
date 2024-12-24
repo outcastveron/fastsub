@@ -1,157 +1,115 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-128-cfb
-      delay: 2060
-      name: 美国 - 阿什本 - Hetzner Online GmbH - 57
-      obfs: http_post
-      obfs-param: ""
-      password: +asd6a5s5df+
-      port: 443
-      protocol: auth_aes128_md5
-      protocol-param: ""
-      server: nsus3.irundns.net
-      type: ssr
-    - cipher: rc4-md5
-      delay: 950
-      name: 美国 - 芝加哥 - Datacamp Limited - 55
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 138.199.42.68
-      type: ss
-    - cipher: aes-128-cfb
-      delay: 675
-      name: 美国 - 凤凰城 - Performive LLC - 14
+      delay: 2210
+      name: 美国 - 凤凰城 - Performive LLC - 1
       password: shadowsocks
       port: 443
       server: 184.170.241.194
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 678
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 61
+      delay: 690
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
       password: amazonskr05
       port: 443
       server: 54.202.77.81
       type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1533
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - PEG TECH INC - 73
-      network: ws
-      port: 38003
-      server: 38.33.44.29
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/053526061725
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1354
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 62
+      delay: 699
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
       password: amazonskr05
       port: 443
       server: 34.211.229.86
       type: ss
+    - cipher: rc4-md5
+      delay: 1175
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 79.110.53.169
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1069
+      name: 美国 - 芝加哥 - Datacamp Limited - 5
+      password: ypDt8RkT7J
+      port: 43118
+      server: 89.187.181.172
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - delay: 1981
+      name: 美国 - 纽约 - GTHost - 7
+      password: 71409d3e488548e8bb076d229778f008
+      port: 443
+      server: jobsfortheworldtoday.com
+      type: trojan
+    - cipher: rc4-md5
+      delay: 1106
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 6
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1306
+      name: 日本 - 东京 - Amazon Technologies Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 18.181.176.227
+      type: ss
     - alterId: 64
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1193
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 1227
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 圣克拉拉 - PEG TECH INC - 69
+      name: 中国 - 自贡 - PEG TECH INC - 4
       network: ws
-      port: 37000
-      server: 38.33.45.80
+      port: 38005
+      server: 107.148.203.99
       skip-cert-verify: true
       tls: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
-        path: /path/262924350435
-    - cipher: aes-256-cfb
-      delay: 2719
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 56
-      password: amazonskr05
+        path: /path/1732183961229
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 1183
+      name: 英国 - 倫敦金融城 - GTHost - 4
+      password: 669d0ac7b5b64ebbb1abb75d5d540a5c
       port: 443
-      server: 52.32.68.164
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E7\U0001F1EABE"
-      delay: 2641
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - OVH SAS - 1
-      network: ws
-      port: 443
-      server: 57.129.25.25
-      servername: f.khilei.com
+      server: 172.99.190.180
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            HOST: f.khilei.com
-        path: /linkvws
-    - cipher: rc4-md5
-      delay: 1751
-      name: 法国 - 巴黎 - Online S.A.S. - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 51.158.244.38
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1431
-      name: 美国 - San Jose - Oracle Corporation - 52
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
-      skip-cert-verify: true
+      sni: bangladeshipatri.com
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 1033
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
-      password: amazonskr05
+    - cipher: aes-128-gcm
+      delay: 776
+      name: 英国 - 伦敦 - Datacamp Limited - 1
+      password: shadowsocks
       port: 443
-      server: 43.203.141.93
+      server: 212.102.53.193
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1628
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 休斯敦 - Cloudflare, Inc. - 72
-      network: ws
-      port: 8880
-      server: lamusa.daozhang.site
-      servername: lamusa.daozhang.site
-      skip-cert-verify: true
-      type: vmess
-      uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
-      ws-opts:
-        headers:
-            HOST: lamusa.daozhang.site
-        path: /?ed=2048
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 301
-      name: 日本 - 东京 - Amazon Technologies Inc. - 6
-      password: amazonskr05
+    - delay: 1662
+      name: 英国 - 倫敦金融城 - GTHost - 5
+      password: 984e400bf5d541b7b0815913fe0c432a
       port: 443
-      server: 3.112.236.3
+      server: bangladeshipatri.com
+      skip-cert-verify: false
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EE\U0001F1EAIE"
+      delay: 863
+      name: 爱尔兰 - 都柏林 - Microsoft Corporation - 1
+      password: 49JPbl6SMH1hDoskOR6irG
+      port: 55939
+      server: 13.79.98.64
       type: ss
-    - cipher: aes-256-gcm
-      delay: 1170
-      name: 新加坡 - 新加坡 - Datacamp Limited - 1
-      password: 4186370j1ebs50UqyHfXU
-      port: 8436
-      server: 217.197.160.225
+    - cipher: rc4-md5
+      delay: 1003
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
       type: ss
