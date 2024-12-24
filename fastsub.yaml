@@ -11,15 +11,6 @@ proxies:
       protocol-param: ""
       server: nsus3.irundns.net
       type: ssr
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1256
-      name: 美国 - 纽约 - GTHost - 71
-      password: 71409d3e488548e8bb076d229778f008
-      port: 443
-      server: jobsfortheworldtoday.com
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - cipher: rc4-md5
       delay: 950
       name: 美国 - 芝加哥 - Datacamp Limited - 55
@@ -43,14 +34,6 @@ proxies:
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 678
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 61
-      password: amazonskr05
-      port: 443
-      server: 54.202.77.81
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
       delay: 1354
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 62
       password: amazonskr05
@@ -58,18 +41,12 @@ proxies:
       server: 34.211.229.86
       type: ss
     - cipher: aes-256-cfb
-      delay: 2719
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 56
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 678
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 61
       password: amazonskr05
       port: 443
-      server: 52.32.68.164
-      type: ss
-    - cipher: rc4-md5
-      delay: 795
-      name: 美国 - 聖荷西 - Zenlayer Inc - 54
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 107.155.57.11
+      server: 54.202.77.81
       type: ss
     - delay: 964
       http-opts:
@@ -90,6 +67,22 @@ proxies:
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
+      delay: 1193
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 圣克拉拉 - PEG TECH INC - 69
+      network: ws
+      port: 37000
+      server: 38.33.45.80
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/262924350435
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
       delay: 1533
       h2-opts: {}
       http-opts: {}
@@ -104,28 +97,28 @@ proxies:
       ws-opts:
         path: /path/053526061725
     - cipher: rc4-md5
-      delay: 949
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 2
+      delay: 1751
+      name: 法国 - 巴黎 - Online S.A.S. - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 146.70.61.18
+      server: 51.158.244.38
       type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1193
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 圣克拉拉 - PEG TECH INC - 69
-      network: ws
-      port: 37000
-      server: 38.33.45.80
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1431
+      name: 美国 - San Jose - Oracle Corporation - 52
+      password: xjN4xcuPGg
+      port: 45601
+      server: f.522226.xyz
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/262924350435
+      type: trojan
+      udp: true
+    - cipher: rc4-md5
+      delay: 795
+      name: 美国 - 聖荷西 - Zenlayer Inc - 54
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 107.155.57.11
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F1E7\U0001F1EABE"
@@ -145,21 +138,27 @@ proxies:
         headers:
             HOST: f.khilei.com
         path: /linkvws
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1431
-      name: 美国 - San Jose - Oracle Corporation - 52
-      password: xjN4xcuPGg
-      port: 45601
-      server: f.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - cipher: rc4-md5
-      delay: 1751
-      name: 法国 - 巴黎 - Online S.A.S. - 2
+      delay: 949
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 51.158.244.38
+      server: 146.70.61.18
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 330
+      name: 日本 - 东京 - Amazon.com, Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 54.178.191.236
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1033
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 43.203.141.93
       type: ss
     - alterId: 0
       cipher: auto
@@ -181,14 +180,6 @@ proxies:
         path: /?ed=2048
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1621
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 13.231.232.249
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
       delay: 301
       name: 日本 - 东京 - Amazon Technologies Inc. - 6
       password: amazonskr05
@@ -196,45 +187,33 @@ proxies:
       server: 3.112.236.3
       type: ss
     - cipher: aes-256-cfb
-      delay: 378
-      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      delay: 1786
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
       password: amazonskr05
       port: 443
-      server: 54.178.84.59
+      server: 52.79.248.193
       type: ss
-    - cipher: aes-256-cfb
-      delay: 1259
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
-      password: amazonskr05
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1256
+      name: 美国 - 纽约 - GTHost - 71
+      password: 71409d3e488548e8bb076d229778f008
       port: 443
-      server: 3.35.206.24
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1103
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 43.200.1.13
-      type: ss
-    - client-fingerprint: chrome
-      delay: 1416
-      name: 德国 - 兰河畔林堡 - OVH SAS - 3
-      network: ws
-      port: 443
-      server: 172.67.160.44
-      servername: de.bolagskontaktstockholm.se
+      server: jobsfortheworldtoday.com
       skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-      ws-opts:
-        headers:
-            Host: de.bolagskontaktstockholm.se
-        path: /ws
+      type: trojan
+      udp: true
     - cipher: aes-256-gcm
       delay: 1170
       name: 新加坡 - 新加坡 - Datacamp Limited - 1
       password: 4186370j1ebs50UqyHfXU
       port: 8436
       server: 217.197.160.225
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1621
+      name: 日本 - 东京 - Amazon Technologies Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 13.231.232.249
       type: ss
