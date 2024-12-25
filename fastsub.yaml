@@ -16,34 +16,30 @@ proxies:
       port: 443
       server: 184.170.241.194
       type: ss
+    - cipher: aes-128-gcm
+      delay: 776
+      name: 英国 - 伦敦 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.193
+      type: ss
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 1223
+      name: 英国 - 倫敦金融城 - GTHost - 6
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      port: 443
+      server: 172.99.190.180
+      skip-cert-verify: true
+      sni: bangladeshipatri.com
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
-      delay: 699
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
+      delay: 690
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
       password: amazonskr05
       port: 443
-      server: 34.211.229.86
+      server: 54.202.77.81
       type: ss
-    - cipher: rc4-md5
-      delay: 1175
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 79.110.53.169
-      type: ss
-    - cipher: rc4-md5
-      delay: 1106
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 6
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
-    - delay: 1662
-      name: 英国 - 倫敦金融城 - GTHost - 5
-      password: 984e400bf5d541b7b0815913fe0c432a
-      port: 443
-      server: bangladeshipatri.com
-      skip-cert-verify: false
-      type: trojan
     - country: "\U0001F1EC\U0001F1E7GB"
       delay: 1626
       name: 英国 - 倫敦金融城 - GTHost - 3
@@ -63,30 +59,26 @@ proxies:
       sni: bangladeshipatri.com
       type: trojan
       udp: true
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1223
-      name: 英国 - 倫敦金融城 - GTHost - 6
-      password: f0eb8c92ce8946aaba856569cff1a16b
-      port: 443
-      server: 172.99.190.180
-      skip-cert-verify: true
-      sni: bangladeshipatri.com
-      type: trojan
-      udp: true
     - cipher: aes-256-cfb
-      delay: 690
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      delay: 699
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
       password: amazonskr05
       port: 443
-      server: 54.202.77.81
+      server: 34.211.229.86
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1306
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
+    - delay: 1662
+      name: 英国 - 倫敦金融城 - GTHost - 5
+      password: 984e400bf5d541b7b0815913fe0c432a
       port: 443
-      server: 18.181.176.227
+      server: bangladeshipatri.com
+      skip-cert-verify: false
+      type: trojan
+    - cipher: rc4-md5
+      delay: 1175
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 79.110.53.169
       type: ss
     - country: "\U0001F1EF\U0001F1F5JP"
       delay: 605
@@ -98,19 +90,31 @@ proxies:
       sni: fancy-mudfish.treefrog761.one
       type: trojan
       udp: true
-    - country: "\U0001F1F8\U0001F1EASE"
-      delay: 2466
-      name: 瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 1
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 13.50.65.143
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-128-gcm
-      delay: 776
-      name: 英国 - 伦敦 - Datacamp Limited - 1
-      password: shadowsocks
+    - delay: 1981
+      name: 美国 - 纽约 - GTHost - 7
+      password: 71409d3e488548e8bb076d229778f008
       port: 443
-      server: 212.102.53.193
+      server: jobsfortheworldtoday.com
+      type: trojan
+    - cipher: rc4-md5
+      delay: 1106
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 6
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1344
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 43.203.243.93
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1306
+      name: 日本 - 东京 - Amazon Technologies Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 18.181.176.227
       type: ss
