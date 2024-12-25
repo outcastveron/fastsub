@@ -16,12 +16,26 @@ proxies:
       port: 443
       server: 184.170.241.194
       type: ss
+    - cipher: aes-256-cfb
+      delay: 699
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
+      password: amazonskr05
+      port: 443
+      server: 34.211.229.86
+      type: ss
     - cipher: rc4-md5
       delay: 1175
       name: 美国 - 洛杉矶 - M247 Europe SRL - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 79.110.53.169
+      type: ss
+    - cipher: rc4-md5
+      delay: 1106
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 6
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
       type: ss
     - delay: 1662
       name: 英国 - 倫敦金融城 - GTHost - 5
@@ -31,13 +45,12 @@ proxies:
       skip-cert-verify: false
       type: trojan
     - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1223
-      name: 英国 - 倫敦金融城 - GTHost - 6
+      delay: 1626
+      name: 英国 - 倫敦金融城 - GTHost - 3
       password: f0eb8c92ce8946aaba856569cff1a16b
       port: 443
-      server: 172.99.190.180
+      server: bangladeshipatri.com
       skip-cert-verify: true
-      sni: bangladeshipatri.com
       type: trojan
       udp: true
     - country: "\U0001F1EC\U0001F1E7GB"
@@ -51,21 +64,15 @@ proxies:
       type: trojan
       udp: true
     - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1626
-      name: 英国 - 倫敦金融城 - GTHost - 3
+      delay: 1223
+      name: 英国 - 倫敦金融城 - GTHost - 6
       password: f0eb8c92ce8946aaba856569cff1a16b
       port: 443
-      server: bangladeshipatri.com
+      server: 172.99.190.180
       skip-cert-verify: true
+      sni: bangladeshipatri.com
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 699
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
-      password: amazonskr05
-      port: 443
-      server: 34.211.229.86
-      type: ss
     - cipher: aes-256-cfb
       delay: 690
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
@@ -73,22 +80,6 @@ proxies:
       port: 443
       server: 54.202.77.81
       type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      delay: 1227
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 自贡 - PEG TECH INC - 4
-      network: ws
-      port: 38005
-      server: 107.148.203.99
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/1732183961229
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
       delay: 1306
@@ -107,32 +98,15 @@ proxies:
       sni: fancy-mudfish.treefrog761.one
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 1344
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 43.203.243.93
-      type: ss
-    - client-fingerprint: chrome
-      delay: 2151
-      name: 德国 - Frankfurt am Main - Amazon.com - 1
-      network: ws
+    - country: "\U0001F1F8\U0001F1EASE"
+      delay: 2466
+      name: 瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 1
+      password: telegram-id-privatevpns
       port: 22222
-      server: 63.177.130.127
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
-    - cipher: rc4-md5
-      delay: 1003
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
+      server: 13.50.65.143
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: aes-128-gcm
       delay: 776
       name: 英国 - 伦敦 - Datacamp Limited - 1
