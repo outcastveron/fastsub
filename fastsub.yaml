@@ -1,112 +1,310 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1069
-      name: 美国 - 芝加哥 - Datacamp Limited - 5
-      password: ypDt8RkT7J
-      port: 43118
-      server: 89.187.181.172
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - delay: 1981
-      name: 美国 - 纽约 - GTHost - 7
-      password: 71409d3e488548e8bb076d229778f008
-      port: 443
-      server: jobsfortheworldtoday.com
-      type: trojan
     - cipher: aes-128-cfb
-      delay: 2210
-      name: 美国 - 凤凰城 - Performive LLC - 1
+      delay: 1587
+      name: 美国 - 阿什本 - Hetzner Online GmbH - 34
+      obfs: http_post
+      obfs-param: ""
+      password: +asd6a5s5df+
+      port: 443
+      protocol: auth_aes128_md5
+      protocol-param: ""
+      server: nsus3.irundns.net
+      type: ssr
+    - cipher: aes-128-cfb
+      delay: 644
+      name: 美国 - 凤凰城 - Performive LLC - 3
       password: shadowsocks
       port: 443
       server: 184.170.241.194
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 681
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 48
+      password: amazonskr05
+      port: 443
+      server: 34.213.242.165
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 713
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 49
+      password: amazonskr05
+      port: 443
+      server: 35.90.2.104
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 691
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 44
+      password: amazonskr05
+      port: 443
+      server: 34.211.229.86
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1694
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 里昂 - Feelb Sarl - 3
+      network: ws
+      port: 443
+      server: 104.21.95.16
+      tls: true
+      type: vmess
+      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+      ws-opts:
+        headers:
+            Host: hms03.dongfeng.cfd
+        path: /linkws
+    - country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1534
+      name: 加拿大 - 蒙特利尔 - Rica Web Services - 5
+      password: 2add6241-8fe8-3922-8347-da25e8ced601
+      port: 44445
+      server: flb.aaaa.gay
+      skip-cert-verify: true
+      sni: flb.aaaa.gay
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1712
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 46
+      network: ws
+      port: 80
+      server: visa.cn
+      servername: ccs.yuyun.one
+      skip-cert-verify: true
+      type: vmess
+      uuid: 7c72a5d4-0f12-4fe0-ba02-3dc652c4fe63
+      ws-opts:
+        headers:
+            HOST: ccs.yuyun.one
+        path: /
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1E9\U0001F1F0DK"
+      delay: 881
+      h2-opts: {}
+      http-opts: {}
+      name: 丹麦 - 巴勒魯普自治市 - M247 Europe SRL - 1
+      port: 49020
+      server: 193.29.107.234
+      skip-cert-verify: true
+      type: vmess
+      uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2046
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 8
+      network: ws
+      port: 80
+      server: 151.101.3.8
+      servername: banknabi-mahdi313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
     - cipher: rc4-md5
-      delay: 1106
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 6
+      delay: 1013
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 4
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 194.5.215.59
       type: ss
-    - cipher: aes-128-gcm
-      delay: 776
-      name: 英国 - 伦敦 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 212.102.53.193
-      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1669
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 6
+      network: ws
+      port: 80
+      server: 151.101.194.165
+      servername: banknabi-mahdi313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1524
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 1
+      network: ws
+      port: 80
+      server: 151.101.2.165
+      servername: banknabi-mahdi313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1509
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 9
+      network: ws
+      port: 80
+      server: 151.101.2.216
+      servername: banknabi-mahdi313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1543
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 7
+      network: ws
+      port: 80
+      server: 151.101.64.155
+      servername: banknabi-mahdi313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
     - cipher: rc4-md5
-      delay: 1175
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
+      delay: 2420
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 9
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 79.110.53.169
       type: ss
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1183
-      name: 英国 - 倫敦金融城 - GTHost - 4
-      password: 669d0ac7b5b64ebbb1abb75d5d540a5c
-      port: 443
-      server: 172.99.190.180
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1504
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 5
+      network: ws
+      port: 80
+      server: 151.101.128.155
+      servername: banknabi-mahdi313.IR.
       skip-cert-verify: true
-      sni: bangladeshipatri.com
-      type: trojan
-      udp: true
-    - delay: 1662
-      name: 英国 - 倫敦金融城 - GTHost - 5
-      password: 984e400bf5d541b7b0815913fe0c432a
-      port: 443
-      server: bangladeshipatri.com
-      skip-cert-verify: false
-      type: trojan
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1223
-      name: 英国 - 倫敦金融城 - GTHost - 6
-      password: f0eb8c92ce8946aaba856569cff1a16b
-      port: 443
-      server: 172.99.190.180
-      skip-cert-verify: true
-      sni: bangladeshipatri.com
-      type: trojan
-      udp: true
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1626
-      name: 英国 - 倫敦金融城 - GTHost - 3
-      password: f0eb8c92ce8946aaba856569cff1a16b
-      port: 443
-      server: bangladeshipatri.com
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
     - cipher: aes-256-cfb
-      delay: 800
-      name: 日本 - 东京 - Amazon Technologies Inc - 3
+      country: "\U0001F1E7\U0001F1EABE"
+      delay: 2099
+      name: 日本 - 东京 - Amazon.com, Inc. - 10
       password: amazonskr05
       port: 443
-      server: 13.114.67.166
+      server: 57.181.42.233
       type: ss
-    - country: "\U0001F1EF\U0001F1F5JP"
-      delay: 605
-      name: 日本 - 东京 - Amazon.com, Inc. - 2
-      password: "3648425794742788096"
-      port: 443
-      server: 35.73.82.37
-      skip-cert-verify: true
-      sni: fancy-mudfish.treefrog761.one
-      type: trojan
-      udp: true
     - cipher: aes-256-cfb
-      delay: 690
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1490
+      name: 日本 - 东京 - Amazon Technologies Inc - 13
       password: amazonskr05
       port: 443
-      server: 54.202.77.81
+      server: 13.114.31.63
       type: ss
-    - cipher: rc4-md5
-      delay: 1003
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      delay: 962
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 52.79.52.119
+      tfo: false
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2998
+      h2-opts: {}
+      http-opts: {}
+      name: 波兰 - 华沙 - "SPRINT" S.A. - 7
+      network: ws
+      port: 443
+      server: ip.sb
+      servername: 00.orangelightyo.us.kg
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 9fc77e5c-7621-403d-8bd2-959eaa1167e8
+      ws-opts:
+        headers:
+            HOST: 00.orangelightyo.us.kg
+        path: /serv00?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      delay: 833
       name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
+      password: W4NC3hq9Uop0Eu0mhJdzPT
+      port: 1576
+      server: 68.183.235.216
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1517
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 3
+      network: ws
+      port: 80
+      server: 151.101.192.155
+      servername: banknabi-mahdi313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: e5662328-13fc-450c-b78f-967e4ffc4419
+      ws-opts:
+        headers:
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80
+    - alterId: 0
+      cipher: auto
+      delay: 1260
+      name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 3
+      network: ws
+      port: 29025
+      server: 195.58.49.86
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ce329057-27f0-407b-818a-cda5d1f84601
+      ws-opts:
+        path: /
+    - cipher: aes-256-cfb
+      delay: 533
+      name: 日本 - 东京 - Amazon Technologies Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 3.112.236.3
       type: ss
