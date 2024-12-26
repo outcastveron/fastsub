@@ -22,27 +22,6 @@ proxies:
       port: 443
       server: 184.170.241.194
       type: ss
-    - cipher: aes-256-cfb
-      delay: 690
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
-      password: amazonskr05
-      port: 443
-      server: 54.202.77.81
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 699
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
-      password: amazonskr05
-      port: 443
-      server: 34.211.229.86
-      type: ss
-    - cipher: rc4-md5
-      delay: 1175
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 79.110.53.169
-      type: ss
     - cipher: rc4-md5
       delay: 1106
       name: 美国 - 海厄利亞 - M247 Europe SRL - 6
@@ -56,6 +35,13 @@ proxies:
       password: shadowsocks
       port: 443
       server: 212.102.53.193
+      type: ss
+    - cipher: rc4-md5
+      delay: 1175
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 79.110.53.169
       type: ss
     - country: "\U0001F1EC\U0001F1E7GB"
       delay: 1183
@@ -75,15 +61,6 @@ proxies:
       skip-cert-verify: false
       type: trojan
     - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1626
-      name: 英国 - 倫敦金融城 - GTHost - 3
-      password: f0eb8c92ce8946aaba856569cff1a16b
-      port: 443
-      server: bangladeshipatri.com
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - country: "\U0001F1EC\U0001F1E7GB"
       delay: 1223
       name: 英国 - 倫敦金融城 - GTHost - 6
       password: f0eb8c92ce8946aaba856569cff1a16b
@@ -93,6 +70,22 @@ proxies:
       sni: bangladeshipatri.com
       type: trojan
       udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 1626
+      name: 英国 - 倫敦金融城 - GTHost - 3
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      port: 443
+      server: bangladeshipatri.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 800
+      name: 日本 - 东京 - Amazon Technologies Inc - 3
+      password: amazonskr05
+      port: 443
+      server: 13.114.67.166
+      type: ss
     - country: "\U0001F1EF\U0001F1F5JP"
       delay: 605
       name: 日本 - 东京 - Amazon.com, Inc. - 2
@@ -103,6 +96,13 @@ proxies:
       sni: fancy-mudfish.treefrog761.one
       type: trojan
       udp: true
+    - cipher: aes-256-cfb
+      delay: 690
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      password: amazonskr05
+      port: 443
+      server: 54.202.77.81
+      type: ss
     - cipher: rc4-md5
       delay: 1003
       name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
