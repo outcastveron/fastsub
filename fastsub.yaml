@@ -1,49 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: rc4-md5
-      delay: 2420
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 9
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 79.110.53.169
-      type: ss
-    - cipher: aes-128-cfb
-      delay: 644
-      name: 美国 - 凤凰城 - Performive LLC - 3
-      password: shadowsocks
-      port: 443
-      server: 184.170.241.194
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 691
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 44
-      password: amazonskr05
-      port: 443
-      server: 34.211.229.86
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 681
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 48
-      password: amazonskr05
-      port: 443
-      server: 34.213.242.165
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 705
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 45
-      password: amazonskr05
-      port: 443
-      server: 54.202.77.81
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 713
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 49
-      password: amazonskr05
-      port: 443
-      server: 35.90.2.104
-      type: ss
     - cipher: aes-128-cfb
       delay: 1587
       name: 美国 - 阿什本 - Hetzner Online GmbH - 34
@@ -55,12 +11,41 @@ proxies:
       protocol-param: ""
       server: nsus3.irundns.net
       type: ssr
+    - cipher: aes-128-cfb
+      delay: 644
+      name: 美国 - 凤凰城 - Performive LLC - 3
+      password: shadowsocks
+      port: 443
+      server: 184.170.241.194
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 705
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 45
+      password: amazonskr05
+      port: 443
+      server: 54.202.77.81
+      type: ss
     - cipher: rc4-md5
       delay: 1013
       name: 美国 - 海厄利亞 - M247 Europe SRL - 4
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 194.5.215.59
+      type: ss
+    - cipher: rc4-md5
+      delay: 2420
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 9
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 79.110.53.169
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 681
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 48
+      password: amazonskr05
+      port: 443
+      server: 34.213.242.165
       type: ss
     - alterId: 0
       cipher: auto
@@ -80,30 +65,6 @@ proxies:
         headers:
             HOST: ccs.yuyun.one
         path: /
-    - cipher: aes-128-gcm
-      delay: 1521
-      name: 日本 - 东京 - Datacamp Limited - 2
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.204
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1163
-      name: 美国 - San Jose - Oracle Corporation - 31
-      password: xjN4xcuPGg55
-      port: 45800
-      server: h.522226.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1490
-      name: 日本 - 东京 - Amazon Technologies Inc - 13
-      password: amazonskr05
-      port: 443
-      server: 13.114.31.63
-      type: ss
     - alterId: 64
       cipher: auto
       country: "\U0001F1E9\U0001F1F0DK"
@@ -116,17 +77,6 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
-    - client-fingerprint: chrome
-      delay: 1298
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 6
-      network: ws
-      port: 80
-      server: 152.42.230.97
-      tls: false
-      type: vless
-      uuid: bea95e21-67f0-4192-957e-693222b421be
-      ws-opts:
-        path: /Tharuwa-PAID
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -146,6 +96,13 @@ proxies:
         headers:
             HOST: 00.orangelightyo.us.kg
         path: /serv00?ed=2048
+    - cipher: aes-256-cfb
+      delay: 2558
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 47
+      password: amazonskr05
+      port: 443
+      server: 35.88.126.102
+      type: ss
     - delay: 965
       name: 美国 - San Jose - Oracle Corporation - 33
       password: 15c33952
