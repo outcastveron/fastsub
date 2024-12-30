@@ -1,34 +1,9 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1429
-      flow: xtls-rprx-vision
-      name: 美国 - 洛杉矶 - Datacamp Limited - 52
-      network: tcp
-      port: 443
-      server: us-w-s3.riot-cdn.com
-      servername: contents.riot-cdn.com
-      tls: true
-      type: vless
-      uuid: 61eb66a8-bc41-491e-a8dc-270874140f41
-    - client-fingerprint: chrome
-      delay: 1178
-      flow: xtls-rprx-vision
-      name: 美国 - 洛杉矶 - Datacamp Limited - 51
-      network: tcp
-      port: 443
-      server: 209.141.53.75
-      servername: contents.riot-cdn.com
-      tls: true
-      type: vless
-      uuid: 61eb66a8-bc41-491e-a8dc-270874140f41
     - alterId: 64
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1524
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 西雅圖 - PEG TECH INC - 23
+      delay: 1570
+      name: 美国 - 西雅圖 - PEG TECH INC - 5
       network: ws
       port: 38007
       server: 142.4.108.131
@@ -38,117 +13,121 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/283126261303
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1560
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 西雅圖 - PEG TECH INC - 24
-      network: ws
-      port: 38007
-      server: 38.174.190.72
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/100318230503
-    - cipher: aes-128-gcm
-      delay: 467
-      name: 日本 - 东京 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.204
-      type: ss
-    - cipher: 2022-blake3-aes-256-gcm
-      delay: 948
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 6
-      password: LHA8mRPN3ZoV8QnLmjfpueT1fJKGYIzt+oGmTfqouRw=:cWb/TYEyxC9G/hoWZ25CfQhPK5jFfO2a9JJvXvdIX6c=
-      port: 39477
-      server: 188.245.81.145
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1476
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - Frankfurt - GTHost - 1
-      network: ws
-      port: 443
-      server: 23.158.56.227
-      servername: 23.158.56.227
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            HOST: 23.158.56.227
-        path: /linkvws
     - cipher: rc4-md5
-      delay: 810
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 48
+      delay: 1403
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 194.5.215.59
+      server: 79.110.53.169
       type: ss
-    - cipher: aes-128-cfb
-      delay: 856
-      name: 美国 - 阿什本 - Hetzner Online GmbH - 50
-      obfs: http_post
-      obfs-param: ""
-      password: +asd6a5s5df+
-      port: 443
-      protocol: auth_aes128_md5
-      protocol-param: ""
-      server: nsus3.irundns.net
-      type: ssr
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E7\U0001F1EABE"
-      delay: 1379
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - OVH SAS - 2
-      network: ws
-      port: 443
-      server: 57.129.25.25
-      servername: f.khilei.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            HOST: f.khilei.com
-        path: /linkvws
     - cipher: 2022-blake3-aes-256-gcm
-      delay: 948
+      delay: 946
       name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
       password: 0RE9wxKCxco4hvwYpDdSmWdcl2FRs6jJQNezUyFA1u8=:Xf5trxObRuzLIWTI7xiRPb2RY6yjWSEy36OOWr0iXQk=
       port: 19304
       server: 95.216.202.137
       type: ss
-    - country: "\U0001F1F8\U0001F1EASE"
-      delay: 1034
-      name: 瑞典 - 斯德哥尔摩 - Amazon.com - 1
+    - client-fingerprint: random
+      delay: 1008
+      flow: xtls-rprx-vision
+      name: 法国 - 巴黎 - Online S.A.S. - 1
       network: tcp
-      password: telegram-id-privatevpns
+      port: 443
+      reality-opts:
+        public-key: 1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0
+        short-id: "42"
+      server: 51.158.243.62
+      servername: cloudflare.com
+      tls: true
+      type: vless
+      uuid: fd17fd03-844b-4c4b-9551-27f2b055d4f8
+    - cipher: rc4-md5
+      delay: 1452
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 510
+      name: 日本 - 东京 - Amazon Technologies Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 3.112.236.3
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 371
+      name: 日本 - 东京 - Amazon Technologies Inc - 1
+      password: amazonskr05
+      port: 443
+      server: 13.114.31.63
+      type: ss
+    - client-fingerprint: chrome
+      delay: 1356
+      name: 德国 - Frankfurt am Main - Amazon.com - 4
+      network: ws
       port: 22222
-      server: 16.170.103.85
+      server: 63.177.36.144
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
+    - alterId: 0
+      cipher: auto
+      delay: 1321
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - DXTL HK - 1
+      network: tcp
+      port: 8888
+      server: 154.83.88.106
+      skip-cert-verify: true
+      type: vmess
+      uuid: 63ab66f1-4d71-424e-8f2d-f4fb90fc92a2
+    - country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1314
+      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
+      password: telegram-id-directvpn
+      port: 22222
+      server: 3.97.210.171
+      skip-cert-verify: true
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - cipher: aes-128-cfb
-      delay: 877
-      name: 加拿大 - 蒙特利尔 - BrainStorm Network, Inc - 1
-      obfs: http_post
-      obfs-param: ""
-      password: $$Turb0VPN$$
+    - cipher: aes-128-gcm
+      delay: 2368
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
       port: 443
-      protocol: auth_aes128_md5
-      protocol-param: ""
-      server: ssca.irundns.net
-      type: ssr
+      server: 149.34.244.68
+      type: ss
+    - client-fingerprint: safari
+      delay: 2238
+      name: 美国 - 凤凰城 - Oracle Corporation - 32
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+    - client-fingerprint: ios
+      delay: 2385
+      name: 美国 - 凤凰城 - Oracle Corporation - 29
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
