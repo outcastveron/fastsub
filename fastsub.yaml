@@ -1,16 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-cfb
-      delay: 856
-      name: 美国 - 阿什本 - Hetzner Online GmbH - 50
-      obfs: http_post
-      obfs-param: ""
-      password: +asd6a5s5df+
-      port: 443
-      protocol: auth_aes128_md5
-      protocol-param: ""
-      server: nsus3.irundns.net
-      type: ssr
     - client-fingerprint: chrome
       delay: 1429
       flow: xtls-rprx-vision
@@ -22,13 +11,6 @@ proxies:
       tls: true
       type: vless
       uuid: 61eb66a8-bc41-491e-a8dc-270874140f41
-    - cipher: aes-256-cfb
-      delay: 742
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 38
-      password: amazonskr05
-      port: 443
-      server: 34.219.80.203
-      type: ss
     - client-fingerprint: chrome
       delay: 1178
       flow: xtls-rprx-vision
@@ -40,13 +22,6 @@ proxies:
       tls: true
       type: vless
       uuid: 61eb66a8-bc41-491e-a8dc-270874140f41
-    - cipher: rc4-md5
-      delay: 810
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 48
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -80,32 +55,18 @@ proxies:
       ws-opts:
         path: /path/100318230503
     - cipher: aes-128-gcm
-      delay: 753
-      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 2
+      delay: 467
+      name: 日本 - 东京 - Datacamp Limited - 1
       password: shadowsocks
       port: 443
-      server: 149.34.244.68
+      server: 149.22.87.204
       type: ss
-    - client-fingerprint: random
-      delay: 2300
-      flow: xtls-rprx-vision
-      name: 法国 - 巴黎 - Online S.A.S. - 2
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0
-        short-id: "42"
-      server: 51.158.243.62
-      servername: cloudflare.com
-      tls: true
-      type: vless
-      uuid: fd17fd03-844b-4c4b-9551-27f2b055d4f8
-    - cipher: chacha20-ietf-poly1305
-      delay: 808
-      name: 挪威 - Lorenskog - Microsoft Corporation - 1
-      password: SK8DG4IJFnDwuhy35hOWUj
-      port: 20760
-      server: 51.13.35.115
+    - cipher: 2022-blake3-aes-256-gcm
+      delay: 948
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 6
+      password: LHA8mRPN3ZoV8QnLmjfpueT1fJKGYIzt+oGmTfqouRw=:cWb/TYEyxC9G/hoWZ25CfQhPK5jFfO2a9JJvXvdIX6c=
+      port: 39477
+      server: 188.245.81.145
       type: ss
     - alterId: 0
       cipher: auto
@@ -126,13 +87,24 @@ proxies:
         headers:
             HOST: 23.158.56.227
         path: /linkvws
-    - cipher: aes-128-gcm
-      delay: 467
-      name: 日本 - 东京 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.204
+    - cipher: rc4-md5
+      delay: 810
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 48
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
       type: ss
+    - cipher: aes-128-cfb
+      delay: 856
+      name: 美国 - 阿什本 - Hetzner Online GmbH - 50
+      obfs: http_post
+      obfs-param: ""
+      password: +asd6a5s5df+
+      port: 443
+      protocol: auth_aes128_md5
+      protocol-param: ""
+      server: nsus3.irundns.net
+      type: ssr
     - alterId: 0
       cipher: auto
       country: "\U0001F1E7\U0001F1EABE"
@@ -152,34 +124,6 @@ proxies:
         headers:
             HOST: f.khilei.com
         path: /linkvws
-    - client-fingerprint: chrome
-      delay: 2042
-      flow: xtls-rprx-vision
-      name: 以色列 - 佩塔提克瓦 - CLOUD LEASE Ltd - 1
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -ALxkpd7Wi7WKs1dXND7yqoYQfJW8d4BctjfXIy0L1M
-        short-id: b5ed878b
-      server: 195.211.24.243
-      servername: apple.com
-      tls: true
-      type: vless
-      uuid: 71b60539-19bf-4282-b09f-7596ffc3cc8b
-    - cipher: aes-256-cfb
-      delay: 398
-      name: 日本 - 东京 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 57.181.42.233
-      type: ss
-    - cipher: 2022-blake3-aes-256-gcm
-      delay: 948
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 6
-      password: LHA8mRPN3ZoV8QnLmjfpueT1fJKGYIzt+oGmTfqouRw=:cWb/TYEyxC9G/hoWZ25CfQhPK5jFfO2a9JJvXvdIX6c=
-      port: 39477
-      server: 188.245.81.145
-      type: ss
     - cipher: 2022-blake3-aes-256-gcm
       delay: 948
       name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
@@ -187,28 +131,16 @@ proxies:
       port: 19304
       server: 95.216.202.137
       type: ss
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 2202
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 5
+    - country: "\U0001F1F8\U0001F1EASE"
+      delay: 1034
+      name: 瑞典 - 斯德哥尔摩 - Amazon.com - 1
+      network: tcp
       password: telegram-id-privatevpns
       port: 22222
-      server: 3.70.146.20
-      skip-cert-verify: true
+      server: 16.170.103.85
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      delay: 1200
-      name: 瑞典 - 斯德哥尔摩 - Amazon.com - 3
-      network: ws
-      port: 22222
-      server: 16.16.49.159
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
     - cipher: aes-128-cfb
       delay: 877
       name: 加拿大 - 蒙特利尔 - BrainStorm Network, Inc - 1
@@ -220,16 +152,3 @@ proxies:
       protocol-param: ""
       server: ssca.irundns.net
       type: ssr
-    - client-fingerprint: ios
-      delay: 1566
-      name: 美国 - 凤凰城 - Oracle Corporation - 53
-      network: tcp
-      port: 18443
-      reality-opts:
-        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
-        short-id: e6658462
-      server: phx-plus-1ddns.faforex.eu.org
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
