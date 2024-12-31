@@ -14,15 +14,23 @@ proxies:
       port: 8080
       server: 79.110.53.169
       type: ss
-    - cipher: aes-256-cfb
-      delay: 833
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
-      obfs: plain
-      password: amazonskr05
-      port: 443
-      protocol: origin
-      server: 35.88.126.102
-      type: ssr
+    - country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1314
+      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
+      password: telegram-id-directvpn
+      port: 22222
+      server: 3.97.210.171
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      delay: 946
+      name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
+      password: 0RE9wxKCxco4hvwYpDdSmWdcl2FRs6jJQNezUyFA1u8=:Xf5trxObRuzLIWTI7xiRPb2RY6yjWSEy36OOWr0iXQk=
+      port: 19304
+      server: 95.216.202.137
+      type: ss
     - client-fingerprint: chrome
       delay: 2009
       flow: xtls-rprx-vision
@@ -36,18 +44,6 @@ proxies:
       tls: true
       type: vless
       uuid: dbc34aa9-3cb1-477a-c47d-998f8badf0e8
-    - client-fingerprint: chrome
-      delay: 1356
-      name: 德国 - Frankfurt am Main - Amazon.com - 4
-      network: ws
-      port: 22222
-      server: 63.177.36.144
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -66,47 +62,24 @@ proxies:
         headers:
             HOST: lamusa.daozhang.site
         path: /
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 1002
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 2
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.198.190.11
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 1531
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 3.78.163.45
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1E6CA"
-      delay: 1314
-      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
-      password: telegram-id-directvpn
-      port: 22222
-      server: 3.97.210.171
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - client-fingerprint: safari
-      delay: 2238
-      name: 美国 - 凤凰城 - Oracle Corporation - 32
+    - client-fingerprint: random
+      delay: 1008
+      flow: xtls-rprx-vision
+      name: 法国 - 巴黎 - Online S.A.S. - 1
       network: tcp
-      port: 18443
+      port: 443
       reality-opts:
-        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
-        short-id: e6658462
-      server: phx-plus-1ddns.faforex.eu.org
-      servername: www.tesla.com
+        public-key: 1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0
+        short-id: "42"
+      server: 51.158.243.62
+      servername: cloudflare.com
       tls: true
       type: vless
-      udp: true
-      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+      uuid: fd17fd03-844b-4c4b-9551-27f2b055d4f8
+    - cipher: aes-128-gcm
+      delay: 2368
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 149.34.244.68
+      type: ss
