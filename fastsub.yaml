@@ -1,29 +1,19 @@
 proxy-providers: {}
 proxies:
     - cipher: rc4-md5
-      delay: 1452
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 3
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
-    - cipher: rc4-md5
       delay: 1403
       name: 美国 - 洛杉矶 - M247 Europe SRL - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 79.110.53.169
       type: ss
-    - country: "\U0001F1E8\U0001F1E6CA"
-      delay: 1314
-      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
-      password: telegram-id-directvpn
-      port: 22222
-      server: 3.97.210.171
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
+    - cipher: rc4-md5
+      delay: 1452
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
     - cipher: 2022-blake3-aes-256-gcm
       delay: 946
       name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
@@ -31,19 +21,6 @@ proxies:
       port: 19304
       server: 95.216.202.137
       type: ss
-    - client-fingerprint: chrome
-      delay: 2009
-      flow: xtls-rprx-vision
-      name: 土耳其 - 伊斯坦布尔 - Mehmet Selim Sahin - 1
-      network: tcp
-      port: 13509
-      reality-opts:
-        public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
-      server: 176.98.41.45
-      servername: www.sega.com
-      tls: true
-      type: vless
-      uuid: dbc34aa9-3cb1-477a-c47d-998f8badf0e8
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -62,20 +39,19 @@ proxies:
         headers:
             HOST: lamusa.daozhang.site
         path: /
-    - client-fingerprint: random
-      delay: 1008
+    - client-fingerprint: chrome
+      delay: 2009
       flow: xtls-rprx-vision
-      name: 法国 - 巴黎 - Online S.A.S. - 1
+      name: 土耳其 - 伊斯坦布尔 - Mehmet Selim Sahin - 1
       network: tcp
-      port: 443
+      port: 13509
       reality-opts:
-        public-key: 1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0
-        short-id: "42"
-      server: 51.158.243.62
-      servername: cloudflare.com
+        public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
+      server: 176.98.41.45
+      servername: www.sega.com
       tls: true
       type: vless
-      uuid: fd17fd03-844b-4c4b-9551-27f2b055d4f8
+      uuid: dbc34aa9-3cb1-477a-c47d-998f8badf0e8
     - cipher: aes-128-gcm
       delay: 2368
       name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
@@ -83,3 +59,17 @@ proxies:
       port: 443
       server: 149.34.244.68
       type: ss
+    - client-fingerprint: safari
+      delay: 2238
+      name: 美国 - 凤凰城 - Oracle Corporation - 32
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
