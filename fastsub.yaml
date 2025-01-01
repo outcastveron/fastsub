@@ -1,25 +1,18 @@
 proxy-providers: {}
 proxies:
     - cipher: rc4-md5
-      delay: 1452
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 3
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 721
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 35.92.45.179
-      type: ss
-    - cipher: rc4-md5
       delay: 1403
       name: 美国 - 洛杉矶 - M247 Europe SRL - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 79.110.53.169
+      type: ss
+    - cipher: rc4-md5
+      delay: 1452
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
       type: ss
     - cipher: aes-128-gcm
       delay: 2368
@@ -35,16 +28,17 @@ proxies:
       port: 19304
       server: 95.216.202.137
       type: ss
-    - client-fingerprint: chrome
-      delay: 2009
-      flow: xtls-rprx-vision
-      name: 土耳其 - 伊斯坦布尔 - Mehmet Selim Sahin - 1
+    - client-fingerprint: safari
+      delay: 2238
+      name: 美国 - 凤凰城 - Oracle Corporation - 32
       network: tcp
-      port: 13509
+      port: 18443
       reality-opts:
-        public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
-      server: 176.98.41.45
-      servername: www.sega.com
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
       tls: true
       type: vless
-      uuid: dbc34aa9-3cb1-477a-c47d-998f8badf0e8
+      udp: true
+      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
