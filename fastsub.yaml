@@ -14,19 +14,20 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
-    - cipher: aes-128-gcm
-      delay: 2368
-      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.34.244.68
-      type: ss
     - cipher: 2022-blake3-aes-256-gcm
       delay: 946
       name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
       password: 0RE9wxKCxco4hvwYpDdSmWdcl2FRs6jJQNezUyFA1u8=:Xf5trxObRuzLIWTI7xiRPb2RY6yjWSEy36OOWr0iXQk=
       port: 19304
       server: 95.216.202.137
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2087
+      name: 日本 - 东京 - Amazon Technologies Inc - 2
+      password: amazonskr05
+      port: 443
+      server: 13.115.231.64
       type: ss
     - client-fingerprint: safari
       delay: 2238
