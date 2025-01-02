@@ -22,32 +22,12 @@ proxies:
       server: 149.34.244.68
       type: ss
     - cipher: aes-256-cfb
-      delay: 721
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      delay: 371
+      name: 日本 - 东京 - Amazon Technologies Inc - 1
       password: amazonskr05
       port: 443
-      server: 35.92.45.179
+      server: 13.114.31.63
       type: ss
-    - cipher: aes-256-cfb
-      delay: 836
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
-      password: amazonskr05
-      port: 443
-      server: 34.219.80.203
-      type: ss
-    - client-fingerprint: chrome
-      delay: 2009
-      flow: xtls-rprx-vision
-      name: 土耳其 - 伊斯坦布尔 - Mehmet Selim Sahin - 1
-      network: tcp
-      port: 13509
-      reality-opts:
-        public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
-      server: 176.98.41.45
-      servername: www.sega.com
-      tls: true
-      type: vless
-      uuid: dbc34aa9-3cb1-477a-c47d-998f8badf0e8
     - client-fingerprint: safari
       delay: 2238
       name: 美国 - 凤凰城 - Oracle Corporation - 32
@@ -62,16 +42,3 @@ proxies:
       type: vless
       udp: true
       uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
-    - client-fingerprint: ios
-      delay: 2385
-      name: 美国 - 凤凰城 - Oracle Corporation - 29
-      network: tcp
-      port: 18443
-      reality-opts:
-        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
-        short-id: e6658462
-      server: phx-plus-1ddns.faforex.eu.org
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
