@@ -7,15 +7,13 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
-    - cipher: aes-256-cfb
-      delay: 833
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
-      obfs: plain
-      password: amazonskr05
-      port: 443
-      protocol: origin
-      server: 35.88.126.102
-      type: ssr
+    - cipher: rc4-md5
+      delay: 1403
+      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 79.110.53.169
+      type: ss
     - cipher: aes-128-gcm
       delay: 2368
       name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
@@ -24,21 +22,6 @@ proxies:
       server: 149.34.244.68
       type: ss
     - cipher: aes-256-cfb
-      delay: 836
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
-      password: amazonskr05
-      port: 443
-      server: 34.219.80.203
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 676
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 22
-      password: amazonskr05
-      port: 443
-      server: 34.222.136.128
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
       delay: 721
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
       password: amazonskr05
@@ -46,19 +29,11 @@ proxies:
       server: 35.92.45.179
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 787
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 23
+      delay: 836
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
       password: amazonskr05
       port: 443
-      server: 54.202.77.81
-      type: ss
-    - cipher: rc4-md5
-      delay: 1403
-      name: 美国 - 洛杉矶 - M247 Europe SRL - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 79.110.53.169
+      server: 34.219.80.203
       type: ss
     - client-fingerprint: chrome
       delay: 2009
@@ -73,21 +48,6 @@ proxies:
       tls: true
       type: vless
       uuid: dbc34aa9-3cb1-477a-c47d-998f8badf0e8
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 510
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 3.112.236.3
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1247
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 43.203.127.152
-      type: ss
     - client-fingerprint: safari
       delay: 2238
       name: 美国 - 凤凰城 - Oracle Corporation - 32
@@ -102,3 +62,16 @@ proxies:
       type: vless
       udp: true
       uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+    - client-fingerprint: ios
+      delay: 2385
+      name: 美国 - 凤凰城 - Oracle Corporation - 29
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
