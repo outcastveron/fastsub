@@ -1,5 +1,42 @@
 proxy-providers: {}
 proxies:
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1332
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - IT7 Networks Inc - 3
+      network: ws
+      port: 52689
+      server: edcwork.com
+      servername: edcwork.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 7a13a626-df89-4728-af94-355023fd35ba
+      ws-opts:
+        headers:
+            HOST: edcwork.com
+        path: /7a13a62
+    - cipher: rc4-md5
+      client-fingerprint: chrome
+      delay: 1377
+      name: 美国 - 聖荷西 - Zenlayer Inc - 9
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 107.155.57.11
+      tfo: false
+      type: ss
+    - cipher: rc4-md5
+      client-fingerprint: chrome
+      delay: 1424
+      name: 美国 - 聖荷西 - Zenlayer Inc - 12
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 23.251.121.242
+      tfo: false
+      type: ss
     - delay: 1697
       name: 美国 - 芝加哥 - Datacamp Limited - 10
       password: ypDt8RkT7J
@@ -7,78 +44,14 @@ proxies:
       server: 89.187.181.172
       skip-cert-verify: true
       type: trojan
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1557
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - Cedar Knolls - Akamai Technologies, Inc. - 15
-      network: ws
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2927
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
       port: 443
-      server: 172.67.138.140
-      servername: jahfkjha.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-      ws-opts:
-        headers:
-            HOST: jahfkjha.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F4CO"
-      delay: 1433
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - Cedar Knolls - Akamai Technologies, Inc. - 14
-      network: ws
-      port: 443
-      server: 188.114.96.6
-      servername: jahfkjha.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-      ws-opts:
-        headers:
-            HOST: jahfkjha.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      delay: 1703
-      name: 美国 - 亚特兰大 - Akamai Technologies, Inc. - 2
-      network: ws
-      port: 443
-      server: obdii.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-      ws-opts:
-        headers:
-            Host: obdii.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1412
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - Cedar Knolls - Akamai Technologies, Inc. - 16
-      network: ws
-      port: 443
-      server: 104.21.18.227
-      servername: jahfkjha.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-      ws-opts:
-        headers:
-            HOST: jahfkjha.cfd
-        path: /linkws
+      server: 52.68.44.53
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -97,60 +70,82 @@ proxies:
         headers:
             HOST: ccs.yuyun.one
         path: /
-    - cipher: rc4-md5
+    - cipher: aes-256-cfb
+      delay: 1630
+      name: 韩国 - Gwanak-gu - Korea Telecom - 17
+      password: qwerREWQ@@
+      port: 40244
+      server: p229.panda004.net
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 835
+      name: 韩国 - Gwangmyeong - Korea Telecom - 2
+      password: qwerREWQ@@
+      port: 41748
+      server: p230.panda004.net
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 914
+      name: 韩国 - Gwangmyeong - Korea Telecom - 8
+      password: qwerREWQ@@
+      port: 41748
+      server: 221.150.109.90
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 759
+      name: 韩国 - Goyang-si - Korea Telecom - 11
+      password: qwerREWQ@@
+      port: 19533
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 766
+      name: 韩国 - Gwanak-gu - Korea Telecom - 13
+      password: qwerREWQ@@
+      port: 33551
+      server: 125.141.26.12
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 802
+      name: 韩国 - Seongnam-si - Korea Telecom - 4
+      password: qwerREWQ@@
+      port: 41105
+      server: 221.150.109.21
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 876
+      name: 韩国 - Gwanak-gu - Korea Telecom - 21
+      password: qwerREWQ@@
+      port: 21215
+      server: p228.panda004.net
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 752
+      name: 韩国 - Gwanak-gu - Korea Telecom - 15
+      password: qwerREWQ@@
+      port: 33551
+      server: p227.panda004.net
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
       client-fingerprint: chrome
-      delay: 1424
-      name: 美国 - 聖荷西 - Zenlayer Inc - 12
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 23.251.121.242
+      delay: 707
+      name: 英国 - 伦敦 - Datacamp Limited - 1
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.193
       tfo: false
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 995
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 13
+      delay: 1675
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 22
       password: amazonskr05
       port: 443
-      server: 35.90.249.116
+      server: 43.203.122.162
       type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 937
-      name: 德国 - Frankfurt am Main - Amazon.com - 11
-      password: "3723507166611775488"
-      port: 443
-      server: profound-anemone.boa152.lol
-      skip-cert-verify: true
-      sni: profound-anemone.boa152.lol
-      type: trojan
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 2336
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 14
-      password: ofO37jUOMO3H36wNVum1zw
-      port: 1090
-      server: 138.199.145.158
-      type: ss
-    - cipher: rc4-md5
-      client-fingerprint: chrome
-      delay: 1377
-      name: 美国 - 聖荷西 - Zenlayer Inc - 9
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 107.155.57.11
-      tfo: false
-      type: ss
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 1955
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 4
-      password: "3723507166611775488"
-      port: 443
-      server: golden-krill.treefrog761.one
-      skip-cert-verify: true
-      sni: golden-krill.treefrog761.one
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1EC\U0001F1E7GB"
@@ -167,6 +162,21 @@ proxies:
       uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
       ws-opts:
         path: /linkvws
+    - cipher: chacha20-ietf-poly1305
+      delay: 1017
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 2
+      password: LuxyNetBot
+      port: 443
+      server: 23.88.37.31
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 2336
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 14
+      password: ofO37jUOMO3H36wNVum1zw
+      port: 1090
+      server: 138.199.145.158
+      type: ss
     - country: "\U0001F1EE\U0001F1F9IT"
       delay: 2447
       name: 意大利 - Ponte San Pietro - Aruba S.p.A. - 1
@@ -177,120 +187,41 @@ proxies:
       sni: rich-sturgeon.treefrog761.one
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2227
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 20
-      network: ws
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 937
+      name: 德国 - Frankfurt am Main - Amazon.com - 11
+      password: "3723507166611775488"
       port: 443
-      server: 104.21.44.106
-      servername: xmivideo.cfd
+      server: profound-anemone.boa152.lol
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-      ws-opts:
-        headers:
-            HOST: xmivideo.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1882
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 18
-      network: ws
+      sni: profound-anemone.boa152.lol
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 642
+      name: 韩国 - Gwanak-gu - Korea Telecom - 7
+      password: qwerREWQ@@
+      port: 51219
+      server: 125.141.31.103
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1717
+      name: 韩国 - Seongnam-si - Korea Telecom - 3
+      password: qwerREWQ@@
+      port: 41105
+      server: p238.panda004.net
+      type: ss
+      udp: true
+    - country: "\U0001F1E9\U0001F1EADE"
+      delay: 1955
+      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 4
+      password: "3723507166611775488"
       port: 443
-      server: hms04.xmivideo.cfd
-      servername: xmivideo.cfd
+      server: golden-krill.treefrog761.one
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-      ws-opts:
-        headers:
-            HOST: xmivideo.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2228
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 19
-      network: ws
-      port: 443
-      server: 104.19.32.0
-      servername: xmivideo.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-      ws-opts:
-        headers:
-            HOST: xmivideo.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2414
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 21
-      network: ws
-      port: 443
-      server: 104.17.213.57
-      servername: xmivideo.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-      ws-opts:
-        headers:
-            HOST: xmivideo.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1932
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 13
-      network: ws
-      port: 443
-      server: 162.159.153.2
-      servername: xmivideo.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-      ws-opts:
-        headers:
-            HOST: xmivideo.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1769
-      h2-opts: {}
-      http-opts: {}
-      name: 法国 - 巴黎 - Feelb Sarl - 1
-      network: ws
-      port: 443
-      server: hms19.best-tizi.top
-      servername: hms19.best-tizi.top
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-      ws-opts:
-        headers:
-            HOST: hms19.best-tizi.top
-        path: /linkws
+      sni: golden-krill.treefrog761.one
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       delay: 1520
@@ -308,21 +239,93 @@ proxies:
         path: /?ed=80/#id-telegram:--->@vpn_whal<---
     - alterId: 0
       cipher: auto
-      delay: 2835
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1518
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 圣克拉拉 - HostPapa - 8
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 10
       network: ws
-      port: 443
-      server: 141.101.122.109
+      port: 80
+      server: 151.101.3.8
+      servername: banknabi-mahdi313.IR.
       skip-cert-verify: true
-      tls: true
       type: vmess
-      uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+      uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
       ws-opts:
         headers:
-            host: rac.679888.xyz
-        path: /lfljvws
+            HOST: banknabi-mahdi313.IR.
+        path: /?ed=80/#id-telegram:--->@vpn_whal<---
+    - cipher: rc4-md5
+      client-fingerprint: chrome
+      delay: 1014
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 6
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
+      tfo: false
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1448
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 17
+      network: ws
+      port: 80
+      server: 151.101.128.155
+      servername: khamenei-313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: 5713897c-46b6-4411-ad60-6cdfec4eab08
+      ws-opts:
+        headers:
+            HOST: khamenei-313.IR.
+        path: /?ed=80/#id-telegram:--->@vpn_whal<---
+    - cipher: aes-256-cfb
+      delay: 817
+      name: 韩国 - Seongnam-si - Korea Telecom - 12
+      password: qwerREWQ@@
+      port: 43249
+      server: p234.panda004.net
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1429
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 15
+      network: ws
+      port: 80
+      server: 151.101.192.155
+      servername: khamenei-313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: 5713897c-46b6-4411-ad60-6cdfec4eab08
+      ws-opts:
+        headers:
+            HOST: khamenei-313.IR.
+        path: /?ed=80/#id-telegram:--->@vpn_whal<---
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1497
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 16
+      network: ws
+      port: 80
+      server: 151.101.194.165
+      servername: khamenei-313.IR.
+      skip-cert-verify: true
+      type: vmess
+      uuid: 5713897c-46b6-4411-ad60-6cdfec4eab08
+      ws-opts:
+        headers:
+            HOST: khamenei-313.IR.
+        path: /?ed=80/#id-telegram:--->@vpn_whal<---
     - cipher: rc4-md5
       client-fingerprint: chrome
       delay: 1005
@@ -332,27 +335,6 @@ proxies:
       server: 169.150.210.233
       tfo: false
       type: ss
-    - client-fingerprint: chrome
-      delay: 2267
-      flow: xtls-rprx-vision
-      name: 以色列 - 佩塔提克瓦 - CLOUD LEASE Ltd - 1
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -ALxkpd7Wi7WKs1dXND7yqoYQfJW8d4BctjfXIy0L1M
-        short-id: b5ed878b
-      server: 195.211.24.243
-      servername: apple.com
-      tls: true
-      type: vless
-      uuid: 71b60539-19bf-4282-b09f-7596ffc3cc8b
-    - cipher: aes-256-cfb
-      delay: 905
-      name: 韩国 - Seongnam-si - Korea Telecom - 9
-      password: qwerREWQ@@
-      port: 3231
-      server: 210.217.18.70
-      type: ss
     - cipher: aes-256-cfb
       delay: 838
       name: 韩国 - Seongnam-si - Korea Telecom - 18
@@ -361,46 +343,13 @@ proxies:
       server: p239.panda004.net
       type: ss
       udp: true
-    - country: "\U0001F1F0\U0001F1FFKZ"
-      delay: 2163
-      name: 美国 - 馬納薩斯 - G-Core Labs S.A. - 1
-      password: "3723507166611775488"
-      port: 443
-      server: discrete-moccasin.boa152.lol
-      skip-cert-verify: true
-      sni: discrete-moccasin.boa152.lol
-      type: trojan
-      udp: true
     - cipher: aes-256-cfb
-      delay: 759
-      name: 韩国 - Goyang-si - Korea Telecom - 11
+      delay: 762
+      name: 韩国 - Gwanak-gu - Korea Telecom - 10
       password: qwerREWQ@@
-      port: 19533
-      server: 203.234.238.140
+      port: 57884
+      server: 125.141.31.72
       type: ss
-    - cipher: aes-256-cfb
-      delay: 714
-      name: 日本 - 东京 - Amazon Technologies Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 18.181.152.92
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 752
-      name: 韩国 - Gwanak-gu - Korea Telecom - 15
-      password: qwerREWQ@@
-      port: 33551
-      server: p227.panda004.net
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 835
-      name: 韩国 - Gwangmyeong - Korea Telecom - 2
-      password: qwerREWQ@@
-      port: 41748
-      server: p230.panda004.net
-      type: ss
-      udp: true
     - cipher: aes-256-cfb
       delay: 710
       name: 韩国 - Seongnam-si - Korea Telecom - 20
@@ -408,44 +357,13 @@ proxies:
       port: 43249
       server: 222.112.15.140
       type: ss
-    - cipher: aes-256-cfb
-      delay: 836
-      name: 韩国 - Seongnam-si - Korea Telecom - 6
-      password: qwerREWQ@@
-      port: 59974
-      server: 210.217.18.69
+    - cipher: rc4-md5
+      delay: 1121
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
       type: ss
-    - cipher: aes-256-cfb
-      delay: 642
-      name: 韩国 - Gwanak-gu - Korea Telecom - 7
-      password: qwerREWQ@@
-      port: 51219
-      server: 125.141.31.103
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 817
-      name: 韩国 - Seongnam-si - Korea Telecom - 12
-      password: qwerREWQ@@
-      port: 43249
-      server: p234.panda004.net
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1630
-      name: 韩国 - Gwanak-gu - Korea Telecom - 17
-      password: qwerREWQ@@
-      port: 40244
-      server: p229.panda004.net
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1717
-      name: 韩国 - Seongnam-si - Korea Telecom - 3
-      password: qwerREWQ@@
-      port: 41105
-      server: p238.panda004.net
-      type: ss
-      udp: true
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 1197
       name: 美国 - 紐約 - B2 Net Solutions Inc. - 6
@@ -457,42 +375,80 @@ proxies:
       type: trojan
       udp: true
     - cipher: aes-256-cfb
-      delay: 914
-      name: 韩国 - Gwangmyeong - Korea Telecom - 8
+      delay: 905
+      name: 韩国 - Seongnam-si - Korea Telecom - 9
       password: qwerREWQ@@
-      port: 41748
-      server: 221.150.109.90
-      type: ss
-    - delay: 1629
-      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 2
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 52.210.222.85
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-    - cipher: aes-256-cfb
-      delay: 766
-      name: 韩国 - Gwanak-gu - Korea Telecom - 13
-      password: qwerREWQ@@
-      port: 33551
-      server: 125.141.26.12
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 802
-      name: 韩国 - Seongnam-si - Korea Telecom - 4
-      password: qwerREWQ@@
-      port: 41105
-      server: 221.150.109.21
+      port: 3231
+      server: 210.217.18.70
       type: ss
     - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1393
-      name: 美国 - 紐約 - B2 Net Solutions Inc. - 7
+      delay: 1333
+      name: 美国 - 馬納薩斯 - G-Core Labs S.A - 4
       password: "3723507166611775488"
       port: 443
-      server: allowed-primate.boa152.lol
+      server: nearby-hedgehog.boa152.lol
       skip-cert-verify: true
-      sni: allowed-primate.boa152.lol
+      sni: nearby-hedgehog.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1F0\U0001F1FFKZ"
+      delay: 2163
+      name: 美国 - 馬納薩斯 - G-Core Labs S.A. - 1
+      password: "3723507166611775488"
+      port: 443
+      server: discrete-moccasin.boa152.lol
+      skip-cert-verify: true
+      sni: discrete-moccasin.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1080
+      name: 美国 - 馬納薩斯 - G-Core Labs S.A. - 5
+      password: "3723507166611775488"
+      port: 443
+      server: tight-clam.boa152.lol
+      skip-cert-verify: true
+      sni: tight-clam.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1202
+      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 2
+      password: "3723507166611775488"
+      port: 443
+      server: sacred-guppy.boa152.lol
+      skip-cert-verify: true
+      sni: sacred-guppy.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2893
+      name: 日本 - 东京 - G-Core Labs S.A. - 4
+      password: "3723507166611775488"
+      port: 443
+      server: relative-monkey.boa152.lol
+      skip-cert-verify: true
+      sni: relative-monkey.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1415
+      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 3
+      password: "3723507166611775488"
+      port: 443
+      server: concrete-buzzard.boa152.lol
+      skip-cert-verify: true
+      sni: concrete-buzzard.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1148
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 5
+      password: "3723507166611775488"
+      port: 443
+      server: correct-redbird.boa152.lol
+      skip-cert-verify: true
+      sni: correct-redbird.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1F9\U0001F1F7TR"
@@ -515,32 +471,14 @@ proxies:
       sni: devoted-starfish.boa152.lol
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 773
-      name: 韩国 - Seongnam-si - Korea Telecom - 19
-      password: qwerREWQ@@
-      port: 59974
-      server: p241.panda004.net
-      type: ss
-      udp: true
-    - country: "\U0001F1ED\U0001F1FAHU"
-      delay: 1212
-      name: 德国 - 法兰克福 - G-Core Labs S.A. - 8
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1143
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 4
       password: "3723507166611775488"
       port: 443
-      server: profound-elk.boa152.lol
+      server: fitting-ox.boa152.lol
       skip-cert-verify: true
-      sni: profound-elk.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1202
-      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 2
-      password: "3723507166611775488"
-      port: 443
-      server: sacred-guppy.boa152.lol
-      skip-cert-verify: true
-      sni: sacred-guppy.boa152.lol
+      sni: fitting-ox.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1ED\U0001F1FAHU"
@@ -554,30 +492,33 @@ proxies:
       type: trojan
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1143
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 4
+      delay: 1079
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 2
       password: "3723507166611775488"
       port: 443
-      server: fitting-ox.boa152.lol
+      server: wise-cowbird.boa152.lol
       skip-cert-verify: true
-      sni: fitting-ox.boa152.lol
+      sni: wise-cowbird.boa152.lol
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 762
-      name: 韩国 - Gwanak-gu - Korea Telecom - 10
-      password: qwerREWQ@@
-      port: 57884
-      server: 125.141.31.72
-      type: ss
-    - country: "\U0001F1F7\U0001F1FARU"
-      delay: 1415
-      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 3
+    - country: "\U0001F1E9\U0001F1EADE"
+      delay: 1267
+      name: 德国 - 法兰克福 - G-Core Labs S.A. - 5
       password: "3723507166611775488"
       port: 443
-      server: concrete-buzzard.boa152.lol
+      server: oriented-terrier.boa152.lol
       skip-cert-verify: true
-      sni: concrete-buzzard.boa152.lol
+      sni: oriented-terrier.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1302
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 7
+      password: "3723507166611775488"
+      port: 443
+      server: sensible-ocelot.boa152.lol
+      skip-cert-verify: true
+      sni: sensible-ocelot.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
@@ -591,33 +532,23 @@ proxies:
       type: trojan
       udp: true
     - country: "\U0001F1E9\U0001F1EADE"
-      delay: 1267
-      name: 德国 - 法兰克福 - G-Core Labs S.A. - 5
+      delay: 2269
+      name: 德国 - 法兰克福 - G-Core Labs S.A. - 3
       password: "3723507166611775488"
       port: 443
-      server: oriented-terrier.boa152.lol
+      server: pleased-slug.boa152.lol
       skip-cert-verify: true
-      sni: oriented-terrier.boa152.lol
+      sni: pleased-slug.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1ED\U0001F1FAHU"
-      delay: 1258
-      name: 德国 - 法兰克福 - G-Core Labs S.A. - 7
+      delay: 1212
+      name: 德国 - 法兰克福 - G-Core Labs S.A. - 8
       password: "3723507166611775488"
       port: 443
-      server: proper-titmouse.boa152.lol
+      server: profound-elk.boa152.lol
       skip-cert-verify: true
-      sni: proper-titmouse.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 2607
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
-      password: "3723507166611775488"
-      port: 443
-      server: social-bream.boa152.lol
-      skip-cert-verify: true
-      sni: social-bream.boa152.lol
+      sni: profound-elk.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1E9\U0001F1EADE"
@@ -628,83 +559,6 @@ proxies:
       server: ample-cockatoo.boa152.lol
       skip-cert-verify: true
       sni: ample-cockatoo.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 2269
-      name: 德国 - 法兰克福 - G-Core Labs S.A. - 3
-      password: "3723507166611775488"
-      port: 443
-      server: pleased-slug.boa152.lol
-      skip-cert-verify: true
-      sni: pleased-slug.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1302
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 7
-      password: "3723507166611775488"
-      port: 443
-      server: sensible-ocelot.boa152.lol
-      skip-cert-verify: true
-      sni: sensible-ocelot.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1080
-      name: 美国 - 馬納薩斯 - G-Core Labs S.A. - 5
-      password: "3723507166611775488"
-      port: 443
-      server: tight-clam.boa152.lol
-      skip-cert-verify: true
-      sni: tight-clam.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1F3\U0001F1F1NL"
-      delay: 2408
-      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 5
-      password: "3723507166611775488"
-      port: 443
-      server: 5.189.203.39
-      skip-cert-verify: true
-      sni: lucky-grouper.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1148
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 5
-      password: "3723507166611775488"
-      port: 443
-      server: correct-redbird.boa152.lol
-      skip-cert-verify: true
-      sni: correct-redbird.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1333
-      name: 美国 - 馬納薩斯 - G-Core Labs S.A - 4
-      password: "3723507166611775488"
-      port: 443
-      server: nearby-hedgehog.boa152.lol
-      skip-cert-verify: true
-      sni: nearby-hedgehog.boa152.lol
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 718
-      name: 韩国 - Gwanak-gu - Korea Telecom - 5
-      password: qwerREWQ@@
-      port: 40244
-      server: 125.141.26.14
-      type: ss
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2787
-      name: 日本 - 东京 - G-Core Labs S.A. - 3
-      password: "3723507166611775488"
-      port: 443
-      server: unbiased-manatee.boa152.lol
-      skip-cert-verify: true
-      sni: unbiased-manatee.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1F5\U0001F1F1PL"
@@ -718,13 +572,23 @@ proxies:
       type: trojan
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1079
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 2
+      delay: 2607
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
       password: "3723507166611775488"
       port: 443
-      server: wise-cowbird.boa152.lol
+      server: social-bream.boa152.lol
       skip-cert-verify: true
-      sni: wise-cowbird.boa152.lol
+      sni: social-bream.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1F3\U0001F1F1NL"
+      delay: 2408
+      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 5
+      password: "3723507166611775488"
+      port: 443
+      server: 5.189.203.39
+      skip-cert-verify: true
+      sni: lucky-grouper.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
@@ -737,52 +601,30 @@ proxies:
       sni: pleased-airedale.boa152.lol
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 828
-      name: 韩国 - Gimpo-si - Korea Telecom - 24
-      password: qwerREWQ@@
-      port: 25415
-      server: 168.126.234.232
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 1914
-      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 23
-      password: qwerREWQ@@
-      port: 2105
-      server: 218.234.149.9
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1474
-      name: 韩国 - Gimpo-si - Korea Telecom - 16
-      password: qwerREWQ@@
-      port: 25730
-      server: 168.126.234.230
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 2383
-      name: 日本 - 东京 - Amazon Technologies Inc. - 6
-      password: amazonskr05
-      port: 443
-      server: 3.112.236.3
-      type: ss
-    - cipher: aes-128-gcm
-      client-fingerprint: chrome
-      delay: 707
-      name: 英国 - 伦敦 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 212.102.53.193
-      tfo: false
-      type: ss
     - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 1269
-      name: 波兰 - 格但斯克 - Artnet Sp. z o.o. - 4
+      delay: 2787
+      name: 日本 - 东京 - G-Core Labs S.A. - 3
       password: "3723507166611775488"
       port: 443
-      server: holy-seahorse.boa152.lol
+      server: unbiased-manatee.boa152.lol
       skip-cert-verify: true
-      sni: holy-seahorse.boa152.lol
+      sni: unbiased-manatee.boa152.lol
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 718
+      name: 韩国 - Gwanak-gu - Korea Telecom - 5
+      password: qwerREWQ@@
+      port: 40244
+      server: 125.141.26.14
+      type: ss
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 948
+      name: 英国 - 伦敦 - Amazon Technologies Inc. - 3
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 35.179.44.103
+      sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
