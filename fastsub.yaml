@@ -24,6 +24,19 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
+    - client-fingerprint: random
+      delay: 1366
+      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 3
+      network: tcp
+      port: 15891
+      reality-opts:
+        public-key: 4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0
+        short-id: 10f1
+      server: 174.138.13.224
+      servername: ftp.debian.org
+      tls: true
+      type: vless
+      uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
     - alterId: 64
       cipher: auto
       delay: 1598
@@ -41,14 +54,13 @@ proxies:
         headers:
             Host: www.65420682.xyz
         path: /path/1735984102656
-    - cipher: aes-256-cfb
-      delay: 1447
-      name: 日本 - 东京 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 43.206.231.196
+    - cipher: rc4-md5
+      delay: 1512
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
       type: ss
-      udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 1353
       name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
@@ -60,13 +72,13 @@ proxies:
       type: trojan
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 2926
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      delay: 2458
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 2
       password: "3723507166611775488"
       port: 443
-      server: social-bream.boa152.lol
+      server: 195.133.93.221
       skip-cert-verify: true
-      sni: social-bream.boa152.lol
+      sni: fitting-ox.boa152.lol
       type: trojan
       udp: true
     - country: "\U0001F1F7\U0001F1FARU"
@@ -79,3 +91,20 @@ proxies:
       sni: concrete-buzzard.boa152.lol
       type: trojan
       udp: true
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 2926
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      password: "3723507166611775488"
+      port: 443
+      server: social-bream.boa152.lol
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 558
+      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 1
+      password: qwerREWQ@@
+      port: 2105
+      server: 218.234.149.9
+      type: ss
