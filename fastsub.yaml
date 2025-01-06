@@ -24,31 +24,6 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F3C1 ZZ"
-      delay: 1087
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
-      password: W74XFALLLuw6m5IA
-      port: 443
-      server: series-a2.samanehha.co
-      type: ss
-    - cipher: rc4-md5
-      delay: 1512
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 146.70.61.18
-      type: ss
-    - country: "\U0001F1EE\U0001F1EAIE"
-      delay: 1891
-      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 176.34.211.0
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - alterId: 64
       cipher: auto
       delay: 1598
@@ -66,40 +41,13 @@ proxies:
         headers:
             Host: www.65420682.xyz
         path: /path/1735984102656
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1856
-      h2-opts: {}
-      http-opts: {}
-      name: 日本 - 大阪市 - Akamai Technologies, Inc. - 2
-      network: tcp
-      port: 31808
-      server: 172.233.89.6
-      skip-cert-verify: true
-      type: vmess
-      uuid: 984a9012-3d26-4bbb-98bd-6327b0e2a5a2
-    - client-fingerprint: chrome
-      delay: 1296
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 8
-      network: ws
-      port: 22222
-      server: 3.72.26.105
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 2926
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
-      password: "3723507166611775488"
+    - cipher: aes-256-cfb
+      delay: 1447
+      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      password: amazonskr05
       port: 443
-      server: social-bream.boa152.lol
-      skip-cert-verify: true
-      sni: social-bream.boa152.lol
-      type: trojan
+      server: 43.206.231.196
+      type: ss
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 1353
@@ -111,57 +59,23 @@ proxies:
       sni: social-bream.boa152.lol
       type: trojan
       udp: true
-    - country: "\U0001F1EE\U0001F1EAIE"
-      delay: 979
-      name: 爱尔兰 - 都柏林 - Amazon.com - 2
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 63.32.120.6
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 2603
-      name: 英国 - 伦敦 - Baxet Group Inc. - 1
-      network: ws
-      port: 23169
-      server: 5.39.254.196
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-      ws-opts:
-        path: /
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1001
-      name: 法国 - 巴黎 - Amazon Technologies Inc. - 2
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 15.237.168.157
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1329
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
-      password: amazonskr05
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 2926
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      password: "3723507166611775488"
       port: 443
-      server: 43.203.127.152
-      type: ss
-    - client-fingerprint: safari
-      delay: 930
-      name: 美国 - 凤凰城 - Oracle Corporation - 10
-      network: tcp
-      port: 18443
-      reality-opts:
-        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
-        short-id: e6658462
-      server: phx-plus-1ddns.faforex.eu.org
-      servername: www.tesla.com
-      tls: true
-      type: vless
+      server: social-bream.boa152.lol
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
       udp: true
-      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1554
+      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 1
+      password: "3723507166611775488"
+      port: 443
+      server: concrete-buzzard.boa152.lol
+      skip-cert-verify: true
+      sni: concrete-buzzard.boa152.lol
+      type: trojan
+      udp: true
