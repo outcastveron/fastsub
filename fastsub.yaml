@@ -1,12 +1,15 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-cfb
-      delay: 800
-      name: 美国 - 凤凰城 - Performive LLC - 2
-      password: shadowsocks
+    - country: "\U0001F1E8\U0001F1E6CA"
+      delay: 2876
+      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
+      password: "3723507166611775488"
       port: 443
-      server: 184.170.241.194
-      type: ss
+      server: 15.223.141.195
+      skip-cert-verify: true
+      sni: neutral-magpie.treefrog761.one
+      type: trojan
+      udp: true
     - cipher: rc4-md5
       delay: 1102
       name: 美国 - 海厄利亞 - M247 Europe SRL - 1
@@ -14,14 +17,34 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 2205
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 5
-      password: OrcrlAy6gXE7q_-LfEz8fQ
-      port: 1090
-      server: vipp.alireza.com.tr
+    - cipher: aes-128-cfb
+      delay: 800
+      name: 美国 - 凤凰城 - Performive LLC - 2
+      password: shadowsocks
+      port: 443
+      server: 184.170.241.194
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F3C1 ZZ"
+      delay: 1087
+      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
+      password: W74XFALLLuw6m5IA
+      port: 443
+      server: series-a2.samanehha.co
+      type: ss
+    - client-fingerprint: random
+      delay: 1366
+      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 3
+      network: tcp
+      port: 15891
+      reality-opts:
+        public-key: 4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0
+        short-id: 10f1
+      server: 174.138.13.224
+      servername: ftp.debian.org
+      tls: true
+      type: vless
+      uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
     - cipher: rc4-md5
       delay: 1512
       name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
@@ -48,23 +71,6 @@ proxies:
         path: /path/1735984102656
     - alterId: 64
       cipher: auto
-      delay: 1325
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 圣克拉拉 - PEG TECH INC - 12
-      network: ws
-      port: 37006
-      server: 198.200.48.248
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            Host: www.23355292.xyz
-        path: /path/1736075590186
-    - alterId: 64
-      cipher: auto
       delay: 1598
       h2-opts: {}
       http-opts: {}
@@ -79,23 +85,6 @@ proxies:
       ws-opts:
         headers:
             Host: www.65420682.xyz
-        path: /path/1735984102656
-    - alterId: 64
-      cipher: auto
-      delay: 2298
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 自贡 - PEG TECH INC - 1
-      network: ws
-      port: 38005
-      server: 198.2.195.7
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            Host: www.27306103.xyz
         path: /path/1735984102656
     - alterId: 64
       cipher: auto
@@ -114,19 +103,6 @@ proxies:
         path: /path/1736040833184
     - alterId: 64
       cipher: auto
-      delay: 1231
-      name: 美国 - 圣克拉拉 - PEG TECH INC - 7
-      network: ws
-      port: 30004
-      server: 192.74.236.145
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/150223090717
-    - alterId: 64
-      cipher: auto
       delay: 1406
       name: 美国 - 圣克拉拉 - PEG TECH INC - 5
       network: ws
@@ -138,16 +114,6 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/150223090717
-    - country: "\U0001F1EE\U0001F1EAIE"
-      delay: 1891
-      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 176.34.211.0
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1EF\U0001F1F5JP"
@@ -161,6 +127,16 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 984a9012-3d26-4bbb-98bd-6327b0e2a5a2
+    - country: "\U0001F1EE\U0001F1EAIE"
+      delay: 979
+      name: 爱尔兰 - 都柏林 - Amazon.com - 2
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 63.32.120.6
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
       delay: 1447
       name: 日本 - 东京 - Amazon.com, Inc. - 1
@@ -181,29 +157,53 @@ proxies:
       uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
       ws-opts:
         path: /telegram-channel-vlessconfig-ws
-    - alterId: 0
-      cipher: auto
-      delay: 2603
-      name: 英国 - 伦敦 - Baxet Group Inc. - 1
-      network: ws
-      port: 23169
-      server: 5.39.254.196
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-      ws-opts:
-        path: /
     - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 2458
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 2
+      delay: 2926
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
       password: "3723507166611775488"
       port: 443
-      server: 195.133.93.221
+      server: social-bream.boa152.lol
       skip-cert-verify: true
-      sni: fitting-ox.boa152.lol
+      sni: social-bream.boa152.lol
       type: trojan
       udp: true
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1353
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
+      password: "3723507166611775488"
+      port: 443
+      server: 195.133.93.10
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1001
+      name: 法国 - 巴黎 - Amazon Technologies Inc. - 2
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 15.237.168.157
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - country: "\U0001F1EE\U0001F1EAIE"
+      delay: 1891
+      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 176.34.211.0
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 558
+      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 1
+      password: qwerREWQ@@
+      port: 2105
+      server: 218.234.149.9
+      type: ss
     - client-fingerprint: safari
       delay: 930
       name: 美国 - 凤凰城 - Oracle Corporation - 10
