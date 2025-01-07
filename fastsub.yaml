@@ -1,15 +1,5 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1E8\U0001F1E6CA"
-      delay: 2876
-      name: 加拿大 - 多伦多 - Amazon Technologies Inc. - 1
-      password: "3723507166611775488"
-      port: 443
-      server: 15.223.141.195
-      skip-cert-verify: true
-      sni: neutral-magpie.treefrog761.one
-      type: trojan
-      udp: true
     - cipher: aes-128-cfb
       delay: 800
       name: 美国 - 凤凰城 - Performive LLC - 2
@@ -30,6 +20,13 @@ proxies:
       tls: true
       type: vless
       uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
+    - cipher: rc4-md5
+      delay: 1102
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
     - alterId: 64
       cipher: auto
       delay: 1598
@@ -47,6 +44,13 @@ proxies:
         headers:
             Host: www.65420682.xyz
         path: /path/1735984102656
+    - cipher: rc4-md5
+      delay: 1512
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
+      type: ss
     - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 1353
       name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
@@ -68,16 +72,6 @@ proxies:
       type: trojan
       udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 2926
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
-      password: "3723507166611775488"
-      port: 443
-      server: social-bream.boa152.lol
-      skip-cert-verify: true
-      sni: social-bream.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 2458
       name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 2
       password: "3723507166611775488"
@@ -87,12 +81,22 @@ proxies:
       sni: fitting-ox.boa152.lol
       type: trojan
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 2261
-      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 46.183.217.232
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 2926
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      password: "3723507166611775488"
+      port: 443
+      server: social-bream.boa152.lol
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 558
+      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 1
+      password: qwerREWQ@@
+      port: 2105
+      server: 218.234.149.9
       type: ss
     - client-fingerprint: safari
       delay: 930
