@@ -24,6 +24,14 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F3C1 ZZ"
+      delay: 1087
+      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
+      password: W74XFALLLuw6m5IA
+      port: 443
+      server: series-a2.samanehha.co
+      type: ss
     - client-fingerprint: random
       delay: 1366
       name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 3
@@ -37,6 +45,13 @@ proxies:
       tls: true
       type: vless
       uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
+    - cipher: rc4-md5
+      delay: 1512
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
+      type: ss
     - alterId: 64
       cipher: auto
       delay: 1598
@@ -54,13 +69,6 @@ proxies:
         headers:
             Host: www.65420682.xyz
         path: /path/1735984102656
-    - cipher: rc4-md5
-      delay: 1512
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 146.70.61.18
-      type: ss
     - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 1353
       name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
@@ -81,16 +89,6 @@ proxies:
       sni: fitting-ox.boa152.lol
       type: trojan
       udp: true
-    - country: "\U0001F1F7\U0001F1FARU"
-      delay: 1554
-      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 1
-      password: "3723507166611775488"
-      port: 443
-      server: concrete-buzzard.boa152.lol
-      skip-cert-verify: true
-      sni: concrete-buzzard.boa152.lol
-      type: trojan
-      udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 2926
       name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
@@ -101,10 +99,34 @@ proxies:
       sni: social-bream.boa152.lol
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 558
-      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 1
-      password: qwerREWQ@@
-      port: 2105
-      server: 218.234.149.9
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1554
+      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 1
+      password: "3723507166611775488"
+      port: 443
+      server: concrete-buzzard.boa152.lol
+      skip-cert-verify: true
+      sni: concrete-buzzard.boa152.lol
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 2261
+      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 46.183.217.232
       type: ss
+    - client-fingerprint: safari
+      delay: 930
+      name: 美国 - 凤凰城 - Oracle Corporation - 10
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
