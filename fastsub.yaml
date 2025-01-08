@@ -7,13 +7,6 @@ proxies:
       port: 443
       server: 184.170.241.194
       type: ss
-    - cipher: rc4-md5
-      delay: 1102
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F3C1 ZZ"
       delay: 1087
@@ -22,23 +15,13 @@ proxies:
       port: 443
       server: series-a2.samanehha.co
       type: ss
-    - alterId: 64
-      cipher: auto
-      delay: 1598
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 4
-      network: ws
-      port: 31005
-      server: 38.11.50.68
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            Host: www.65420682.xyz
-        path: /path/1735984102656
+    - cipher: rc4-md5
+      delay: 1512
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
+      type: ss
     - client-fingerprint: random
       delay: 1366
       name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 3
@@ -61,34 +44,59 @@ proxies:
       type: trojan
       udp: true
     - cipher: rc4-md5
-      delay: 1512
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
+      delay: 1102
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 146.70.61.18
+      server: 194.5.215.59
       type: ss
-    - cipher: aes-256-cfb
-      delay: 1447
-      name: 日本 - 东京 - Amazon.com, Inc. - 1
-      password: amazonskr05
+    - alterId: 64
+      cipher: auto
+      delay: 1598
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 4
+      network: ws
+      port: 31005
+      server: 38.11.50.68
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.65420682.xyz
+        path: /path/1735984102656
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1353
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
+      password: "3723507166611775488"
       port: 443
-      server: 43.206.231.196
-      type: ss
+      server: 195.133.93.10
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 1329
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
-      password: amazonskr05
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 2926
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      password: "3723507166611775488"
       port: 443
-      server: 43.203.127.152
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 2261
-      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 46.183.217.232
-      type: ss
+      server: social-bream.boa152.lol
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
+      udp: true
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1554
+      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 1
+      password: "3723507166611775488"
+      port: 443
+      server: concrete-buzzard.boa152.lol
+      skip-cert-verify: true
+      sni: concrete-buzzard.boa152.lol
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       delay: 2603
@@ -102,16 +110,6 @@ proxies:
       uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
       ws-opts:
         path: /
-    - country: "\U0001F1F7\U0001F1FARU"
-      delay: 1554
-      name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 1
-      password: "3723507166611775488"
-      port: 443
-      server: concrete-buzzard.boa152.lol
-      skip-cert-verify: true
-      sni: concrete-buzzard.boa152.lol
-      type: trojan
-      udp: true
     - country: "\U0001F1E8\U0001F1FFCZ"
       delay: 2458
       name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 2
@@ -120,26 +118,6 @@ proxies:
       server: 195.133.93.221
       skip-cert-verify: true
       sni: fitting-ox.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 2926
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
-      password: "3723507166611775488"
-      port: 443
-      server: social-bream.boa152.lol
-      skip-cert-verify: true
-      sni: social-bream.boa152.lol
-      type: trojan
-      udp: true
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1353
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
-      password: "3723507166611775488"
-      port: 443
-      server: 195.133.93.10
-      skip-cert-verify: true
-      sni: social-bream.boa152.lol
       type: trojan
       udp: true
     - client-fingerprint: safari
