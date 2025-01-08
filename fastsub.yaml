@@ -7,25 +7,20 @@ proxies:
       port: 443
       server: 184.170.241.194
       type: ss
-    - client-fingerprint: random
-      delay: 1366
-      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 3
-      network: tcp
-      port: 15891
-      reality-opts:
-        public-key: 4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0
-        short-id: 10f1
-      server: 174.138.13.224
-      servername: ftp.debian.org
-      tls: true
-      type: vless
-      uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
     - cipher: rc4-md5
       delay: 1102
       name: 美国 - 海厄利亞 - M247 Europe SRL - 1
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 194.5.215.59
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F3C1 ZZ"
+      delay: 1087
+      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
+      password: W74XFALLLuw6m5IA
+      port: 443
+      server: series-a2.samanehha.co
       type: ss
     - alterId: 64
       cipher: auto
@@ -44,6 +39,27 @@ proxies:
         headers:
             Host: www.65420682.xyz
         path: /path/1735984102656
+    - client-fingerprint: random
+      delay: 1366
+      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 3
+      network: tcp
+      port: 15891
+      reality-opts:
+        public-key: 4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0
+        short-id: 10f1
+      server: 174.138.13.224
+      servername: ftp.debian.org
+      tls: true
+      type: vless
+      uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
+    - delay: 2613
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 2
+      password: 4732adfa16c6450bbef87264e41332db
+      port: 443
+      server: nextstepcareer.online
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: rc4-md5
       delay: 1512
       name: 英国 - 倫敦金融城 - M247 Europe SRL - 3
@@ -51,16 +67,41 @@ proxies:
       port: 8080
       server: 146.70.61.18
       type: ss
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1353
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
-      password: "3723507166611775488"
+    - cipher: aes-256-cfb
+      delay: 1447
+      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      password: amazonskr05
       port: 443
-      server: 195.133.93.10
-      skip-cert-verify: true
-      sni: social-bream.boa152.lol
-      type: trojan
+      server: 43.206.231.196
+      type: ss
       udp: true
+    - cipher: aes-256-cfb
+      delay: 1329
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 43.203.127.152
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 2261
+      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 46.183.217.232
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 2603
+      name: 英国 - 伦敦 - Baxet Group Inc. - 1
+      network: ws
+      port: 23169
+      server: 5.39.254.196
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+      ws-opts:
+        path: /
     - country: "\U0001F1F7\U0001F1FARU"
       delay: 1554
       name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 1
@@ -91,13 +132,16 @@ proxies:
       sni: social-bream.boa152.lol
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 558
-      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 1
-      password: qwerREWQ@@
-      port: 2105
-      server: 218.234.149.9
-      type: ss
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1353
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 3
+      password: "3723507166611775488"
+      port: 443
+      server: 195.133.93.10
+      skip-cert-verify: true
+      sni: social-bream.boa152.lol
+      type: trojan
+      udp: true
     - client-fingerprint: safari
       delay: 930
       name: 美国 - 凤凰城 - Oracle Corporation - 10
