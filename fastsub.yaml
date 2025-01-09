@@ -11,30 +11,23 @@ proxies:
       type: trojan
       udp: true
     - cipher: aes-256-cfb
-      delay: 1216
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
+      delay: 1677
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      password: amazonskr05
+      port: 443
+      server: 34.222.132.123
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 776
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
       obfs: plain
+      obfs-param: ""
       password: amazonskr05
       port: 443
       protocol: origin
-      server: 54.244.200.142
+      protocol-param: ""
+      server: 34.219.80.203
       type: ssr
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1052
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
-      password: amazonskr05
-      port: 443
-      server: 35.90.249.116
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 683
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
-      password: amazonskr05
-      port: 443
-      server: 35.94.113.67
-      type: ss
     - delay: 940
       http-opts:
         headers:
@@ -51,6 +44,22 @@ proxies:
       tls: false
       type: vless
       uuid: 677a41e5-dbe6-429b-8f91-cc014b1ae1bd
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1338
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 52.32.68.164
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1052
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
+      password: amazonskr05
+      port: 443
+      server: 35.90.249.116
+      type: ss
     - client-fingerprint: random
       delay: 1974
       name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
@@ -64,6 +73,13 @@ proxies:
       tls: true
       type: vless
       uuid: ae2228d1-9b8f-4914-9e0a-68a115f8dbe1
+    - cipher: aes-256-cfb
+      delay: 1781
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 35.161.59.194
+      type: ss
     - delay: 1342
       http-opts:
         headers:
@@ -80,37 +96,72 @@ proxies:
       tls: false
       type: vless
       uuid: d2ab7136-f995-40b8-8b59-4f2ef0c5d590
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F3\U0001F1F4NO"
-      delay: 834
-      name: 挪威 - Lorenskog - Microsoft Corporation - 1
-      password: J0lgxy4mb52CIJ8UUcEgts
-      port: 3089
-      server: 51.13.182.231
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 677
-      name: 法国 - 维莱克雷纳 - Online S.A.S. - 1
-      password: iixjK30oKDptI6sQsU3m2K
-      port: 443
-      server: 62.210.88.22
-      type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 919
-      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      delay: 868
+      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
+      obfs: plain
+      obfs-param: ""
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      protocol: origin
+      protocol-param: ""
+      server: 62.100.205.48
+      type: ssr
+    - cipher: aes-256-cfb
+      delay: 999
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
       password: amazonskr05
       port: 443
-      server: 18.181.162.137
+      server: 52.196.112.58
       type: ss
-    - cipher: rc4-md5
-      delay: 792
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
+    - delay: 1765
+      http-opts:
+        headers:
+            Host:
+                - fast.com
+        method: GET
+        path:
+            - /
+      name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
+      network: http
+      port: 33410
+      server: p2.daryashopvip.site
+      servername: fast.com
+      tls: false
+      type: vless
+      uuid: 3398ed24-c8dc-4c10-b998-56f607aa0db5
+    - delay: 1816
+      http-opts:
+        headers:
+            Host:
+                - fast.com
+        method: GET
+        path:
+            - /
+      name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 3
+      network: http
+      port: 443
+      server: p1.daryashopvip.site
+      servername: fast.com
+      tls: false
+      type: vless
+      uuid: 944c6cec-9763-4852-bb7c-023ca7d8603d
+    - delay: 1719
+      http-opts:
+        headers:
+            Host:
+                - fast.com
+        method: GET
+        path:
+            - /
+      name: 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
+      network: http
+      port: 34854
+      server: p3.daryashopvip.site
+      servername: fast.com
+      tls: false
+      type: vless
+      uuid: 9ef8c0be-084c-4c57-bdba-ac888a5f3ade
     - country: "\U0001F1EB\U0001F1F7FR"
       delay: 1295
       name: 法国 - 巴黎 - Amazon.com, Inc. - 2
@@ -121,6 +172,14 @@ proxies:
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 677
+      name: 法国 - 维莱克雷纳 - Online S.A.S. - 1
+      password: iixjK30oKDptI6sQsU3m2K
+      port: 443
+      server: 62.210.88.22
+      type: ss
     - delay: 974
       http-opts:
         headers:
@@ -137,27 +196,6 @@ proxies:
       tls: false
       type: vless
       uuid: ac5c6ba6-e11e-4162-b5bc-3660e3977cac
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 842
-      name: 韩国 - Seongnam-si - Korea Telecom - 1
-      password: qwerREWQ@@
-      port: 2003
-      server: 121.170.203.147
-      type: ss
-    - client-fingerprint: ios
-      delay: 956
-      name: 美国 - 凤凰城 - Oracle Corporation - 12
-      network: tcp
-      port: 18443
-      reality-opts:
-        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
-        short-id: e6658462
-      server: phx-plus-1ddns.faforex.eu.org
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
     - client-fingerprint: safari
       delay: 1590
       name: 美国 - 凤凰城 - Oracle Corporation - 13
@@ -172,3 +210,16 @@ proxies:
       type: vless
       udp: true
       uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+    - client-fingerprint: ios
+      delay: 956
+      name: 美国 - 凤凰城 - Oracle Corporation - 12
+      network: tcp
+      port: 18443
+      reality-opts:
+        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
+        short-id: e6658462
+      server: phx-plus-1ddns.faforex.eu.org
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
