@@ -1,48 +1,36 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1952
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 1
-      network: ws
-      port: 80
-      server: zula.ir
-      servername: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1468
+      name: 美国 - 西雅圖 - HostPapa - 1
+      password: fdd37849-e66c-464d-8b1c-56a1a16e05bf
+      port: 443
+      server: 96.8.121.166
       skip-cert-verify: true
-      type: vmess
-      uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
-      ws-opts:
-        headers:
-            HOST: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
-        path: /ausgt02.bestforxray.buzz/linkws
-    - client-fingerprint: chrome
-      delay: 2527
-      name: 德国 - 法兰克福 - The Constant Company, LLC - 3
-      network: ws
-      port: 8080
-      server: 199.247.23.152
-      tls: false
-      type: vless
-      uuid: a263cc33-4c2b-48d3-c2e7-6c88252af4c2
-      ws-opts:
-        path: /
+      sni: rnus.goudan.world
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 1429
-      name: 韩国 - Goyang-si - Korea Telecom - 8
+      delay: 1753
+      name: 韩国 - Gwanak-gu - Korea Telecom - 2
       password: qwerREWQ@@
-      port: 6072
-      server: p226.panda004.net
+      port: 8704
+      server: p229.panda004.net
       type: ss
     - cipher: aes-256-cfb
-      delay: 2858
-      name: 韩国 - Seongnam-si - Korea Telecom - 4
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2121
+      name: 韩国 - Jowon-dong - Korea Telecom - 1
       password: qwerREWQ@@
-      port: 38370
-      server: p236.panda004.net
+      port: 61238
+      server: p231.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1426
+      name: 韩国 - Jowon-dong - Korea Telecom - 5
+      password: qwerREWQ@@
+      port: 21238
+      server: p230.panda004.net
       type: ss
     - cipher: aes-256-cfb
       delay: 1532
@@ -52,12 +40,11 @@ proxies:
       server: 54.169.246.29
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 2144
-      name: 韩国 - Gwanak-gu - SK Broadband Co Ltd - 7
+      delay: 1720
+      name: 韩国 - Seongnam-si - Korea Telecom - 6
       password: qwerREWQ@@
-      port: 22081
-      server: p110.panda001.net
+      port: 10113
+      server: p240.panda004.net
       type: ss
     - delay: 1480
       http-opts:
@@ -75,20 +62,6 @@ proxies:
       tls: false
       type: vless
       uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
-    - cipher: aes-256-cfb
-      delay: 1720
-      name: 韩国 - Seongnam-si - Korea Telecom - 6
-      password: qwerREWQ@@
-      port: 10113
-      server: p240.panda004.net
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1037
-      name: 韩国 - Seongnam-si - Korea Telecom - 9
-      password: qwerREWQ@@
-      port: 15041
-      server: p239.panda004.net
-      type: ss
     - client-fingerprint: safari
       delay: 1872
       name: 美国 - 凤凰城 - Oracle Corporation - 4
